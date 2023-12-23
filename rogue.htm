@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="internal.css">
+	
+    <title>WoW Classic+ Project</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content-wrap">
+			<div class="content">
+				<div id="replaceMeWithHeader"></div>
+				<div id="ClassListTop">
+					<!--<div class="iconHolder"><a href="druid.htm" title="Druid Talents" class="druid"><img class="classIcon" src="img/class_druid.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="hunter.htm" title="Hunter Talents" class="hunter"><img class="classIcon" src="img/class_hunter.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="mage.htm" title="Mage Talents" class="mage"><img class="classIcon" src="img/class_mage.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="paladin.htm" title="Paladin Talents" class="paladin"><img class="classIcon" src="img/class_paladin.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="priest.htm" title="Priest Talents" class="priest"><img class="classIcon" src="img/class_priest.jpg"></a></div><//-->
+					<div class="iconHolder"><a href="rogue.htm" title="Rogue Talents" class="rogue active"><img class="classIcon" src="img/class_rogue.jpg"></a></div>
+					<!--<div class="iconHolder"><a href="shaman.htm" title="Shaman Talents" class="shaman"><img class="classIcon" src="img/class_shaman.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="warlock.htm" title="Warlock Talents" class="warlock"><img class="classIcon" src="img/class_warlock.jpg"></a></div><//-->
+					<!--<div class="iconHolder"><a href="warrior.htm" title="Warrior Talents" class="warrior"><img class="classIcon" src="img/class_warrior.jpg"></a></div><//-->
+				</div>
+				<div id="replaceMeWithTalents"></div>
+			</div>
+			<div class="sidebar">
+				<div class="sidebar-one">
+					<div class="sidebar-header"><span id="spec">Modified Existing Talents:</span></div>
+					<div class="sidebar-region">
+						<ul>
+							<li>Improved Backstab & Improved Slice and Dice (swapped positions)</li>
+							<li>Vile Poisons & Cold Blood (includes Envenom [from TBC])</li>
+							<li>Vigor (regains energy [from T3 4-set bonus], requires 5/5 Seal Fate)</li>
+							<hr>
+							<li>Dagger Specialization & Fist Weapon Specialization (merged [from WOTLK])</li>
+							<li>Aggression (increases threat on Blade Dance)</li>
+							<hr>
+							<li>Sleight of Hand (removed)</li>
+							<li>Improved Sap (100% reliable [from TBC], available for low level dungeons and builds)</li>
+							<li>Heightened Senses (3 ranks, includes melee)</li>
+							<li>Serrated Blades (gives AOE bleed to Blade Dance)</li>
+							<li>Hemorrhage (stronger bonus but fewer charges [from TBC])</li>
+							<li>Deadliness (3 ranks, better value per point)</li>
+							<li>Premeditation (reduced cooldown)</li>
+						</ul>
+					</div>
+					<div class="sidebar-header"><span id="spec">New Talents:</span></div>
+					<div class="sidebar-region">
+						<ul>
+							<li>Deadly Brew (buff to poisons)</li>
+							<li>Searing Venom (passive raid buff [from WOTLK])</li>
+							<hr>
+							<li>Improved Blade Dance (reduces physical damage taken, synergises defence with crit chance)</li>
+							<hr>
+							<li>Sadistic Smile (makes Tease cheaper for grabbing targets and enables bleed tanking)</li>
+							<li>Cheat Death ([from TBC]; requires Blade Dance or Ghostly Strike to be active, so not just a freebie)</li>
+							<li>Improved Hemorrhage (enables bleed tanking)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidebar-two">
+					<div class="sidebar-header"><span id="spec">New Abilities:</span></div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/tease.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Tease</span><br>(Instant cast. Cost: 20 energy.)</td></tr>
+								</table>
+								<div class="ability-text">Teases the target, causing no damage but increasing your threat by a large amount, making the enemy more likely to attack you.</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/bladedance.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Blade Dance</span><br>(Instant cast. Cost: 25 energy.)</td></tr>
+								</table>
+								<div class="ability-text">
+									Finishing move that increases your Parry chance and initially causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer, causes more threat, and grants more Parry chance per combo point:
+									<ul class="sidebar-inner">
+										<li>1 point: 14 seconds, 6 / 7 / 8% Parry</li>
+										<li>2 points: 18 seconds, 7 / 9 / 11% Parry</li>
+										<li>3 points: 22 seconds, 8 / 11 / 14% Parry</li>
+										<li>4 points: 26 seconds, 9 / 13 / 17% Parry</li>
+										<li>5 points: 30 seconds, 10 / 15 / 20% Parry</li>
+									</ul>
+									(Rank 1 / 2 / 3, trainable at level 32 / 44 / 56.)
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/envenom.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Envenom</span><br>(Instant cast. Cost: 35 energy.)</td></tr>
+								</table>
+								<div class="ability-text">
+									Finishing move that deals instant poison damage based on your Deadly Poison doses on the target, increased by Attack Power.  Following the Envenom attack your chance to apply Instant Poison is increased by 60% for 1 second plus an additional 1 second per combo point. One dose is activated per combo point:
+									<ul class="sidebar-inner">
+										<li>1 dose: 204 damage</li>
+										<li>2 doses: 376 damage</li>
+										<li>3 doses: 548 damage</li>
+										<li>4 doses: 720 damage</li>
+										<li>5 doses: 892 damage</li>
+									</ul>
+								(Rank 1, trainable at level 58.)
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		var variableIsSite = 1;
+	</script>
+	<script type="text/javascript" src="variables.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="rogue_files/talent_details.js"></script>
+	<script type="text/javascript" src="rogue_files/talent_list.js"></script>
+	<script type="text/javascript" src="arraysFill.js"></script>
+	<script type="text/javascript" src="printOutTop.js"></script>
+</body>
+
+</html>
