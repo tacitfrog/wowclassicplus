@@ -174,7 +174,7 @@ rank[i] = [
 i++;
 //Searing Venom - Assassination
 rank[i] = [
-		"While affected by one or more of your poisons, the chance of the target being critically hit by physical attacks from all sources is increased by 3%."
+		"While affected by one or more of your poisons, the chance of the target being critically hit by any Physical attacks is increased by 3%."
 		];
 i++;
 //Improved Kidney Shot - Assassination
