@@ -31,7 +31,7 @@ function resetTree(theTree) {
 		document.getElementById("modifyRankTop"+ i).style.color = colorWhite;
 
    		document.getElementById('modifyDescriptionTop'+i).innerHTML = rankTop[i][1];
-		if (talent[i][5]) {
+		if (talent[i][6]) {
 			document.getElementById("arrowYellow"+ i).style.visibility = "hidden";
 			document.getElementById("arrowGreen"+ i).style.visibility = "hidden";
 		}
@@ -43,7 +43,7 @@ function resetTree(theTree) {
 		document.getElementById('iconOverGreen'+ i).style.visibility = "hidden";
 		document.getElementById('iconOverYellow'+ i).style.visibility = "hidden";
 		
-		if (talent[i][4] == 1 && (!talent[i][5])) {
+		if (talent[i][5] == 1 && (!talent[i][6])) {
 			document.getElementById("modifyRankTopColor"+ i).style.color = colorGreen;
 			document.getElementById("modifyRankTop"+ i).style.color = colorGreen;
 		}
@@ -86,7 +86,7 @@ function getPointsAboveAndCurrent(theTree, maxTier) {
 
 function canUnlearn(talentID, clickLeftRight, maxTier) {
 	var treeID = talent[talentID][0];
-	var maxRank = talent[talentID][2];
+	var maxRank = talent[talentID][3];
 	var treePoints = pointsTree[treeID];	
 	var necessaryPoints;
 	var projectedPoints;
@@ -98,7 +98,7 @@ function canUnlearn(talentID, clickLeftRight, maxTier) {
 	if (clickLeftRight == 0) { //left click
 		var theCurrentRank = rankTop[talentID][0];
 		if (theCurrentRank < maxRank) {
-			necessaryPoints = (talent[talentID][4] - 1) * 5;
+			necessaryPoints = (talent[talentID][5] - 1) * 5;
 			if (treePoints < necessaryPoints)
 				return false;
 			
@@ -118,7 +118,7 @@ function canUnlearn(talentID, clickLeftRight, maxTier) {
 			pointsAboveAndCurrent = getPointsAboveAndCurrent(treeID, maxTier-1);	
 			projectedPoints = pointsAboveAndCurrent - 1 + pointsTier[treeID][maxTier-1];
 
-			for (var thisTier = talent[talentID][4]; thisTier < maxTier; maxTier--) {
+			for (var thisTier = talent[talentID][5]; thisTier < maxTier; maxTier--) {
 				necessaryPoints = (maxTier-1) *5;		
 				projectedPoints -= pointsTier[treeID][maxTier-1];
 				if (projectedPoints < necessaryPoints)
@@ -141,7 +141,7 @@ function getTalentID(talentName) {
 }
 
 function getMinLevel(talentID) {
-	return ((talent[talentID][4] -1)* 5 + 10);
+	return ((talent[talentID][5] -1)* 5 + 10);
 }
 
 function hasDependentTalentWithPoints(talentID) {
@@ -156,7 +156,7 @@ function hasDependentTalentWithPoints(talentID) {
 	loopStop = treeStartStop[theTree];	
 	
 	while (loopStart <= loopStop){	
-		if (talent[loopStart][5] && talent[loopStart][5][0] == talentID && rankTop[loopStart][0] != 0)
+		if (talent[loopStart][6] && talent[loopStart][6][0] == talentID && rankTop[loopStart][0] != 0)
 			return true;
 		loopStart++;
 	}
@@ -177,7 +177,7 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 	iStop = treeStartStop[tree];
 	
 	while (i <= iStop) {
-		thisTier = talent[i][4];
+		thisTier = talent[i][5];
 		
 		necessaryPoints = (thisTier-1) * 5;
 		
@@ -185,9 +185,9 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 			var noRequirement = checkRequiredTalent(i);
 			
 			var theCurrentRank = rankTop[i][0];
-			var theMaxRank = talent[i][2];
+			var theMaxRank = talent[i][3];
 			
-			if ((talent[i][4] * 5) <= totalPoints && theCurrentRank != theMaxRank && noRequirement
+			if ((talent[i][5] * 5) <= totalPoints && theCurrentRank != theMaxRank && noRequirement
 				||
 				(theCurrentRank < theMaxRank && necessaryPoints <= totalPoints && noRequirement)
 				) {
@@ -195,7 +195,7 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 				document.getElementById("modifyRankTop"+ i).style.color = colorGreen;
 				
 				if (canUnlearn(i, 0, oldMaxTier)) {
-					if (talent[i][5]) document.getElementById("arrowGreen"+ i).style.visibility = "visible";
+					if (talent[i][6]) document.getElementById("arrowGreen"+ i).style.visibility = "visible";
 				}
 			} else if (theCurrentRank == theMaxRank) {
 				document.getElementById("modifyRankTopColor"+ i).style.color = colorYellow;
@@ -208,7 +208,7 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 				document.getElementById("modifyRankTopColor"+ i).style.color = colorWhite;
 				document.getElementById("modifyRankTop"+ i).style.color = colorWhite;
 				document.getElementById("iconOverGreen"+ i).style.visibility = "hidden";
-				if (talent[i][5]) document.getElementById("arrowGreen"+ i).style.visibility = "hidden";
+				if (talent[i][6]) document.getElementById("arrowGreen"+ i).style.visibility = "hidden";
 			}
 		}
 		i++;
@@ -229,7 +229,7 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 
 function checkRequiredTalent(talentID) {
 	var reqTalent;
-	if (reqTalent = talent[talentID][5]) {
+	if (reqTalent = talent[talentID][6]) {
 		reqTalentID = reqTalent[0];
 		reqTalentPoints = reqTalent[1];
 		if (rankTop[reqTalentID][0] != reqTalentPoints)
@@ -239,17 +239,14 @@ function checkRequiredTalent(talentID) {
 }
 
 function rankTopOnClick(talentID) {
-	if (!variableIsSite)
-		return false;
-	
 	var theTree = talent[talentID][0];
 	var oldMaxTier = maxTierArray[theTree];
 	
 	if (!canUnlearn(talentID, 0, oldMaxTier))
 		return;
 	
-	maxRank = talent[talentID][2];					//maximum rank possible	
-	var theTier = talent[talentID][4];		
+	maxRank = talent[talentID][3];					//maximum rank possible	
+	var theTier = talent[talentID][5];		
 	var theTierIndex = theTier - 1;
 	var rankString = rankTop[talentID][1];
 	
@@ -279,7 +276,7 @@ function rankTopOnClick(talentID) {
 			document.getElementById('textLeftClick'+ talentID).innerHTML = "";		
 		}
 		
-		if (talent[talentID][5])
+		if (talent[talentID][6])
 			document.getElementById("arrowYellow"+ talentID).style.visibility = "visible";		
 		//keep track of points in the tier		
 		pointsTree[theTree]++;
@@ -314,22 +311,19 @@ function changeCopyURL(){
 	for (i = 0; talent[i]; i++) {
 		templateString = templateString + rankTop[i][0]
 	}
-	history.pushState(null, null, '' + nlclass + '.htm?' + templateString);
-    document.getElementById('copyURL').innerHTML = '<a href="' + nlclass + '.htm?' + templateString + '">' + nlclass + '.htm?' + templateString + '</a>';	
+	history.pushState(null, null, '' + className + '.htm?' + templateString);
+    document.getElementById('copyURL').innerHTML = textToSave + '<a href="' + className + '.htm?' + templateString + '"> ' + className + '.htm?' + templateString + '</a>';	
 }
 
 function rankTopOnRightClick(talentID) {
-	if (!variableIsSite)
-		return false;
-	
 	var theTree = talent[talentID][0];				
 	var oldMaxTier = maxTierArray[theTree];
 	
 	if (!canUnlearn(talentID, 1, oldMaxTier))
 		return;		
 	
-	var maxRank = talent[talentID][2];					//maximum rank possible
-	var theTier = talent[talentID][4];	
+	var maxRank = talent[talentID][3];
+	var theTier = talent[talentID][5];	
 	var theTierIndex = theTier - 1;	
 	var rankString = rankTop[talentID][1];
 	
@@ -369,7 +363,7 @@ function rankTopOnRightClick(talentID) {
 			document.getElementById('iconOverYellow'+ talentID).style.visibility = "hidden";
 			document.getElementById("talentThumb"+ talentID).style.visibility = "hidden";
 			
-			if (talent[talentID][5])
+			if (talent[talentID][6])
 				document.getElementById("arrowYellow"+ talentID).style.visibility = "hidden";
 			
 			oldMaxTier = getMaxTier(theTree);
@@ -384,35 +378,45 @@ function rankTopOnRightClick(talentID) {
 	}
 	
 	if (pointsTree[theTree] == 1)
-		document.getElementById(tree[theTree]+'tabPointsText').innerHTML = textPoint;			
+		document.getElementById(tree[theTree] + 'tabPointsText').innerHTML = textPoint;			
 	else	
-		document.getElementById(tree[theTree]+'tabPointsText').innerHTML = textPoints;				
+		document.getElementById(tree[theTree] + 'tabPointsText').innerHTML = textPoints;				
 	
-    document.getElementById('modifyDescriptionTop'+talentID).innerHTML = rankString;
+    document.getElementById('modifyDescriptionTop' + talentID).innerHTML = rankString;
 	
     document.getElementById('modifyRankTop'+talentID).innerHTML = rankTop[talentID][0];
-    document.getElementById('modifyRankTopDescription'+talentID).innerHTML = rankTop[talentID][0];
+    document.getElementById('modifyRankTopDescription' + talentID).innerHTML = rankTop[talentID][0];
     //document.getElementById('modifyRankPoints').innerHTML = rankPointsMax - rankPoints;	
     document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
 	document.getElementById('spec' + theTree).innerHTML = pointsTree[theTree];	
-    document.getElementById(tree[theTree]+'tabPoints').innerHTML = pointsTree[theTree];	
+    document.getElementById(tree[theTree] +'tabPoints').innerHTML = pointsTree[theTree];	
     document.getElementById('tabPointsAvailable').innerHTML = rankPoints;		
 	if (rankPoints != 1) canTurnGreen(pointsTree[theTree], theTree, oldMaxTier);
 	changeCopyURL();
 }
 
 function unhideTalent(input) {
-	if (variableIsSite)
-		document.getElementById("talentMouseOver"+ input).style.visibility = "visible";
-	else
-		showTip(document.getElementById("armoryOver"+ input).innerHTML);
+	document.getElementById("talentMouseOver" + input).style.visibility = "visible";
 }
 
 function hideTalent(input) {
-	if (variableIsSite)
-		document.getElementById("talentMouseOver"+ input).style.visibility = "hidden";
-	else
-		hideTip();
+	document.getElementById("talentMouseOver" + input).style.visibility = "hidden";
 }
+
+//changeColour function
+/*function changeColour() {
+	var specs = ['spec0', 'spec1', 'spec2'];
+	for (var i = 0; i < specs.length; i++) {
+		var uls = document.getElementsByTagName('ul');
+		for (var j = 0; j < uls.length; j++) {
+			if (uls[j].id == specs[i]) {
+				var lis = uls[j].getElementsByTagName('li');
+				for (var k = 0; k < lis.length; k++) {
+					lis[k].style.color = '#8F8F8F';
+				}
+			}
+		}
+	}
+}*/
 
 jsLoaded=true;

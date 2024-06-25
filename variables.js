@@ -1,12 +1,10 @@
-var version = "1.0"
+var version = "1.1"
 
 var pixelGif = "img/pixel.gif";
 
 var talent = new Array();
 var rank = new Array();
 var tree = new Array();
-var nltree = new Array();
-var nltalent = new Array();
 var rankBottom = new Array();
 var minLevel = new Array();
 var hasDependentTalents = new Array();
@@ -39,7 +37,7 @@ var textLeftClick = "Click to Learn";
 var textRightClick = "Right Click to Unlearn";
 var textRankColon = "Rank:"
 var textToSave = "Link to this build:";
-var textToSource = "This calculator was built on code from: <a href='https://iradei.eu/talent-calculators'>https://iradei.eu/talent-calculators</a>. Thanks to the original creator!"
+var textToSource = "(This calculator is built on code from: <a href='https://iradei.eu/talent-calculators'>https://iradei.eu/talent-calculators</a>.)"
 var textNextRank = "Next Rank:";
 var requiresRequires = "Requires";
 var requiresPointsIn = "points in";

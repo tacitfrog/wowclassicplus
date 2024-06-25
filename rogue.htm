@@ -10,105 +10,141 @@
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="internal.css">
 	
-    <title>WoW Classic+ Project</title>
+    <title>WOW Classic+ Project</title>
 </head>
 
 <body>
 	<div class="wrapper">
 		<div class="content-wrap">
-			<div class="content">
+			<div class="content content-3">
 				<div id="replaceMeWithHeader"></div>
-				<div id="ClassListTop">
-					<!--<div class="iconHolder"><a href="druid.htm" title="Druid Talents" class="druid"><img class="classIcon" src="img/class_druid.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="hunter.htm" title="Hunter Talents" class="hunter"><img class="classIcon" src="img/class_hunter.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="mage.htm" title="Mage Talents" class="mage"><img class="classIcon" src="img/class_mage.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="paladin.htm" title="Paladin Talents" class="paladin"><img class="classIcon" src="img/class_paladin.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="priest.htm" title="Priest Talents" class="priest"><img class="classIcon" src="img/class_priest.jpg"></a></div><//-->
-					<div class="iconHolder"><a href="rogue.htm" title="Rogue Talents" class="rogue active"><img class="classIcon" src="img/class_rogue.jpg"></a></div>
-					<!--<div class="iconHolder"><a href="shaman.htm" title="Shaman Talents" class="shaman"><img class="classIcon" src="img/class_shaman.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="warlock.htm" title="Warlock Talents" class="warlock"><img class="classIcon" src="img/class_warlock.jpg"></a></div><//-->
-					<!--<div class="iconHolder"><a href="warrior.htm" title="Warrior Talents" class="warrior"><img class="classIcon" src="img/class_warrior.jpg"></a></div><//-->
-				</div>
+				<div id="replaceMeWithIcons"></div>
 				<div id="replaceMeWithTalents"></div>
+				<div class="clear"></div>
+				<div class="goals">
+					<div class="goals-header">Primary Goals:</div>
+					<ul>
+						<li>Make heavy Assassination/poisons builds viable without adding Mutilate (daggers should be 'from behind' in Classic).</li>
+						<li>Make multiple viable Combat/Subtlety options to enable a Rogue to tank in 5-man dungeons from level 30.</li>
+					</ul>
+				</div>
 			</div>
 			<div class="sidebar">
 				<div class="sidebar-one">
-					<div class="sidebar-header"><span id="spec">Modified Existing Talents:</span></div>
+					<div class="sidebar-header"><img src="rogue_files/icon0.png" class="talenttreeicon">Assassination</div>
 					<div class="sidebar-region">
-						<ul>
-							<li>Improved Backstab & Improved Slice and Dice (swapped positions)</li>
-							<li>Vile Poisons & Cold Blood (includes Envenom [from TBC])</li>
-							<li>Vigor (regains energy [from T3 4-set bonus], requires 5/5 Seal Fate)</li>
-							<hr>
-							<li>Dagger Specialization & Fist Weapon Specialization (merged [from WOTLK])</li>
-							<li>Aggression (increases threat on Blade Dance)</li>
-							<hr>
-							<li>Sleight of Hand (removed)</li>
-							<li>Improved Sap (100% reliable [from TBC], available for low level dungeons and builds)</li>
-							<li>Heightened Senses (3 ranks, includes melee)</li>
-							<li>Serrated Blades (gives AOE bleed to Blade Dance)</li>
-							<li>Hemorrhage (stronger bonus but fewer charges [from TBC])</li>
-							<li>Deadliness (3 ranks, better value per point)</li>
-							<li>Premeditation (reduced cooldown)</li>
+						<ul id="spec0">
+							<li class="talentChanged"><span>Improved Backstab & Improved Slice and Dice (swapped positions [from TBC])</span></li>
+							<li class="talentChanged"><span>Vile Poisons & Cold Blood (includes Envenom)</span></li>
+							<li class="talentNew"><span>Searing Concoctions (raid buff [from WOTLK] to justify Envenom taking up a debuff slot)</span></li>
+							<li class="talentNew"><span>Noxious Brew (buff to poison builds)</span></li>
+							<li class="talentChanged"><span>Vigor (regains energy [from Bonescythe 4-piece set bonus], requires 5/5 Seal Fate)</span></li>
 						</ul>
 					</div>
-					<div class="sidebar-header"><span id="spec">New Talents:</span></div>
+					<div class="sidebar-header"><img src="rogue_files/icon1.png" class="talenttreeicon">Combat</div>
+					<div class="sidebar-region">
+						<ul id="spec1">
+							<li class="talentChanged"><span>Improved Sprint (available earlier)</span></li>
+							<li class="talentNew"><span>Nerves of Steel (passive defence, enables the Rogue to achieve 20% damage reduction if tanking with Blade Dance)</span></li>
+							<li class="talentChanged"><span>Dagger Specialization & Fist Weapon Specialization (merged [from WOTLK])</span></li>
+							<li class="talentNew"><span>Blade Dance (tanking finishing move)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header"><img src="rogue_files/icon2.png" class="talenttreeicon">Subtlety</div>
+					<div class="sidebar-region">
+						<ul id="spec2">
+							<li class="talentRemoved"><span>Sleight of Hand (removed)</span></li>
+							<li class="talentChanged"><span>Initiative (available earlier)</span></li>
+							<li class="talentNew"><span>Sadistic Smile (extra threat for tanking)</span></li>
+							<li class="talentChanged"><span>Improved Sap (100% reliable [from TBC], available earlier for low level dungeons)</span></li>
+							<li class="talentChanged"><span>Heightened Senses (3 ranks, includes melee)</span></li>
+							<li class="talentNew"><span>Cheat Death ([from TBC]; requires a defensive ability to be active, so not just a freebie; helps mitigate randomness in avoidance tanking)</span></li>
+							<li class="talentChanged"><span>Hemorrhage (stronger bonus but fewer charges [from TBC], refreshes bleeds on hit to enable a bleed tank option)</span></li>
+							<li class="talentChanged"><span>Premeditation (added free Distract on target)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header">Modified Abilities</div>
 					<div class="sidebar-region">
 						<ul>
-							<li>Deadly Brew (buff to poisons)</li>
-							<li>Searing Venom (passive raid buff [from WOTLK])</li>
-							<hr>
-							<li>Improved Blade Dance (reduces physical damage taken, synergises defence with crit chance)</li>
-							<hr>
-							<li>Sadistic Smile (makes Tease cheaper for grabbing targets and enables bleed tanking)</li>
-							<li>Cheat Death ([from TBC]; requires Blade Dance or Ghostly Strike to be active, so not just a freebie)</li>
-							<li>Improved Hemorrhage (enables bleed tanking)</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/poison.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Poisons</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Poisons can now be removed from a weapon by using a Silk Towelette.  See under <a href="tailoring.htm">Tailoring</a>.
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/throw.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Throw</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									The poison applied to the off-hand weapon also counts as being applied to any thrown weapons that the Rogue uses.  The Throw ability benefits from all active poison-enhancing talents and bonuses that are affecting the Rogue.
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/sliceanddice.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Slice and Dice</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Slice and Dice is now categorised as a Combat ability (and so is Blade Dance).
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
 				<div class="sidebar-two">
-					<div class="sidebar-header"><span id="spec">New Abilities:</span></div>
+					<div class="sidebar-header">New Abilities</div>
 					<div class="sidebar-region">
 						<ul>
 							<li>
-								&nbsp;<div class="ability-icon"><img src="rogue_files/tease.jpg"></div>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/shiv.jpg"></div>
 								<table>
-									<tr><td><span class="ability-name">Tease</span><br>(Instant cast. Cost: 20 energy.)</td></tr>
+									<tr><td><span class="ability-name">Shiv</span><br>Cast: instant.  Cost: 10 energy.</td></tr>
 								</table>
-								<div class="ability-text">Teases the target, causing no damage but increasing your threat by a large amount, making the enemy more likely to attack you.</div>
+								<div class="clear"></div>
+								<div class="ability-text">
+									An instant off-hand attack that deals 50% off-hand weapon damage and applies the off-hand poison to the target.  (Cooldown: 10 seconds.)
+									<br class="padder">[Note: Does not award a combo point.  Dual Wield Specialization increases the damage of this ability; 5/5 deals 100% weapon damage.]
+									<br class="padder">[Rank 1, trainable at level 44.]
+								</div>
 							</li>
 							<li>
-								&nbsp;<div class="ability-icon"><img src="rogue_files/bladedance.jpg"></div>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/corrosivepoison.jpg"></div>
 								<table>
-									<tr><td><span class="ability-name">Blade Dance</span><br>(Instant cast. Cost: 25 energy.)</td></tr>
+									<tr><td><span class="ability-name">Corrosive Poison</span><br>Reagents: [unspecified]</td></tr>
 								</table>
+								<div class="clear"></div>
 								<div class="ability-text">
-									Finishing move that increases your Parry chance and initially causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer, causes more threat, and grants more Parry chance per combo point:
-									<ul class="sidebar-inner">
-										<li>1 point: 14 seconds, 6 / 7 / 8% Parry</li>
-										<li>2 points: 18 seconds, 7 / 9 / 11% Parry</li>
-										<li>3 points: 22 seconds, 8 / 11 / 14% Parry</li>
-										<li>4 points: 26 seconds, 9 / 13 / 17% Parry</li>
-										<li>5 points: 30 seconds, 10 / 15 / 20% Parry</li>
-									</ul>
-									(Rank 1 / 2 / 3, trainable at level 32 / 44 / 56.)
+									Each strike has a 30% chance of poisoning the enemy, reducing their armour by X for 15 seconds and causing a large amount of threat.  Stacks up to 5 times.
+									<br class="padder">[Note: Does not stack with Expose Armor or Sunder Armor.  Similar to Crippling Poison, lasts 30 minutes and has unlimited charges.]
+									<br class="padder">[Rank 1: X = 200 (level 30),
+									<br>&nbsp;Rank 2: X = 300 (level 42),
+									<br>&nbsp;Rank 3: X = 400 (level 54),
+									<br>&nbsp;Rank 4: X = 450 (level 60 bind-on-equip tome dropped by bosses in <a href="pve.htm">Karazhan Tower</a>).]
 								</div>
 							</li>
 							<li>
 								&nbsp;<div class="ability-icon"><img src="rogue_files/envenom.jpg"></div>
 								<table>
-									<tr><td><span class="ability-name">Envenom</span><br>(Instant cast. Cost: 35 energy.)</td></tr>
+									<tr><td><span class="ability-name">Envenom</span><br>Cast: instant.  Cost: 35 energy.</td></tr>
 								</table>
+								<div class="clear"></div>
 								<div class="ability-text">
-									Finishing move that deals instant poison damage based on your Deadly Poison doses on the target, increased by Attack Power.  Following the Envenom attack your chance to apply Instant Poison is increased by 60% for 1 second plus an additional 1 second per combo point. One dose is activated per combo point:
-									<ul class="sidebar-inner">
-										<li>1 dose: 204 damage</li>
-										<li>2 doses: 376 damage</li>
-										<li>3 doses: 548 damage</li>
-										<li>4 doses: 720 damage</li>
-										<li>5 doses: 892 damage</li>
-									</ul>
-								(Rank 1, trainable at level 58.)
+									Finishing move that deals Nature damage based on your Deadly Poison or Wound Poison doses on the target, increased by Attack Power.  Following the Envenom attack your chance to apply Instant Poison is increased by 60% for 1 second plus an additional 1 second per combo point.  One dose is activated per combo point:
+									<br>&nbsp;&nbsp;1 dose: &nbsp;&nbsp;204 damage
+									<br>&nbsp;&nbsp;2 doses: 376 damage
+									<br>&nbsp;&nbsp;3 doses: 548 damage
+									<br>&nbsp;&nbsp;4 doses: 720 damage
+									<br>&nbsp;&nbsp;5 doses: 892 damage
+									<br class="padder">[Note: If you have applied both types of poison to your target, a combination of both can be consumed by a single Envenom; Deadly Poison doses will always be consumed first.]
+									<br class="padder">[Rank 1, learned from a level 60 bind-on-equip tome dropped by bosses in <a href="pve.htm">Karazhan Tower</a>.]
 								</div>
 							</li>
 						</ul>
@@ -118,15 +154,11 @@
 		</div>
 	</div>
 	
-	<script type="text/javascript">
-		var variableIsSite = 1;
-	</script>
 	<script type="text/javascript" src="variables.js"></script>
 	<script type="text/javascript" src="functions.js"></script>
 	<script type="text/javascript" src="rogue_files/talent_details.js"></script>
-	<script type="text/javascript" src="rogue_files/talent_list.js"></script>
-	<script type="text/javascript" src="arraysFill.js"></script>
-	<script type="text/javascript" src="printOutTop.js"></script>
+	<script type="text/javascript" src="populateArrays.js"></script>
+	<script type="text/javascript" src="putContent.js"></script>
 </body>
 
 </html>
