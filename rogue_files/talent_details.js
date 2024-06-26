@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Searing Concoctions - Assassination
 rank[i] = [
-		"While affected by one or more of your poisons, the chance of the target being critically hit by any Physical attack is increased by 1%.",
-		"While affected by one or more of your poisons, the chance of the target being critically hit by any Physical attack is increased by 2%.",
-		"While affected by one or more of your poisons, the chance of the target being critically hit by any Physical attack is increased by 3%."
+		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 1%.",
+		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 2%.",
+		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 3%."
 		];
 i++;
 //Cold Blood - Assassination
