@@ -101,14 +101,14 @@ div#replaceMeWithTalents table 		{ font-family: "Verdana", "Arial", "Helvetica",
 
 		#arrowdownleft { position: absolute;
 			top: -48px;
-			left: 10px;
+			left: 9px;
 			z-index: 100;
        }
 	   
 
 		#arrowdownright { position: absolute;
 			top: -48px;
-			left: -19px;
+			left: -18px;
 			z-index: 100;
        }
 
@@ -196,7 +196,7 @@ div#replaceMeWithTalents .mySmallGreen2 		{ font-family: "Verdana", "Arial", "He
 	   
 	div#replaceMeWithTalents 	.arrowdownleft { position: absolute;
 			top: -48px;
-			left: 10px;
+			left: 9px;
 			z-index: 100;
        }
 	   
@@ -208,7 +208,7 @@ div#replaceMeWithTalents .mySmallGreen2 		{ font-family: "Verdana", "Arial", "He
 
 	div#replaceMeWithTalents 	.arrowdownright { position: absolute;
 			top: -48px;
-			left: -19px;
+			left: -18px;
 			z-index: 100;
        }
 	   
