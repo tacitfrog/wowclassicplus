@@ -18,12 +18,11 @@ talent[i] = [0, "Improved Backstab", "changed", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Improved Expose Armor", "", 2, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
-talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
+talent[i] = [0, "Vile Poisons", "", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
-talent[i] = [0, "Searing Concoctions", "new", 3, 1, 5]; i++;
-talent[i] = [0, "Cold Blood", "changed", 1, 2, 5]; i++;
-talent[i] = [0, "Noxious Brew", "new", 1, 3, 5, [getTalentID("Improved Poisons"), 5]]; i++;
-talent[i] = [0, "Improved Kidney Shot", "", 3, 4, 5]; i++;
+talent[i] = [0, "Envenom", "new", 3, 1, 5, [getTalentID("Vile Poisons"), 5]]; i++;
+talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
+talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changed", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -130,8 +129,8 @@ rank[i] = [
 i++;
 //Improved Expose Armor - Assassination
 rank[i] = [
-		"Increases the armor reduced by your Expose Armor ability by 25%.",
-		"Increases the armor reduced by your Expose Armor ability by 50%."
+		"Increases the armour reduced by your Expose Armor ability by 25%.",
+		"Increases the armour reduced by your Expose Armor ability by 50%."
 		];
 i++;
 //Lethality - Assassination
@@ -145,11 +144,11 @@ rank[i] = [
 i++;
 //Vile Poisons - Assassination
 rank[i] = [
-		"Increases the damage dealt by your poisons and Envenom ability by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons and Envenom ability by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons and Envenom ability by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons and Envenom ability by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons and Envenom ability by 20% and gives your poisons an additional 40% chance to resist dispel effects."
+		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
 		];
 i++;
 //Improved Poisons - Assassination
@@ -161,21 +160,16 @@ rank[i] = [
 		"Increases the chance to apply poisons to your target by 10%."
 		];
 i++;
-//Searing Concoctions - Assassination
+//Envenom - Assassination
 rank[i] = [
-		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 1%.",
-		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 2%.",
-		"While affected by one or more of your poisons, the chance of the target being critically hit by Physical attacks from all sources is increased by 3%."
+		"Your Eviscerate ability activates 1 dose of your Deadly Poison or Wound Poison on the target per combo point, up to a maximum of 1.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison to the target; these applications of Instant Poison are summed and applied as a single attack of Nature damage called 'Envenom'.  Before summing, each application of Instant Poison can critically hit as usual and benefits from the damage bonus given by Vile Poisons.  After summing, the target can resist the Envenom attack as usual.  The Envenom attack is applied to the target with the Eviscerate in the same way as how Instant Poison is applied when it procs from a regular attack.]",
+		"Your Eviscerate ability activates 1 dose of your Deadly Poison or Wound Poison on the target per combo point, up to a maximum of 2.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison to the target; these applications of Instant Poison are summed and applied as a single attack of Nature damage called 'Envenom'.  Before summing, each application of Instant Poison can critically hit as usual and benefits from the damage bonus given by Vile Poisons.  After summing, the target can resist the Envenom attack as usual.  The Envenom attack is applied to the target with the Eviscerate in the same way as how Instant Poison is applied when it procs from a regular attack.]",
+		"Your Eviscerate ability activates 1 dose of your Deadly Poison or Wound Poison on the target per combo point, up to a maximum of 3.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison to the target; these applications of Instant Poison are summed and applied as a single attack of Nature damage called 'Envenom'.  Before summing, each application of Instant Poison can critically hit as usual and benefits from the damage bonus given by Vile Poisons.  After summing, the target can resist the Envenom attack as usual.  The Envenom attack is applied to the target with the Eviscerate in the same way as how Instant Poison is applied when it procs from a regular attack.]"
 		];
 i++;
 //Cold Blood - Assassination
 rank[i] = [
-		"Cast: instant.<br>When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, Eviscerate, or Envenom by 100%.  (Does not break Stealth. Cooldown: 3 minutes.)"
-		];
-i++;
-//Noxious Brew - Assassination
-rank[i] = [
-		"When you apply poison to your target, you also have a 20% chance to apply Instant Poison damage.<br><br>[Note: This effect uses your highest learned rank of Instant Poison.  You do not need to have Instant Poison applied to your weapons.  This effect benefits from all active poison-enhancing talents and bonuses that are affecting the Rogue, including the post-Envenom buff to Instant Poison.  The proc cannot trigger another proc.  This effect will not proc from Gouge, Sap, or Blind.]"
+		"Cast: instant.<br>When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.  (Does not break Stealth. Cooldown: 3 minutes.)"
 		];
 i++;
 //Improved Kidney Shot - Assassination

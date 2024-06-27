@@ -37,7 +37,7 @@ var textLeftClick = "Click to Learn";
 var textRightClick = "Right Click to Unlearn";
 var textRankColon = "Rank:"
 var textToSave = "Link to this build:";
-var textToSource = "(This calculator is built on code from: <a href='https://iradei.eu/talent-calculators'>https://iradei.eu/talent-calculators</a>.)"
+var textToSource = "(This calculator is built on code from <a href='https://iradei.eu/talent-calculators'>Ira Dei</a>.  Some ideas are taken from TBC, WOTLK, SOD, and <a href='https://djimovanberlo.github.io/tc-ts'>this project</a>.)"
 var textNextRank = "Next Rank:";
 var requiresRequires = "Requires";
 var requiresPointsIn = "points in";

@@ -39,7 +39,7 @@ talent[i] = [1, "Fel Intellect", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
 talent[i] = [1, "Fel Stamina", "", 5, 3, 3]; i++;
-talent[i] = [1, "Improved Demon Armour", "new", 3, 4, 3]; i++;
+talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
@@ -260,11 +260,11 @@ rank[i] = [
 		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
-//Improved Demon Armour - Demonology
+//Improved Demon Armor - Demonology
 rank[i] = [
-		"Increases the armour given by your Demon Armour spell by 10% and the health it restores by 2 every 5 seconds.",
-		"Increases the armour given by your Demon Armour spell by 20% and the health it restores by 4 every 5 seconds.",
-		"Increases the armour given by your Demon Armour spell by 30% and the health it restores by 6 every 5 seconds."
+		"Increases the armour given by your Demon Armor spell by 10% and the health it restores by 2 every 5 seconds.",
+		"Increases the armour given by your Demon Armor spell by 20% and the health it restores by 4 every 5 seconds.",
+		"Increases the armour given by your Demon Armor spell by 30% and the health it restores by 6 every 5 seconds."
 		];
 i++;
 //Master Summoner - Demonology
