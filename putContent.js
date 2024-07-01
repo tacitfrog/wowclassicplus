@@ -139,19 +139,16 @@ if (talentDisplay) {
 						
 						talentsReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "img/icon-over-grey'+changeString+'.png" border = "0" /></div></div>';
 						
-						//This has to do with "if the talent has points
 						if (rankTop[i][0] >= 1)
 							talentsReplaceString += '<div id = "iconOverGreen' + i + '" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "img/icon-over-green'+changeString+'.png" border = "0" /></div></div>';
 						else
 							talentsReplaceString += '<div id = "iconOverGreen' + i + '" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "img/icon-over-green'+changeString+'.png" border = "0"></div></div>';
-
-						//This is if the talent has max points
+						
 						if (rankTop[i][0] == talent[i][3])
 							talentsReplaceString += '<div id = "iconOverYellow' + i + '" style = "position: relative; z-index:50;"><div id = "iconOver"><img src = "img/icon-over-yellow'+changeString+'.png" border = "0"></div></div>';
 						else 
 							talentsReplaceString += '<div id = "iconOverYellow' + i + '" style = "visibility:hidden; position: relative; z-index:50;"><div id = "iconOver"><img src = "img/icon-over-yellow'+changeString+'.png" border = "0"></div></div>';
 						
-						//This is if the talent can't have points..?
 						if (rankTop[i][0] == 0)							
 							talentsReplaceString += '<div id = "talentThumb' + i + '" style = "visibility: hidden; position: relative;"><div id = "wrapper49"><img src = "' + className + '_files/' + imageName + '.jpg" border = "0" '+ iconSize +'></div></div>';
 						else
