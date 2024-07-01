@@ -53,7 +53,7 @@ talent[i] = [1, "Adrenaline Rush", "", 1, 2, 7]; i++;
 treeStartStop[t] = i - 1;
 t++;
 
-talent[i] = [2, "Master of Deception", "", 5, 2, 1]; i++;
+talent[i] = [2, "Master of Deception", "changed", 5, 2, 1]; i++;
 talent[i] = [2, "Opportunity", "", 5, 3, 1]; i++;
 talent[i] = [2, "Initiative", "changed", 3, 1, 2]; i++;
 talent[i] = [2, "Elusiveness", "", 2, 2, 2]; i++;
@@ -63,7 +63,7 @@ talent[i] = [2, "Improved Sap", "changed", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
 talent[i] = [2, "Improved Ambush", "", 3, 3, 3]; i++;
 talent[i] = [2, "Setup", "", 3, 1, 4]; i++;
-talent[i] = [2, "Heightened Senses", "changed", 3, 2, 4]; i++;
+talent[i] = [2, "Heightened Senses", "changed", 2, 2, 4]; i++;
 talent[i] = [2, "Serrated Blades", "", 3, 3, 4]; i++;
 talent[i] = [2, "Cheat Death", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Preparation", "", 1, 2, 5]; i++;
@@ -346,11 +346,11 @@ i++;
 
 //Master of Deception - Subtlety
 rank[i] = [
-		"Reduces the chance enemies have to detect you while in Stealth mode.",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 1).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 2).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 3).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 4)."
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 1%.",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 2%.  More effective than Master of Deception (Rank 1).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 3%.  More effective than Master of Deception (Rank 2).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 4%.  More effective than Master of Deception (Rank 3).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 5%.  More effective than Master of Deception (Rank 4)."
 		];
 i++;
 //Opportunity - Subtlety
@@ -417,9 +417,8 @@ rank[i] = [
 i++;
 //Heightened Senses - Subtlety
 rank[i] = [
-		"Reduces the chance that you are hit by spells and ranged attacks by 1% and the chance that you are critically hit by melee attacks by 2%.  In addition, your Stealth detection is increased.",
-		"Reduces the chance that you are hit by spells and ranged attacks by 2% and the chance that you are critically hit by melee attacks by 4%.  In addition, your Stealth detection is increased.  More effective than Heightened Senses (Rank 1).",
-		"Reduces the chance that you are hit by spells and ranged attacks by 3% and the chance that you are critically hit by melee attacks by 6%.  In addition, your Stealth detection is increased.  More effective than Heightened Senses (Rank 2)."
+		"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
+		"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
 		];
 i++;
 //Serrated Blades - Subtlety
