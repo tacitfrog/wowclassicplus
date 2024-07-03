@@ -12,7 +12,7 @@ i = 0;
 talent[i] = [0, "Suppression", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Corruption", "", 5, 3, 1]; i++;
 talent[i] = [0, "Enfeebling Curses", "changed", 5, 1, 2]; i++;
-talent[i] = [0, "Improved Drain Soul", "", 2, 2, 2]; i++;
+talent[i] = [0, "Improved Drain Soul", "changed", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Life Tap", "", 2, 3, 2]; i++;
 talent[i] = [0, "Improved Drain Life", "changed", 2, 4, 2]; i++;
 talent[i] = [0, "Dark Pact", "changed", 1, 1, 3]; i++;
@@ -106,8 +106,8 @@ rank[i] = [
 i++;
 //Improved Drain Soul - Affliction
 rank[i] = [
-		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  In addition, your mana may continue to regenerate while casting at 50% of normal.",
-		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  In addition, your mana may continue to regenerate while casting at 50% of normal."
+		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  During this, your mana may continue to regenerate while casting at 50% of normal.",
+		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  During this, your mana may continue to regenerate while casting at 50% of normal."
 		];
 i++;
 //Improved Life Tap - Affliction
