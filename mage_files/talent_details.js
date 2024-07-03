@@ -187,9 +187,9 @@ rank[i] = [
 i++;
 //Arcane Volatility - Arcane
 rank[i] = [
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 3% of the damage done.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 6% of the damage done.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 9% of the damage done.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]"
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 3% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 6% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 9% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]"
 		];
 i++;
 //Arcane Instability - Arcane

@@ -212,11 +212,11 @@ rank[i] = [
 i++;
 //Lightning Reflexes - Combat
 rank[i] = [
-		"Increases your Dodge chance by 1%.",
-		"Increases your Dodge chance by 2%.",
-		"Increases your Dodge chance by 3%.",
-		"Increases your Dodge chance by 4%.",
-		"Increases your Dodge chance by 5%."
+		"Increases your dodge chance by 1%.",
+		"Increases your dodge chance by 2%.",
+		"Increases your dodge chance by 3%.",
+		"Increases your dodge chance by 4%.",
+		"Increases your dodge chance by 5%."
 		];
 i++;
 //Improved Slice and Dice - Combat
@@ -228,11 +228,11 @@ rank[i] = [
 i++;
 //Deflection - Combat
 rank[i] = [
-		"Increases your Parry chance by 1%.",
-		"Increases your Parry chance by 2%.",
-		"Increases your Parry chance by 3%.",
-		"Increases your Parry chance by 4%.",
-		"Increases your Parry chance by 5%."
+		"Increases your parry chance by 1%.",
+		"Increases your parry chance by 2%.",
+		"Increases your parry chance by 3%.",
+		"Increases your parry chance by 4%.",
+		"Increases your parry chance by 5%."
 		];
 i++;
 //Precision - Combat
@@ -305,7 +305,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your Parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more Parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;14 seconds, X% Parry<br>&nbsp;&nbsp;2 points: 18 seconds, Y% Parry<br>&nbsp;&nbsp;3 points: 22 seconds, Z% Parry<br>&nbsp;&nbsp;4 points: 26 seconds, A% Parry<br>&nbsp;&nbsp;5 points: 30 seconds, B% Parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 40),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;14 seconds, X% parry<br>&nbsp;&nbsp;2 points: 18 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 22 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 26 seconds, A% parry<br>&nbsp;&nbsp;5 points: 30 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 40),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
 		];
 i++;
 //Blade Flurry - Combat
