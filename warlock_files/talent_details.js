@@ -284,9 +284,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Destruction
 rank[i] = [
-		"While you have a Firestone equipped, your Fire spells have a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, your Fire spells have a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, your Fire spells have a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
 		];
 i++;
 //Improved Enslave Demon - Demonology
