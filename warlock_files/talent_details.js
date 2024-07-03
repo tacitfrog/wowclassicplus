@@ -39,12 +39,13 @@ talent[i] = [1, "Fel Intellect", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
 talent[i] = [1, "Fel Stamina", "", 5, 3, 3]; i++;
-talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
+talent[i] = [1, "Improved Demon Armour", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
+talent[i] = [1, "Improved Firestone", "changed", 3, 4, 4]; i++;
 talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
-talent[i] = [1, "Improved Spellstone", "changed", 2, 4, 5, [getTalentID("Unholy Power"), 5]]; i++;
+talent[i] = [1, "Improved Spellstone", "changed", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
 talent[i] = [1, "Soul Link", "changed", 1, 3, 7]; i++;
 
@@ -65,7 +66,6 @@ talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
 talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
 talent[i] = [2, "Improved Immolate", "", 5, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
-talent[i] = [2, "Improved Firestone", "changed", 3, 4, 5]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
 talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 5]]; i++;
 
@@ -260,11 +260,11 @@ rank[i] = [
 		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
-//Improved Demon Armor - Demonology
+//Improved Demon Armour - Demonology
 rank[i] = [
-		"Increases the armour given by your Demon Armor spell by 10% and the health it restores by 2 every 5 seconds.",
-		"Increases the armour given by your Demon Armor spell by 20% and the health it restores by 4 every 5 seconds.",
-		"Increases the armour given by your Demon Armor spell by 30% and the health it restores by 6 every 5 seconds."
+		"Increases the armour given by your Demon Armour spell by 10% and the health it restores by 2 every 5 seconds.",
+		"Increases the armour given by your Demon Armour spell by 20% and the health it restores by 4 every 5 seconds.",
+		"Increases the armour given by your Demon Armour spell by 30% and the health it restores by 6 every 5 seconds."
 		];
 i++;
 //Master Summoner - Demonology
@@ -282,6 +282,13 @@ rank[i] = [
 		"Increases the critical strike chance of your Imp's Firebolt spell by 5% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
 		];
 i++;
+//Improved Firestone - Destruction
+rank[i] = [
+		"While you have a Firestone equipped, your Fire spells have a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, your Fire spells have a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, your Fire spells have a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: If this triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		];
+i++;
 //Improved Enslave Demon - Demonology
 rank[i] = [
 		"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
@@ -290,13 +297,13 @@ rank[i] = [
 i++;
 //Demonic Sacrifice - Demonology
 rank[i] = [
-		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any Demon is summoned.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of your total health every 4 seconds.<br><br>Succubus: Increases your Shadow damage by 15%.<br><br>Felhunter: Restores 2% of your total mana every 4 seconds."
+		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any demon is summoned.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of your total health every 4 seconds.<br><br>Succubus: Increases your Shadow damage by 15%.<br><br>Felhunter: Restores 2% of your total mana every 4 seconds."
 		];
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your pet restore an amount of mana equal to 2% of your maximum mana.",
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your pet restore an amount of mana equal to 4% of your maximum mana."
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore an amount of mana equal to 2% of your maximum mana.",
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore an amount of mana equal to 4% of your maximum mana."
 		];
 i++;
 //Master Demonologist - Demonology
@@ -418,13 +425,6 @@ i++;
 //Ruin - Destruction
 rank[i] = [
 		"Increases the critical strike damage bonus of your Destruction spells by 100%."
-		];
-i++;
-//Improved Firestone - Destruction
-rank[i] = [
-		"While you have a Firestone equipped, your melee attacks have a 5% chance to make your next Fire spell with a cast time of less than 3 seconds instant cast and your Fire spells have a 10% chance to return health equal to 20% of the damage caused.<br><br>[Note: If this effect triggers on Immolate, it first returns health based on the initial damage and then returns health each tick.  If it triggers on Rain of Fire or Hellfire, the health is returned after each wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, your melee attacks have a 10% chance to make your next Fire spell with a cast time of less than 3 seconds instant cast and your Fire spells have a 20% chance to return health equal to 20% of the damage caused.<br><br>[Note: If this effect triggers on Immolate, it first returns health based on the initial damage and then returns health each tick.  If it triggers on Rain of Fire or Hellfire, the health is returned after each wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, your melee attacks have a 15% chance to make your next Fire spell with a cast time of less than 3 seconds instant cast and your Fire spells have a 30% chance to return health equal to 20% of the damage caused.<br><br>[Note: If this effect triggers on Immolate, it first returns health based on the initial damage and then returns health each tick.  If it triggers on Rain of Fire or Hellfire, the health is returned after each wave of hits and is calculated off the total damage dealt in that wave.]"
 		];
 i++;
 //Emberstorm - Destruction
