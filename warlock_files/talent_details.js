@@ -21,9 +21,10 @@ talent[i] = [0, "Amplify Curse", "", 1, 3, 3]; i++;
 talent[i] = [0, "Grim Reach", "", 2, 1, 4]; i++;
 talent[i] = [0, "Nightfall", "", 2, 2, 4]; i++;
 talent[i] = [0, "Improved Drain Mana", "changed", 3, 4, 4]; i++;
-talent[i] = [0, "Contagion", "new", 3, 1, 5]; i++;
+talent[i] = [0, "Paroxysm", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
+talent[i] = [0, "Contagion", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Shadow Mastery", "changed", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
 talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7]; i++;
 
@@ -124,7 +125,7 @@ rank[i] = [
 i++;
 //Dark Pact - Affliction
 rank[i] = [
-		"Cast: instant.<br>Drains X of your pet's mana, returning 100% to you.<br><br>[Rank 1: X = 50,<br>&nbsp;Rank 2: X = 100 (level 30),<br>&nbsp;Rank 3: X = 150 (level 40),<br>&nbsp;Rank 4: X = 200 (level 50),<br>&nbsp;Rank 5: X = 250 (level 60).]"
+		"Cast: instant.<br>Drains X of your summoned demon's mana, returning 100% to you.<br><br>[Rank 1: X = 50,<br>&nbsp;Rank 2: X = 100 (level 30),<br>&nbsp;Rank 3: X = 150 (level 40),<br>&nbsp;Rank 4: X = 200 (level 50),<br>&nbsp;Rank 5: X = 250 (level 60).]"
 		];
 i++;
 //Fel Concentration - Affliction
@@ -149,22 +150,21 @@ rank[i] = [
 i++;
 //Nightfall - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
-		"Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
+		"Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging an enemy.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
+		"Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging an enemy.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
 		];
 i++;
 //Improved Drain Mana - Affliction
 rank[i] = [
-		"Causes 15% of the mana drained by your Drain Mana spell to damage the opponent.",
-		"Causes 30% of the mana drained by your Drain Mana spell to damage the opponent.",
-		"Causes 45% of the mana drained by your Drain Mana spell to damage the opponent."
+		"Causes 15% of the mana drained by your Drain Mana spell to damage the target.",
+		"Causes 30% of the mana drained by your Drain Mana spell to damage the target.",
+		"Causes 45% of the mana drained by your Drain Mana spell to damage the target."
 		];
 i++;
-//Contagion - Affliction
+//Paroxysm - Affliction
 rank[i] = [
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 10% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 2%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 20% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 4%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 30% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 6%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]"
+		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 20% damage when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 20% damage when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
@@ -175,6 +175,13 @@ i++;
 //Curse of Exhaustion - Affliction
 rank[i] = [
 		"Cast: instant.<br>Range: 30 yards.<br>Cost: 8% of base mana.<br>Reduces the target's movement speed by 10% for 12 seconds.  Only one Curse per Warlock can be active on any one target."
+		];
+i++;
+//Contagion - Affliction
+rank[i] = [
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 10% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 2%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 20% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 4%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 30% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 6%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]"
 		];
 i++;
 //Shadow Mastery - Affliction
@@ -291,8 +298,8 @@ rank[i] = [
 i++;
 //Improved Enslave Demon - Demonology
 rank[i] = [
-		"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
-		"Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 10%."
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 10%."
 		];
 i++;
 //Demonic Sacrifice - Demonology
