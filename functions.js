@@ -385,7 +385,7 @@ function rankTopOnRightClick(talentID) {
 	
     document.getElementById('modifyDescriptionTop' + talentID).innerHTML = rankString;
 	
-    document.getElementById('modifyRankTop'+talentID).innerHTML = rankTop[talentID][0];
+    document.getElementById('modifyRankTop' + talentID).innerHTML = rankTop[talentID][0];
     document.getElementById('modifyRankTopDescription' + talentID).innerHTML = rankTop[talentID][0];
     //document.getElementById('modifyRankPoints').innerHTML = rankPointsMax - rankPoints;	
     document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
@@ -402,7 +402,7 @@ function unhideTalent(input) {
 }
 
 function hideTalent(input) {
-	openTalent = i;
+	openTalent = input;
 	document.getElementById("talentMouseOver" + input).style.visibility = "hidden";
 }
 
