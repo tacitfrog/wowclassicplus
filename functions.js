@@ -390,27 +390,27 @@ function rankTopOnRightClick(talentID) {
     //document.getElementById('modifyRankPoints').innerHTML = rankPointsMax - rankPoints;	
     document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
 	document.getElementById('spec' + theTree).innerHTML = pointsTree[theTree];	
-    document.getElementById(tree[theTree] +'tabPoints').innerHTML = pointsTree[theTree];	
+    document.getElementById(tree[theTree] + 'tabPoints').innerHTML = pointsTree[theTree];	
     document.getElementById('tabPointsAvailable').innerHTML = rankPoints;		
 	if (rankPoints != 1) canTurnGreen(pointsTree[theTree], theTree, oldMaxTier);
 	changeCopyURL();
 }
 
 function unhideTalent(input) {
-	openTalent = -1;
+	openTalent = input;
 	document.getElementById("talentMouseOver" + input).style.visibility = "visible";
 }
 
 function hideTalent(input) {
-	openTalent = input;
+	openTalent = -1;
 	document.getElementById("talentMouseOver" + input).style.visibility = "hidden";
 }
 
-function hideOpenTalent() {
-	if (openTalent >= 0) {
+function hideOpenTalent(input) {
+	if (openTalent != input) {
 		document.getElementById("talentMouseOver" + openTalent).style.visibility = "hidden";
+		openTalent = -1;
 	}
-	openTalent = -1;
 }
 
 //changeColour function
