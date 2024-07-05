@@ -7,7 +7,7 @@ var iconReplaceString = "";
 var talentsReplaceString = "";
 var titleReplaceString = "";
 
-var talentDisplay = (className=="druid" || className=="hunter" || className=="mage" || className=="paladin" || className=="priest" || className=="rogue" || className=="shaman" || className=="warlock" || className=="warrior") ? true : false;
+var talentDisplay = (className == "druid" || className == "hunter" || className == "mage" || className == "paladin" || className == "priest" || className == "rogue" || className == "shaman" || className == "warlock" || className == "warrior") ? true : false;
 var talentDescriptionArray = new Array;
 
 var imgDir = "";
@@ -135,7 +135,7 @@ if (talentDisplay) {
 						
 						talentsReplaceString += '</div></td></tr></table></td><td bgcolor = "#a5a5a5" width = "1"><div style = "width: 1px;"></div></td></tr><tr><td></td><td bgcolor = "#4f4f4f" height = "2"></td><td></td></tr></table></div></div></div>';
 						
-						talentsReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "' + pixelGif + '" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +');" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
+						talentsReplaceString += '<div style = "z-index: 99999; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "' + pixelGif + '" width = "50px" height = "50px" border = "0" onClick = "rankTopOnClick('+ i +'); hideOpenTalent();" onMouseOver = "unhideTalent('+ i +');" onMouseOut = "hideTalent('+ i +');" onContextMenu = "rankTopOnRightClick('+ i +'); return false;" /></div></div>';
 						
 						talentsReplaceString += '<div style = "z-index: 50; position: relative;"><div style = "top: -2px; left: -2px; position: absolute;"><img src = "img/icon-over-grey'+changeString+'.png" border = "0" /></div></div>';
 						
@@ -205,7 +205,7 @@ if (talentDisplay) {
 									talentsReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "img/across-left-green.gif"></span></div></div>';
 									talentsReplaceString += '<div id = "wrapper51"><div class = "arrowacrossleft"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "img/across-left-yellow.gif"></span></div></div>';
 								}
-							} else if (thisTalentX == (requiredTalentX-1)){
+							} else if (thisTalentX == (requiredTalentX - 1)){
 								if ((thisTalentY - 1) == requiredTalentY) {												
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><img src = "img/down-left-grey.gif"></div></div>';
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdownleft"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "img/down-left-green.gif"></span></div></div>';
@@ -215,7 +215,7 @@ if (talentDisplay) {
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "img/down-2-left-green.gif"></span></div></div>';
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdown2left"><span id = "arrowYellow'+ i +'" style = "visibility: '+ arrowYellowStyle +';"><img src = "img/down-2-left-yellow.gif"></span></div></div>';
 								}
-							} else if ((thisTalentX-1) == requiredTalentX) {								
+							} else if ((thisTalentX - 1) == requiredTalentX) {								
 								if ((thisTalentY - 1) == requiredTalentY) {				
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><img src = "img/down-right-grey.gif"></div></div>';
 									talentsReplaceString += '<div id = "wrapper50"><div class = "arrowdownright"><span id = "arrowGreen'+ i +'" style = "visibility: '+ arrowGreenStyle +';"><img src = "img/down-right-green.gif"></span></div></div>';
@@ -304,8 +304,7 @@ if (talentDisplay) {
 	changeCopyURL();
 	
 	//handle setting up the green rows past the first tier
-	for (i = 0; i <3; i++)
-		canTurnGreen(pointsTree[i], i, maxTierArray[i]);
+	for (i = 0; i < 3; i++) canTurnGreen(pointsTree[i], i, maxTierArray[i]);
 }
 
 jsLoaded=true;

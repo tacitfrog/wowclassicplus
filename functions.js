@@ -2,6 +2,8 @@ var colorGreen = "#1AFF1A";
 var colorYellow = "#FFD100";
 var colorWhite = "#FFFFFF";
 
+var openTalent = -1;
+
 function resetTree(theTree) {
 	if (pointsTree[theTree] == 0)
 		return;
@@ -18,7 +20,7 @@ function resetTree(theTree) {
 	if (theTree == 0)
 		i = 0;
 	else
-		i = treeStartStop[theTree-1] + 1;
+		i = treeStartStop[theTree - 1] + 1;
 	
 	iStop = treeStartStop[theTree];			
 	
@@ -115,17 +117,16 @@ function canUnlearn(talentID, clickLeftRight, maxTier) {
 		}
 	} else {	//right click
 		if (rankTop[talentID][0] != 0){
-			pointsAboveAndCurrent = getPointsAboveAndCurrent(treeID, maxTier-1);	
-			projectedPoints = pointsAboveAndCurrent - 1 + pointsTier[treeID][maxTier-1];
+			pointsAboveAndCurrent = getPointsAboveAndCurrent(treeID, maxTier - 1);	
+			projectedPoints = pointsAboveAndCurrent - 1 + pointsTier[treeID][maxTier - 1];
 
 			for (var thisTier = talent[talentID][5]; thisTier < maxTier; maxTier--) {
-				necessaryPoints = (maxTier-1) *5;		
-				projectedPoints -= pointsTier[treeID][maxTier-1];
+				necessaryPoints = (maxTier - 1) * 5;
+				projectedPoints -= pointsTier[treeID][maxTier - 1];
 				if (projectedPoints < necessaryPoints)
 					return false;
 			}
 		} else {  //if the rank is 0
-
 			return false;
 		}
 	}	
@@ -141,7 +142,7 @@ function getTalentID(talentName) {
 }
 
 function getMinLevel(talentID) {
-	return ((talent[talentID][5] -1)* 5 + 10);
+	return ((talent[talentID][5] - 1) * 5 + 10);
 }
 
 function hasDependentTalentWithPoints(talentID) {
@@ -172,16 +173,16 @@ function canTurnGreen(totalPoints, tree, oldMaxTier) {
 	if (tree == 0)
 		i = 0;
 	else
-		i = treeStartStop[tree-1] + 1;
+		i = treeStartStop[tree - 1] + 1;
 	
 	iStop = treeStartStop[tree];
 	
 	while (i <= iStop) {
 		thisTier = talent[i][5];
 		
-		necessaryPoints = (thisTier-1) * 5;
+		necessaryPoints = (thisTier - 1) * 5;
 		
-		if (thisTier <= oldMaxTier+3 || necessaryPoints <= totalPoints){
+		if (thisTier <= oldMaxTier + 3 || necessaryPoints <= totalPoints){
 			var noRequirement = checkRequiredTalent(i);
 			
 			var theCurrentRank = rankTop[i][0];
@@ -329,13 +330,13 @@ function rankTopOnRightClick(talentID) {
 	
 	if (rankTop[talentID][0] > 0) {
 		rankTop[talentID][0]--;						
-		if (rankTop[talentID][0]-1 != -1) {
-			rankTop[talentID][1] = rank[talentID][(rankTop[talentID][0]-1)];
+		if (rankTop[talentID][0] - 1 != -1) {
+			rankTop[talentID][1] = rank[talentID][(rankTop[talentID][0] - 1)];
 			rankTop[talentID][2] = rank[talentID][(rankTop[talentID][0])];
-			rankString = rankTop[talentID][1] +'<br><br><font color = "ffffff">'+ textNextRank +'</font><br>'+ rankTop[talentID][2];			
+			rankString = rankTop[talentID][1] + '<br><br><font color = "ffffff">' + textNextRank +'</font><br>'+ rankTop[talentID][2];			
 		} else {
-			rankTop[talentID][1] = rank[talentID][rankTop[talentID][0]];						
-			rankString = rankTop[talentID][1];			
+			rankTop[talentID][1] = rank[talentID][rankTop[talentID][0]];			
+			rankString = rankTop[talentID][1];
 		}
 		
 		//rank 0
@@ -396,11 +397,20 @@ function rankTopOnRightClick(talentID) {
 }
 
 function unhideTalent(input) {
+	openTalent = -1;
 	document.getElementById("talentMouseOver" + input).style.visibility = "visible";
 }
 
 function hideTalent(input) {
+	openTalent = i;
 	document.getElementById("talentMouseOver" + input).style.visibility = "hidden";
+}
+
+function hideOpenTalent() {
+	if (openTalent >= 0) {
+		document.getElementById("talentMouseOver" + openTalent).style.visibility = "hidden";
+	}
+	openTalent = -1;
 }
 
 //changeColour function

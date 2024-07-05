@@ -1,23 +1,17 @@
 query = window.location.search.substring(1);
-if(query.indexOf("tal=")>-1) query = query.slice(4)
+if(query.indexOf("tal=") > -1) query = query.slice(4);
 
 var vars = query;
 var saveTemplate = new Array();
 
-for (e=0;e<vars.length;e++)
-{
-	saveTemplate[e] = vars.charAt(e);
-}
+for (e = 0; e < vars.length; e++) saveTemplate[e] = vars.charAt(e);
 
-for (treeLoop = 0; treeLoop < tree.length; treeLoop++)
-{
-	pointsTree[treeLoop] = 0;
-}
+for (treeLoop = 0; treeLoop < tree.length; treeLoop++) pointsTree[treeLoop] = 0;
 
 var numberOfTrees = tree.length;
+var pointsTier = new Array(numberOfTrees);
 
-var pointsTier=new Array(numberOfTrees);
-for (i=0; i <numberOfTrees; i++) pointsTier[i]=new Array(tierNum);
+for (i = 0; i < numberOfTrees; i++) pointsTier[i] = new Array(tierNum);
 
 var tierLoop = 0;
 
@@ -54,7 +48,7 @@ if (query)
 		else rankTop[talentInsertID] = [savedRank, rank[talentInsertID][0]];	
 		pointsInDaTree = talent[talentInsertID][0];
 		pointsTree[pointsInDaTree] += savedRank;
-		pointsTier[pointsInDaTree][talent[talentInsertID][5]-1] += savedRank;
+		pointsTier[pointsInDaTree][talent[talentInsertID][5] - 1] += savedRank;
 		rankPoints -= savedRank;
 		theRequiredLevel += savedRank;
 		talentInsertID++;
@@ -91,7 +85,7 @@ else
 		hasDependentTalents[q] = 0;
 		q++;
 	}
-	q=0;
+	q = 0;
 	while (q < talent.length)
 	{
 		if (talent[q][6])
