@@ -48,7 +48,7 @@ talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
 talent[i] = [1, "Improved Spellstone", "changed", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
-talent[i] = [1, "Soul Link", "changed", 1, 3, 7]; i++;
+talent[i] = [1, "Soul Link", "", 1, 2, 7, [getTalentID("Demonic Sacrifice"), 1]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -269,9 +269,9 @@ rank[i] = [
 i++;
 //Improved Demon Armour - Demonology
 rank[i] = [
-		"Increases the armour given by your Demon Armour spell by 10% and the health it restores by 2 every 5 seconds.",
-		"Increases the armour given by your Demon Armour spell by 20% and the health it restores by 4 every 5 seconds.",
-		"Increases the armour given by your Demon Armour spell by 30% and the health it restores by 6 every 5 seconds."
+		"Increases the armour given by your Demon Skin and Demon Armour spells by 10% and the health restored by 2 every 5 seconds.",
+		"Increases the armour given by your Demon Skin and Demon Armour spells by 20% and the health restored by 4 every 5 seconds.",
+		"Increases the armour given by your Demon Skin and Demon Armour spells by 30% and the health restored by 6 every 5 seconds."
 		];
 i++;
 //Master Summoner - Demonology
