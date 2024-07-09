@@ -23,6 +23,7 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Envenom", "new", 3, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
+talent[i] = [0, "Crippling Brew", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changed", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -162,9 +163,9 @@ rank[i] = [
 i++;
 //Envenom - Assassination
 rank[i] = [
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 20% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 40% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 60% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]"
+		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 20% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated.  Each activated dose applies your highest learned rank of Instant Poison.]",
+		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 40% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated.  Each activated dose applies your highest learned rank of Instant Poison.]",
+		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 60% chance to activate one dose.  Each activated dose is consumed and deals Instant Poison damage to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated.  Each activated dose applies your highest learned rank of Instant Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -177,6 +178,12 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 3% damage from all sources.",
 		"While affected by your Kidney Shot ability, the target receives an additional 6% damage from all sources.",
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
+		];
+i++;
+//Crippling Brew - Assassination
+rank[i] = [
+		"Gives a 50% chance to apply Crippling Poison whenever you apply Instant Poison.<br><br>[Note: This effect also triggers when your Envenom procs.  Applies your highest learned rank of Crippling Poison.]",
+		"Gives a 100% chance to apply Crippling Poison whenever you apply Instant Poison.<br><br>[Note: This effect also triggers when your Envenom procs.  Applies your highest learned rank of Crippling Poison.]"
 		];
 i++;
 //Seal Fate - Assassination
@@ -453,11 +460,11 @@ rank[i] = [
 i++;
 //Deadliness - Subtlety
 rank[i] = [
-		"Increases your Attack Power by 2%.",
-		"Increases your Attack Power by 4%.",
-		"Increases your Attack Power by 6%.",
-		"Increases your Attack Power by 8%.",
-		"Increases your Attack Power by 10%."
+		"Increases your attack power by 2%.",
+		"Increases your attack power by 4%.",
+		"Increases your attack power by 6%.",
+		"Increases your attack power by 8%.",
+		"Increases your attack power by 10%."
 		];
 i++;
 //Preparation - Subtlety

@@ -121,6 +121,8 @@ body .ui-tooltip {
 .contentbar { min-height: 300px; float: left; background: #82828208; margin: 0; }
 .sidebar { width: 590px; min-height: 500px; float: right; background: #82828208; margin: 0; }
 .sidebar hr { color: #333333; margin: 0 15px 2px; }
+.sidebar .treenamecolour { font-size: 13px; color: #FFE400; }
+
 .sidebar-one { width: 280px; float: left; margin: 10px 10px; }
 .sidebar-two { width: 280px; float: left; margin: 10px 10px 10px 0; }
 .sidebar-double { width: 560px; float: left; margin: 10px 10px 10px 0; }
@@ -153,7 +155,7 @@ body .ui-tooltip {
 .sidebar-region .padder { margin-bottom: 4px; }
 .sidebar-region .talentChanged { color: #FF0000; }
 .sidebar-region .talentNew { color: #FFC000; }
-.sidebar-region .ability-reagent img { width: 15px; height: 15px; padding: 0 0 1px; }
+.sidebar-region .ability-reagent img { width: 14px; height: 14px; padding: 0 0 1px; }
 
 .sidebar-region .noticeBox {
 	width: 230px;
