@@ -12,7 +12,7 @@ i = 0;
 talent[i] = [0, "Suppression", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Corruption", "", 5, 3, 1]; i++;
 talent[i] = [0, "Enfeebling Curses", "changed", 5, 1, 2]; i++;
-talent[i] = [0, "Improved Drain Soul", "changed", 2, 2, 2]; i++;
+talent[i] = [0, "Improved Drain Soul", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Life Tap", "", 2, 3, 2]; i++;
 talent[i] = [0, "Improved Drain Life", "changed", 2, 4, 2]; i++;
 talent[i] = [0, "Dark Pact", "changed", 1, 1, 3]; i++;
@@ -315,11 +315,11 @@ rank[i] = [
 i++;
 //Master Demonologist - Demonology
 rank[i] = [
-		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 4%.<br><br>Voidwalker - Reduces physical damage taken by 2%.<br><br>Succubus - Increases all damage caused by 2%.<br><br>Felhunter - Increases all resistances by 0.2 per level.",
-		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 8%.<br><br>Voidwalker - Reduces physical damage taken by 4%.<br><br>Succubus - Increases all damage caused by 4%.<br><br>Felhunter - Increases all resistances by 0.4 per level.",
-		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 12%.<br><br>Voidwalker - Reduces physical damage taken by 6%.<br><br>Succubus - Increases all damage caused by 6%.<br><br>Felhunter - Increases all resistances by 0.6 per level.",
-		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 16%.<br><br>Voidwalker - Reduces physical damage taken by 8%.<br><br>Succubus - Increases all damage caused by 8%.<br><br>Felhunter - Increases all resistances by 0.8 per level.",
-		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 20%.<br><br>Voidwalker - Reduces physical damage taken by 10%.<br><br>Succubus - Increases all damage caused by 10%.<br><br>Felhunter - Increases all resistances by 1 per level."
+		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 4%.<br><br>Voidwalker - Reduces Physical damage taken by 2%.<br><br>Succubus - Increases all damage caused by 2%.<br><br>Felhunter - Increases all resistances by 0.2 per level.",
+		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 8%.<br><br>Voidwalker - Reduces Physical damage taken by 4%.<br><br>Succubus - Increases all damage caused by 4%.<br><br>Felhunter - Increases all resistances by 0.4 per level.",
+		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 12%.<br><br>Voidwalker - Reduces Physical damage taken by 6%.<br><br>Succubus - Increases all damage caused by 6%.<br><br>Felhunter - Increases all resistances by 0.6 per level.",
+		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 16%.<br><br>Voidwalker - Reduces Physical damage taken by 8%.<br><br>Succubus - Increases all damage caused by 8%.<br><br>Felhunter - Increases all resistances by 0.8 per level.",
+		"Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br><br>Imp - Reduces threat caused by 20%.<br><br>Voidwalker - Reduces Physical damage taken by 10%.<br><br>Succubus - Increases all damage caused by 10%.<br><br>Felhunter - Increases all resistances by 1 per level."
 		];
 i++;
 //Soul Link - Demonology
