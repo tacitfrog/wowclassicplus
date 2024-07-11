@@ -14,19 +14,19 @@ talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "", 5, 2, 2]; i++;
-talent[i] = [0, "Arcane Concentration", "", 5, 3, 2]; i++;
+talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
 talent[i] = [0, "Magic Attunement", "", 2, 1, 3]; i++;
 talent[i] = [0, "Improved Arcane Explosion", "", 3, 2, 3]; i++;
 talent[i] = [0, "Arcane Resilience", "", 1, 3, 3]; i++;
+talent[i] = [0, "Arcane Potency", "new", 3, 4, 3, [getTalentID("Arcane Concentration"), 5]]; i++;
 talent[i] = [0, "Improved Mana Shield", "changed", 2, 1, 4]; i++;
 talent[i] = [0, "Improved Counterspell", "", 2, 2, 4]; i++;
 talent[i] = [0, "Arcane Meditation", "", 3, 4, 4]; i++;
 talent[i] = [0, "Improved Blink", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Presence of Mind", "", 1, 2, 5]; i++;
 talent[i] = [0, "Arcane Mind", "", 5, 3, 5, [getTalentID("Arcane Resilience"), 1]]; i++;
-talent[i] = [0, "Arcane Volatility", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Arcane Instability", "", 3, 2, 6, [getTalentID("Presence of Mind"), 1]]; i++;
-talent[i] = [0, "Empowered Conjuration", "new", 2, 3, 6]; i++;
+talent[i] = [0, "Arcane Volatility", "new", 2, 3, 6]; i++;
 talent[i] = [0, "Arcane Power", "", 1, 2, 7, [getTalentID("Arcane Instability"), 3]]; i++;
 
 treeStartStop[t] = i - 1;
@@ -121,11 +121,11 @@ rank[i] = [
 i++;
 //Arcane Concentration - Arcane
 rank[i] = [
-		"Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next spell by 100%."
+		"Gives you a 2% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 1% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 4% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 2% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 6% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 3% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 8% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 4% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 10% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 5% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%."
 		];
 i++;
 //Magic Attunement - Arcane
@@ -136,14 +136,21 @@ rank[i] = [
 i++;
 //Improved Arcane Explosion - Arcane
 rank[i] = [
-		"Increases the critical strike chance of your Arcane Explosion spell by an additional 2%.",
-		"Increases the critical strike chance of your Arcane Explosion spell by an additional 4%.",
-		"Increases the critical strike chance of your Arcane Explosion spell by an additional 6%."
+		"Increases the critical strike chance of your Arcane Explosion spell by 2%.",
+		"Increases the critical strike chance of your Arcane Explosion spell by 4%.",
+		"Increases the critical strike chance of your Arcane Explosion spell by 6%."
 		];
 i++;
 //Arcane Resilience - Arcane
 rank[i] = [
 		"Increases your armour by an amount equal to 50% of your Intellect."
+		];
+i++;
+//Arcane Potency - Arcane
+rank[i] = [
+		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 3%.",
+		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 6%.",
+		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 9%."
 		];
 i++;
 //Improved Mana Shield - Arcane
@@ -185,13 +192,6 @@ rank[i] = [
 		"Increases your maximum mana by 10%."
 		];
 i++;
-//Arcane Volatility - Arcane
-rank[i] = [
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all your group members within 15 yards of the target are healed for 3% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all your group members within 15 yards of the target are healed for 6% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all your group members within 15 yards of the target are healed for 9% of the damage caused.<br><br>[Note: The healing causes no additional threat.  This effect will heal the caster if he is within 15 yards of the target.]"
-		];
-i++;
 //Arcane Instability - Arcane
 rank[i] = [
 		"Increases your spell damage and critical strike chance by 1%.",
@@ -199,10 +199,10 @@ rank[i] = [
 		"Increases your spell damage and critical strike chance by 3%."
 		];
 i++;
-//Empowered Conjuration - Arcane
+//Arcane Volatility - Arcane
 rank[i] = [
-		"Increases the amount of mana restored by your conjured mana gems by 10%, but also the mana cost to conjure them.  In addition, using a mana gem gives you a 20% chance of entering a Clearcasting state.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Increases the amount of mana restored by your conjured mana gems by 20%, but also the mana cost to conjure them.  In addition, using a mana gem gives you a 40% chance of entering a Clearcasting state.  The Clearcasting state reduces the mana cost of your next spell by 100%."
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 5% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect will heal the caster if he is within 15 yards of the target.]",
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all group members within 15 yards of the target are healed for 10% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect will heal the caster if he is within 15 yards of the target.]"
 		];
 i++;
 //Arcane Power - Arcane
@@ -287,8 +287,8 @@ rank[i] = [
 i++;
 //Fire Warding - Fire
 rank[i] = [
-		"Increases the Fire damage dealt to attackers by your Molten Armour by 5%.  In addition, gives your Fire Ward a 10% chance to reflect Fire spells while active.",
-		"Increases the Fire damage dealt to attackers by your Molten Armour by 10%.  In addition, gives your Fire Ward a 20% chance to reflect Fire spells while active."
+		"Increases the Fire damage dealt to attackers by your Molten Armor by 5%.  In addition, gives your Fire Ward a 10% chance to reflect Fire spells while active.",
+		"Increases the Fire damage dealt to attackers by your Molten Armor by 10%.  In addition, gives your Fire Ward a 20% chance to reflect Fire spells while active."
 		];
 i++;
 //Master of Elements - Fire

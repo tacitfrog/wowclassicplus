@@ -330,6 +330,12 @@ img.classIcon {
     transition: border-color 400ms ease-out;
 }
 
+div.iconHolder {
+	display: inline;
+}
+.iconHolder a.active img.classIcon { border-color: #FFFFFF6B!important; }
+.iconHolder a img.classIcon:hover { border-color: #676767!important; }
+
 .iconHolder a.druidactive img.classIcon { border-color: #FF7C0A!important; }
 .iconHolder a.hunteractive img.classIcon { border-color: #AAD372!important; }
 .iconHolder a.mageactive img.classIcon { border-color: #68CCEF!important; }
@@ -339,12 +345,6 @@ img.classIcon {
 .iconHolder a.shamanactive img.classIcon { border-color: #2359FF!important; }
 .iconHolder a.warlockactive img.classIcon { border-color: #9382C9!important; }
 .iconHolder a.warrioractive img.classIcon { border-color: #C69B6D!important; }
-.iconHolder a.active img.classIcon { border-color: #FFFFFF6B!important; }
-.iconHolder a img.classIcon:hover { border-color: #676767!important; }
-
-div.iconHolder {
-	display: inline;
-}
 
 div#replaceMeWithIcons {
 	margin: 0 auto 20px;
