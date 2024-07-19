@@ -121,11 +121,11 @@ rank[i] = [
 i++;
 //Arcane Concentration - Arcane
 rank[i] = [
-		"Gives you a 2% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 1% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 4% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 2% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 6% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 3% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 8% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 4% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
-		"Gives you a 10% chance of entering a Clearcasting state after casting any damage spell.  For Arcane Missiles, you have a 5% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%."
+		"Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 1% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 2% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 3% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 4% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%.",
+		"Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 5% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%."
 		];
 i++;
 //Magic Attunement - Arcane
@@ -148,9 +148,9 @@ rank[i] = [
 i++;
 //Arcane Potency - Arcane
 rank[i] = [
-		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 3%.",
-		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 6%.",
-		"Increases the critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 9%."
+		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 1%.",
+		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 2%.",
+		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 3%."
 		];
 i++;
 //Improved Mana Shield - Arcane
