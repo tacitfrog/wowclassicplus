@@ -71,7 +71,7 @@ input[type="button"]:hover, button:hover { background:#42532d; }
 .content-wrap { }
 
 .content-3 { width: 880px; }
-.content-4 { width: 1160px; }
+.content-4 { width: 1170px; }
 .content-lower { margin-top: 0 !important; }
 
 .content { margin: 15px 10px 0; float: left; }
@@ -126,8 +126,8 @@ body .ui-tooltip {
 .sidebar-one { width: 280px; float: left; margin: 10px 10px; }
 .sidebar-two { width: 280px; float: left; margin: 10px 10px 10px 0; }
 .sidebar-double { width: 560px; float: left; margin: 10px 10px 10px 0; }
-.sidebar-left { width: 280px; float: left; margin: 10px 0 10px; }
-.sidebar-right { width: 280px; float: left; margin: 10px 0 10px; }
+.sidebar-left { width: 280px; float: left; margin: 0 0 10px; }
+.sidebar-right { width: 280px; float: left; margin: 0 0 10px; }
 
 .sidebar-header {
 	color: #DDD;
