@@ -455,7 +455,7 @@ rank[i] = [
 i++;
 //Hemorrhage - Subtlety
 rank[i] = [
-		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 100% weapon damage and causes the target to hemorrhage, refreshing the duration of your Garrote and Rupture effects on the target by up to 3 seconds and increasing any Physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 3,<br>&nbsp;Rank 2: X = 7 &nbsp;&nbsp;(level 46),<br>&nbsp;Rank 3: X = 11 (level 58).]"
+		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 100% weapon damage and causes the target to hemorrhage, refreshing the duration of your Garrote and Rupture effects on the target by up to 3 seconds and increasing any Physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 3,<br>&nbsp;Rank 2: X = 5 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 7 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 11 (level 58).]"
 		];
 i++;
 //Deadliness - Subtlety

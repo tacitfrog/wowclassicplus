@@ -89,11 +89,11 @@ rank[i] = [
 i++;
 //Improved Corruption - Affliction
 rank[i] = [
-		"Reduces the casting time of your Corruption spell by 0.4 sec.",
-		"Reduces the casting time of your Corruption spell by 0.8 sec.",
-		"Reduces the casting time of your Corruption spell by 1.2 sec.",
-		"Reduces the casting time of your Corruption spell by 1.6 sec.",
-		"Reduces the casting time of your Corruption spell by 2 sec."
+		"Reduces the casting time of your Corruption spell by 0.4 seconds.",
+		"Reduces the casting time of your Corruption spell by 0.8 seconds.",
+		"Reduces the casting time of your Corruption spell by 1.2 seconds.",
+		"Reduces the casting time of your Corruption spell by 1.6 seconds.",
+		"Reduces the casting time of your Corruption spell by 2 seconds."
 		];
 i++;
 //Enfeebling Curses - Affliction
@@ -195,7 +195,7 @@ rank[i] = [
 i++;
 //Seed of Corruption - Affliction
 rank[i] = [
-		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one Corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 410, Z = 490, A = 722 (level 58).]"
+		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one Corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 410, Z = 490, A = 722 (level 56).]"
 		];
 i++;
 

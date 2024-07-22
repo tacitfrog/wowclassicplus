@@ -287,8 +287,8 @@ rank[i] = [
 i++;
 //Fire Warding - Fire
 rank[i] = [
-		"Increases the Fire damage dealt to attackers by your Molten Armor by 5%.  In addition, gives your Fire Ward a 10% chance to reflect Fire spells while active.",
-		"Increases the Fire damage dealt to attackers by your Molten Armor by 10%.  In addition, gives your Fire Ward a 20% chance to reflect Fire spells while active."
+		"Increases the Fire damage dealt to attackers by your Molten Armor by 5%.  In addition, gives your Fire Ward a 10% chance to reflect Fire spells and effects while active.",
+		"Increases the Fire damage dealt to attackers by your Molten Armor by 10%.  In addition, gives your Fire Ward a 20% chance to reflect Fire spells and effects while active."
 		];
 i++;
 //Master of Elements - Fire
