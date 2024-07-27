@@ -25,7 +25,7 @@ talent[i] = [0, "Paroxysm", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
 talent[i] = [0, "Contagion", "new", 3, 4, 5]; i++;
-talent[i] = [0, "Shadow Mastery", "changed", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
+talent[i] = [0, "Shadow Mastery", "", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
 talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7]; i++;
 
 treeStartStop[t] = i - 1;
@@ -36,10 +36,10 @@ talent[i] = [1, "Improved Imp", "", 3, 2, 1]; i++;
 talent[i] = [1, "Demonic Embrace", "", 5, 3, 1]; i++;
 talent[i] = [1, "Improved Health Funnel", "changed", 2, 1, 2]; i++;
 talent[i] = [1, "Improved Voidwalker", "", 3, 2, 2]; i++;
-talent[i] = [1, "Fel Intellect", "", 5, 3, 2]; i++;
+talent[i] = [1, "Fel Intellect", "changed", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
-talent[i] = [1, "Fel Stamina", "", 5, 3, 3]; i++;
+talent[i] = [1, "Fel Stamina", "changed", 5, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
@@ -48,7 +48,7 @@ talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
 talent[i] = [1, "Improved Spellstone", "changed", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
-talent[i] = [1, "Soul Link", "changed", 1, 3, 7, [getTalentID("Master Demonologist"), 5]]; i++;
+talent[i] = [1, "Soul Link", "changed", 1, 3, 7]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -186,11 +186,11 @@ rank[i] = [
 i++;
 //Shadow Mastery - Affliction
 rank[i] = [
-		"Increases the damage dealt, health drained, and mana drained by your Shadow spells by 2%.",
-		"Increases the damage dealt, health drained, and mana drained by your Shadow spells by 4%.",
-		"Increases the damage dealt, health drained, and mana drained by your Shadow spells by 6%.",
-		"Increases the damage dealt, health drained, and mana drained by your Shadow spells by 8%.",
-		"Increases the damage dealt, health drained, and mana drained by your Shadow spells by 10%."
+		"Increases the damage dealt and health drained by your Shadow spells by 2%.",
+		"Increases the damage dealt and health drained by your Shadow spells by 4%.",
+		"Increases the damage dealt and health drained by your Shadow spells by 6%.",
+		"Increases the damage dealt and health drained by your Shadow spells by 8%.",
+		"Increases the damage dealt and health drained by your Shadow spells by 10%."
 		];
 i++;
 //Seed of Corruption - Affliction
@@ -239,11 +239,11 @@ rank[i] = [
 i++;
 //Fel Intellect - Demonology
 rank[i] = [
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 3%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 6%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 9%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 3% and increases your maximum mana by 1%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 6% and increases your maximum mana by 2%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 9% and increases your maximum mana by 3%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 12% and increases your maximum mana by 4%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 15% and increases your maximum mana by 5%."
 		];
 i++;
 //Improved Succubus - Demonology
@@ -260,11 +260,11 @@ rank[i] = [
 i++;
 //Fel Stamina - Demonology
 rank[i] = [
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 3%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 6%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 9%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 3% and increases your maximum health by 1%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 6% and increases your maximum health by 2%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 9% and increases your maximum health by 3%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12% and increases your maximum health by 4%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15% and increases your maximum health by 5%."
 		];
 i++;
 //Improved Demon Armor - Demonology
