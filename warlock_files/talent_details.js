@@ -309,8 +309,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore an amount of mana equal to 2% of your maximum mana.",
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore an amount of mana equal to 4% of your maximum mana."
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of your maximum mana.",
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of your maximum mana."
 		];
 i++;
 //Master Demonologist - Demonology
