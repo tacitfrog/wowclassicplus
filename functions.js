@@ -2,8 +2,6 @@ var colorGreen = "#1AFF1A";
 var colorYellow = "#FFD100";
 var colorWhite = "#FFFFFF";
 
-var openTalent = -1;
-
 function resetTree(theTree) {
 	if (pointsTree[theTree] == 0)
 		return;
@@ -397,20 +395,11 @@ function rankTopOnRightClick(talentID) {
 }
 
 function unhideTalent(input) {
-	openTalent = input;
 	document.getElementById("talentMouseOver" + input).style.visibility = "visible";
 }
 
 function hideTalent(input) {
-	openTalent = -1;
 	document.getElementById("talentMouseOver" + input).style.visibility = "hidden";
-}
-
-function hideOpenTalent(input) {
-	if (openTalent != input) {
-		document.getElementById("talentMouseOver" + openTalent).style.visibility = "hidden";
-		openTalent = -1;
-	}
 }
 
 //changeColour function

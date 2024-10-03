@@ -11,7 +11,7 @@ i = 0;
 
 talent[i] = [0, "Arcane Subtlety", "", 2, 1, 1]; i++;
 talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
-talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
+talent[i] = [0, "Improved Arcane Missiles", "changed", 3, 3, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "", 5, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
@@ -97,10 +97,8 @@ rank[i] = [
 i++;
 //Improved Arcane Missiles - Arcane
 rank[i] = [
-		"Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missles.",
-		"Gives you a 40% chance to avoid interruption caused by damage while channeling Arcane Missles.",
-		"Gives you a 60% chance to avoid interruption caused by damage while channeling Arcane Missles.",
-		"Gives you a 80% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 33% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 66% chance to avoid interruption caused by damage while channeling Arcane Missles.",
 		"Gives you a 100% chance to avoid interruption caused by damage while channeling Arcane Missles."
 		];
 i++;
@@ -148,9 +146,9 @@ rank[i] = [
 i++;
 //Arcane Potency - Arcane
 rank[i] = [
-		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 1%.",
-		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 2%.",
-		"Increases the damage and critical strike chance of your Arcane Missiles spell when cast while Clearcasting by 3%."
+		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 2%.",
+		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 4%.",
+		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 6%."
 		];
 i++;
 //Improved Mana Shield - Arcane

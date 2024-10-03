@@ -9,6 +9,7 @@ a:hover { color:#546939; text-decoration:underline; }
 
 ul { list-style-type:none; }
 ul li, ol li { margin:0 0 5px 15px; }
+.li2 { margin-left: 25px; }
 
 input, textarea, select { background:#222; color:#7F7F7F; outline:0; width:100%; padding:7px 10px; border:0; display:block; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
 label { font-weight:600; padding:5px 0; display:block; cursor:pointer; }
@@ -126,6 +127,7 @@ body .ui-tooltip {
 .sidebar-one { width: 280px; float: left; margin: 10px 10px; }
 .sidebar-two { width: 280px; float: left; margin: 10px 10px 10px 0; }
 .sidebar-double { width: 570px; float: left; margin: 10px 10px 10px 0; }
+.sidebar-triple { width: 860px; float: left; margin: 10px 10px 10px 0; }
 .sidebar-left { width: 280px; float: left; margin: 0 0 10px; }
 .sidebar-right { width: 280px; float: left; margin: 0 0 10px; }
 

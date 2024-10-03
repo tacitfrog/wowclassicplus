@@ -37,7 +37,7 @@ talent[i] = [1, "Improved Slice and Dice", "changed", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Sprint", "changed", 2, 4, 2]; i++;
-talent[i] = [1, "Endurance", "", 2, 1, 3]; i++;
+talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
 talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Deadened Nerves", "new", 5, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
@@ -57,7 +57,7 @@ t++;
 talent[i] = [2, "Master of Deception", "changed", 5, 2, 1]; i++;
 talent[i] = [2, "Opportunity", "", 5, 3, 1]; i++;
 talent[i] = [2, "Initiative", "changed", 3, 1, 2]; i++;
-talent[i] = [2, "Elusiveness", "", 2, 2, 2]; i++;
+talent[i] = [2, "Elusiveness", "changed", 2, 2, 2]; i++;
 talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
 talent[i] = [2, "Sadistic Smile", "new", 2, 4, 2]; i++;
 talent[i] = [2, "Improved Sap", "changed", 2, 1, 3]; i++;
@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Envenom - Assassination
 rank[i] = [
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 20% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 40% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Your Eviscerate ability has a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a 60% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]"
+		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 20% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
+		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 40% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
+		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 60% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -197,7 +197,7 @@ rank[i] = [
 i++;
 //Vigor - Assassination
 rank[i] = [
-		"Increases your maximum energy by 10.  In addition, your critical strikes from abilities that add combo points cause you to regain 5 energy.<br><br>[Note: The energy regain effect does not stack with the Bonescythe 4-piece set bonus.]"
+		"Increases your maximum energy by 10.  In addition, your critical strikes from abilities that add combo points cause you to regain 5 energy.<br><br>[Note: The energy regain effect does not stack with the Bonescythe (T3 set) 4-piece set bonus.]"
 		];
 i++;
 
@@ -259,8 +259,8 @@ rank[i] = [
 i++;
 //Endurance - Combat
 rank[i] = [
-		"Reduces the cooldown of your Sprint and Evasion abilities by 45 seconds.",
-		"Reduces the cooldown of your Sprint and Evasion abilities by 90 seconds."
+		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
+		"Reduces the cooldown of your Sprint and Evasion abilities by 2 minutes."
 		];
 i++;
 //Riposte - Combat
@@ -312,7 +312,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;14 seconds, X% parry<br>&nbsp;&nbsp;2 points: 18 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 22 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 26 seconds, A% parry<br>&nbsp;&nbsp;5 points: 30 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 40),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;14 seconds, X% parry<br>&nbsp;&nbsp;2 points: 18 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 22 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 26 seconds, A% parry<br>&nbsp;&nbsp;5 points: 30 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 38),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
 		];
 i++;
 //Blade Flurry - Combat
@@ -378,8 +378,8 @@ rank[i] = [
 i++;
 //Elusiveness - Subtlety
 rank[i] = [
-		"Reduces the cooldown of your Vanish and Blind abilities by 45 seconds.",
-		"Reduces the cooldown of your Vanish and Blind abilities by 90 seconds."
+		"Reduces the cooldown of your Vanish and Blind abilities by 1 minute.",
+		"Reduces the cooldown of your Vanish and Blind abilities by 2 minutes."
 		];
 i++;
 //Camouflage - Subtlety

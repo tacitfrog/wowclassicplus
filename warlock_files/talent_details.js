@@ -21,10 +21,10 @@ talent[i] = [0, "Amplify Curse", "", 1, 3, 3]; i++;
 talent[i] = [0, "Grim Reach", "", 2, 1, 4]; i++;
 talent[i] = [0, "Nightfall", "", 2, 2, 4]; i++;
 talent[i] = [0, "Improved Drain Mana", "changed", 3, 4, 4]; i++;
-talent[i] = [0, "Paroxysm", "new", 2, 1, 5]; i++;
+talent[i] = [0, "Paroxysm", "new", 5, 1, 5]; i++;
 talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
-talent[i] = [0, "Contagion", "new", 3, 4, 5]; i++;
+talent[i] = [0, "Unstable Afflictions", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Shadow Mastery", "", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
 talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7]; i++;
 
@@ -36,10 +36,10 @@ talent[i] = [1, "Improved Imp", "", 3, 2, 1]; i++;
 talent[i] = [1, "Demonic Embrace", "", 5, 3, 1]; i++;
 talent[i] = [1, "Improved Health Funnel", "changed", 2, 1, 2]; i++;
 talent[i] = [1, "Improved Voidwalker", "", 3, 2, 2]; i++;
-talent[i] = [1, "Fel Intellect", "changed", 5, 3, 2]; i++;
+talent[i] = [1, "Fel Intellect", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
-talent[i] = [1, "Fel Stamina", "changed", 5, 3, 3]; i++;
+talent[i] = [1, "Fel Stamina", "", 5, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
@@ -119,8 +119,8 @@ rank[i] = [
 i++;
 //Improved Drain Life - Affliction
 rank[i] = [
-		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target.",
-		"Increases the health drained by your Drain Life spell by 4% for each of your other Affliction effects on the target."
+		"Increases the health drained by your Drain Life spell by 1% for each of your other Affliction effects on the target.",
+		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target."
 		];
 i++;
 //Dark Pact - Affliction
@@ -163,8 +163,11 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 20% damage when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 20% damage when damaging an enemy."
+		"Gives your Corruption and Drain Life spells a 4% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 8% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 12% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 16% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat."
 		];
 i++;
 //Siphon Life - Affliction
@@ -174,14 +177,14 @@ rank[i] = [
 i++;
 //Curse of Exhaustion - Affliction
 rank[i] = [
-		"Cast: instant.<br>Range: 30 yards.<br>Cost: 8% of base mana.<br>Reduces the target's movement speed by 10% for 12 seconds.  Only one Curse per Warlock can be active on any one target."
+		"Cast: instant.<br>Range: 30 yards.<br>Cost: 8% of base mana.<br>Reduces the target's movement speed by 10% for 12 seconds.  Only one curse per Warlock can be active on any one target."
 		];
 i++;
-//Contagion - Affliction
+//Unstable Afflictions - Affliction
 rank[i] = [
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 10% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 2%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 20% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 4%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 30% chance that the attempt will fail and the effect will also spread onto the enemy who tried to dispel it.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 6%.<br><br>[Note: The effect received by the enemy will have full duration.  If the enemy already has the effect from you, it resets the duration to full.  If Contagion occurs when an enemy tries to dispel himself (whether by spell, Restorative Potion, Moist Towelette, Spellstone, etc.), it resets the duration of the effect to full.]"
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 3% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 2%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 6% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 4%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 9% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 6%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]"
 		];
 i++;
 //Shadow Mastery - Affliction
@@ -195,7 +198,7 @@ rank[i] = [
 i++;
 //Seed of Corruption - Affliction
 rank[i] = [
-		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one Corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 410, Z = 490, A = 722 (level 56).]"
+		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 410, Z = 490, A = 722 (level 56).]"
 		];
 i++;
 
@@ -217,11 +220,11 @@ rank[i] = [
 i++;
 //Demonic Embrace - Demonology
 rank[i] = [
-		"Increases your total Stamina by 3% but reduces your total Spirit by 1%.",
-		"Increases your total Stamina by 6% but reduces your total Spirit by 2%.",
-		"Increases your total Stamina by 9% but reduces your total Spirit by 3%.",
-		"Increases your total Stamina by 12% but reduces your total Spirit by 4%.",
-		"Increases your total Stamina by 15% but reduces your total Spirit by 5%."
+		"Increases your total Stamina by 3%, but reduces your total Spirit by 1%.",
+		"Increases your total Stamina by 6%, but reduces your total Spirit by 2%.",
+		"Increases your total Stamina by 9%, but reduces your total Spirit by 3%.",
+		"Increases your total Stamina by 12%, but reduces your total Spirit by 4%.",
+		"Increases your total Stamina by 15%, but reduces your total Spirit by 5%."
 		];
 i++;
 //Improved Health Funnel - Demonology
@@ -239,11 +242,11 @@ rank[i] = [
 i++;
 //Fel Intellect - Demonology
 rank[i] = [
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 3% and increases your maximum mana by 1%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 6% and increases your maximum mana by 2%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 9% and increases your maximum mana by 3%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 12% and increases your maximum mana by 4%.",
-		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 15% and increases your maximum mana by 5%."
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 3%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 6%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 9%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
+		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
 //Improved Succubus - Demonology
@@ -260,18 +263,18 @@ rank[i] = [
 i++;
 //Fel Stamina - Demonology
 rank[i] = [
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 3% and increases your maximum health by 1%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 6% and increases your maximum health by 2%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 9% and increases your maximum health by 3%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12% and increases your maximum health by 4%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15% and increases your maximum health by 5%."
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 3%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 6%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 9%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
 //Improved Demon Armor - Demonology
 rank[i] = [
-		"Increases the armour given by your Demon Skin and Demon Armor spells by 10% and the health restored by 2 every 5 seconds.",
-		"Increases the armour given by your Demon Skin and Demon Armor spells by 20% and the health restored by 4 every 5 seconds.",
-		"Increases the armour given by your Demon Skin and Demon Armor spells by 30% and the health restored by 6 every 5 seconds."
+		"Increases the armour given by your Demon Skin and Demon Armor spells by 5% and the health restored by 2 every 5 seconds.",
+		"Increases the armour given by your Demon Skin and Demon Armor spells by 10% and the health restored by 4 every 5 seconds.",
+		"Increases the armour given by your Demon Skin and Demon Armor spells by 15% and the health restored by 6 every 5 seconds."
 		];
 i++;
 //Master Summoner - Demonology
@@ -291,9 +294,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Destruction
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
 		];
 i++;
 //Improved Enslave Demon - Demonology
@@ -309,8 +312,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of your maximum mana.",
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of your maximum mana."
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of maximum mana.",
+		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of maximum mana."
 		];
 i++;
 //Master Demonologist - Demonology

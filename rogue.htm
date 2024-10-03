@@ -24,8 +24,11 @@
 				<div class="goals">
 					<div class="goals-header">Primary Goals:</div>
 					<ul>
-						<li>Make heavy Assassination/poisons builds viable without adding Mutilate.</li>
-						<li>Make viable Combat/Subtlety builds that enable a Rogue to tank in 5-man dungeons from level 30 (either with Sinister Strike, or Hemorrhage for bleed tanking).</li>
+						<li>Slightly buff Assassination/poisons builds; improve viability without adding Mutilate.</li>
+						<li>Make viable Combat/Subtlety tanking builds that enable a Rogue to tank in 5-man dungeons from level 30.</li>
+						<li class="li2">Add a tanking poison that does not run out of charges (like Crippling Poison).</li>
+						<li class="li2">Add a mechanism to overcome bad proc luck to enable reliable late-game tanking (Shiv).</li>
+						<li class="li2">Accommodate bleed tanking builds using Hemorrhage.</li>
 					</ul>
 				</div>
 			</div>
@@ -44,6 +47,7 @@
 					<div class="sidebar-region">
 						<ul id="spec1">
 							<li class="talentChanged"><span>Improved Sprint (available earlier)</span></li>
+							<li class="talentChanged"><span>Endurance (-1 minute per point)</span></li>
 							<li class="talentNew"><span>Deadened Nerves (passive defence, enables the Rogue to achieve 20% damage reduction if tanking with Blade Dance)</span></li>
 							<li class="talentChanged"><span>Dagger Specialization & Fist Weapon Specialization (merged [from WOTLK])</span></li>
 							<li class="talentNew"><span>Blade Dance (tanking finishing move [from SOD], periodic AOE threat)</span></li>
@@ -52,14 +56,16 @@
 					<div class="sidebar-header treenamecolour"><img src="rogue_files/icon2.png" class="talenttreeicon">Subtlety</div>
 					<div class="sidebar-region">
 						<ul id="spec2">
-							<li class="talentChanged"><span>Master of Deception (includes Sleight of Hand)</span></li>
+							<li class="talentChanged"><span>Master of Deception (reduces chance to be crit)</span></li>
+							<li><span>Sleight of Hand (removed; unpopular)</span></li>
 							<li class="talentChanged"><span>Initiative (available earlier)</span></li>
-							<li class="talentNew"><span>Sadistic Smile (extra threat for tanking)</span></li>
-							<li class="talentChanged"><span>Improved Sap (100% reliable [from TBC], available earlier for low level dungeons)</span></li>
+							<li class="talentChanged"><span>Elusiveness (-1 minute per point)</span></li>
+							<li class="talentNew"><span>Sadistic Smile (extra threat for bleed tanking)</span></li>
+							<li class="talentChanged"><span>Improved Sap (100% reliable [from TBC]; available earlier for low level dungeons)</span></li>
 							<li class="talentChanged"><span>Heightened Senses (available earlier)</span></li>
 							<li class="talentNew"><span>Cheat Death ([from TBC]; requires a defensive ability to be active, so not just a freebie; helps mitigate randomness in avoidance tanking)</span></li>
 							<li class="talentChanged"><span>Hemorrhage (stronger bonus but fewer charges [from TBC], refreshes bleeds on hit to enable a bleed tank option; added extra rank)</span></li>
-							<li class="talentChanged"><span>Premeditation (increases damage of next attack against the target [from Shadowstep, TBC])</span></li>
+							<li class="talentChanged"><span>Premeditation (increases damage of next attack on the target [from Shadowstep, TBC])</span></li>
 						</ul>
 					</div>
 				</div>
@@ -87,16 +93,6 @@
 									The poison applied to the offhand weapon also counts as being applied to any thrown weapons that the Rogue uses.  The Throw ability benefits from all active poison-enhancing talents and bonuses that are affecting the Rogue.
 								</div>
 							</li>
-							<li>
-								&nbsp;<div class="ability-icon"><img src="rogue_files/sliceanddice.jpg"></div>
-								<table>
-									<tr><td><span class="ability-name">Slice and Dice</span></td></tr>
-								</table>
-								<div class="clear"></div>
-								<div class="ability-text">
-									Slice and Dice is now categorised as a Combat ability (and so is Blade Dance).
-								</div>
-							</li>
 						</ul>
 					</div>
 					<div class="sidebar-header">New Abilities</div>
@@ -121,7 +117,7 @@
 								</table>
 								<div class="clear"></div>
 								<div class="ability-text">
-									Each strike has a 30% chance of poisoning the enemy, reducing their armour by X for 15 seconds and causing a large amount of threat.  Stacks up to 5 times.
+									Each strike has a 30% chance of poisoning the enemy, reducing their armour by X for 10 seconds and causing a large amount of threat.  Stacks up to 5 times.
 									<br class="padder">[Note: Does not stack with other armour reduction effects.  Lasts 30 minutes and has unlimited charges (like Crippling Poison).]
 									<br class="padder">[Rank 1: X = 200, Y = <span class="ability-reagent"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="miscellaneous_files/vial.jpg" title="Leaded Vial"></span> (level 30),
 									<br>&nbsp;Rank 2: X = 300, Y = <span class="ability-reagent"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/corrosionpowder.jpg" title="Corrosion Powder"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 42),

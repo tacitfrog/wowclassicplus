@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="internal.css">
+	
+    <title>WOW Classic+ Project</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content-wrap">
+			<div class="content content-3">
+				<div id="replaceMeWithHeader"></div>
+				<div id="replaceMeWithIcons"></div>
+				<div id="replaceMeWithTalents"></div>
+				<div class="clear"></div>
+				<div class="goals">
+					<div class="goals-header">Primary Goals:</div>
+					<ul>
+						<li>Slightly buff the Beast Mastery tree to give more meaningful options.</li>
+						<li>Tidy the Marksmanship tree and remove bloat.</li>
+						<li class="li2">Make Scorpid Sting useful.</li>
+						<li>Improve Survival builds with a focus on solo play and PvP.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="sidebar-one">
+					<div class="sidebar-header treenamecolour"><img src="hunter_files/icon0.png" class="talenttreeicon">Beast Mastery</div>
+					<div class="sidebar-region">
+						<ul id="spec0">
+							<li><span>Improved Eyes of the Beast (removed; was used to pull bosses in MC in the early days)</span></li>
+							<li class="talentChanged"><span>Pathfinding (available earlier; Aspect of the Beast reduces agro range of Beasts)</span></li>
+							<li class="talentChanged"><span>Improved Aspect of the Monkey (3 ranks)</span></li>
+							<li class="talentNew"><span>Kill Training (improves focus management)</span></li>
+							<li class="talentChanged"><span>Spirit Bond (better value per point)</span></li>
+							<li class="talentChanged"><span>Bestial Discipline (3 ranks)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header treenamecolour"><img src="hunter_files/icon1.png" class="talenttreeicon">Marksmanship</div>
+					<div class="sidebar-region">
+						<ul id="spec1">
+							<li class="talentChanged"><span>Improved Arcane Shot (2 ranks; available for low level players)</span></li>
+							<li class="talentChanged"><span>Improved Hunter's Mark (3 ranks)</span></li>
+							<li class="talentNew"><span>Rapid Killing (reduces cooldown on Rapid Fire [from TBC])</span></li>
+							<li class="talentChanged"><span>Improved Stings (renamed from Improved Serpent Sting; more damage and resistance to dispel [from TBC])</span></li>
+							<li><span>Improved Scorpid Sting (removed; unpopular)</span></li>
+							<li class="talentNew"><span>Careful Aim (increases ranged attack power by Intellect [from TBC])</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header treenamecolour"><img src="hunter_files/icon2.png" class="talenttreeicon">Survival</div>
+					<div class="sidebar-region">
+						<ul id="spec2">
+							<li class="talentChanged"><span>Trap Mastery (available earlier; reduced effect)</span></li>
+							<li class="talentChanged"><span>Monster Slaying (available later)</span></li>
+							<li class="talentChanged"><span>Savage Strikes (includes Counterattack)</span></li>
+							<li class="talentChanged"><span>Improved Wing Clip (3 ranks; increased proc chance to discourage spamming but added a cooldown)</span></li>
+							<li class="talentChanged"><span>Improved Feign Death (reduces cooldown)</span></li>
+							<li class="talentNew"><span>Resourcefulness (reduces cost and cooldown of traps and melee abilities [from TBC])</span></li>
+							<li class="talentChanged"><span>Counterattack (increased base damage)</span></li>
+							<li class="talentChanged"><span>Wyvern Sting (added slow effect)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header">Modified Items</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="miscellaneous_files/striker's.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Striker's Set</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">The Striker's (T2.5AQ set) 3-piece set bonus now reduces the mana cost of Arcane Shot by 20%, instead of 10%, and the 5-piece set bonus now decreases the cooldown of Rapid Fire by 1 minute, instead of 2 minutes.</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidebar-two">
+					<div class="sidebar-header">Modified Services</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="hunter_files/stable.png"></div>
+								<table>
+									<tr><td><span class="ability-name">Stable Master</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									The number of pets that can be stabled has been increased from 2 to 4.  However, only the first stable slot is free; the others must be unlocked for a fee, similar to bag slots in the bank.  The second costs 1 gold to unlock.  The third requires level 40 and costs 10 gold.  The fourth requires level 60 and costs 100 gold.
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebar-header">Modified Abilities</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="hunter_files/feedpet.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Feed Pet</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Feed Pet now applies any Well Fed bonus to the pet, just as it would to a player, as long as the pet is allowed to eat without attacking or being attacked for the required amount of time.
+									<br class="padder">In addition, Feed Pet can now be used while mounted without dismounting the Hunter.
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="hunter_files/scorpidsting.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Scorpid Sting</span><br>Cast: instant.  Cost: Z mana.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Stings the target, reducing Strength and Agility by X and chance to hit with melee and ranged weapons by Y% for 20 seconds.  Only one sting per Hunter can be active on any one target.  (Requires Ranged Weapon.)
+									<br class="padder">[Rank 1: X = 20, Y = 1, Z = 70 &nbsp;&nbsp;(level 22),
+									<br>&nbsp;Rank 2: X = 29, Y = 1, Z = 90 &nbsp;&nbsp;(level 32),
+									<br>&nbsp;Rank 3: X = 45, Y = 2, Z = 125 (level 42),
+									<br>&nbsp;Rank 4: X = 68, Y = 3, Z = 165 (level 52).]
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebar-header">New Abilities</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="hunter_files/killcommand.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Kill Command</span><br>Cast: instant.  Cost: 75 mana.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Give the command to kill, causing your pet to instantly attack for an additional 65 damage.  Can only be used after the Hunter lands a critical strike on the target.  (Cooldown: 20 seconds.) [From TBC.]
+									<br class="padder">[Rank 1, learned from a level 60 bind-on-equip tome dropped by bosses in <a href="pve.htm">Karazhan Tower</a>.]
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="hunter_files/raptorstrike.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Raptor Strike (Rank 9)</span><br>Cast: instant.  Cost: 110 mana.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									A strong attack that increases melee damage by 165.  (Cooldown: 6 seconds.)
+									<br class="padder">[Rank 9, learned from a level 60 bind-on-equip tome dropped by bosses in <a href="pve.htm">Karazhan Tower</a>.]
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="variables.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="hunter_files/talent_details.js"></script>
+	<script type="text/javascript" src="populateArrays.js"></script>
+	<script type="text/javascript" src="putContent.js"></script>
+</body>
+
+</html>
