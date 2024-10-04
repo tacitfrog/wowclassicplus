@@ -21,7 +21,7 @@ talent[i] = [0, "Amplify Curse", "", 1, 3, 3]; i++;
 talent[i] = [0, "Grim Reach", "", 2, 1, 4]; i++;
 talent[i] = [0, "Nightfall", "", 2, 2, 4]; i++;
 talent[i] = [0, "Improved Drain Mana", "changed", 3, 4, 4]; i++;
-talent[i] = [0, "Paroxysm", "new", 5, 1, 5]; i++;
+talent[i] = [0, "Paroxysm", "new", 3, 1, 5]; i++;
 talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
 talent[i] = [0, "Unstable Afflictions", "new", 3, 4, 5]; i++;
@@ -163,11 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 4% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 8% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 12% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 16% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 30% damage when damaging an enemy.  This does not cause any additional threat."
+		"Gives your Corruption and Drain Life spells a 5% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 15% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat."
 		];
 i++;
 //Siphon Life - Affliction
