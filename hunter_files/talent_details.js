@@ -53,14 +53,15 @@ talent[i] = [2, "Humanoid Slaying", "", 3, 2, 1]; i++;
 talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
 talent[i] = [2, "Monster Slaying", "changed", 3, 2, 2]; i++;
-talent[i] = [2, "Savage Strikes", "changed", 2, 3, 2]; i++;
-talent[i] = [2, "Improved Wing Clip", "changed", 3, 4, 2]; i++;
+talent[i] = [2, "Improved Wing Clip", "changed", 3, 3, 2]; i++;
+talent[i] = [2, "Savage Strikes", "changed", 2, 4, 2]; i++;
 talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
 talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
+talent[i] = [2, "Onslaught", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
 talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
-talent[i] = [2, "Improved Feign Death", "changed", 2, 4, 4]; i++;
-talent[i] = [2, "Resourcefulness", "new", 2, 1, 5]; i++;
+talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
+talent[i] = [2, "Resourcefulness", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Killer Instinct", "", 3, 2, 5]; i++;
 talent[i] = [2, "Counterattack", "changed", 1, 3, 5, [getTalentID("Deterrence"), 1]]; i++;
 talent[i] = [2, "Lightning Reflexes", "", 5, 3, 6]; i++;
@@ -340,17 +341,17 @@ rank[i] = [
 		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 3% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 3%."
 		];
 i++;
+//Improved Wing Clip - Survival
+rank[i] = [
+		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
+		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
+		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds."
+		];
+i++;
 //Savage Strikes - Survival
 rank[i] = [
 		"Increases the critical strike chance of your Raptor Strike, Mongoose Bite, and Counterattack abilities by 10%.",
 		"Increases the critical strike chance of your Raptor Strike, Mongoose Bite, and Counterattack abilities by 20%."
-		];
-i++;
-//Improved Wing Clip - Survival
-rank[i] = [
-		"Gives your Wing Clip ability a 15% chance to immobilize the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
-		"Gives your Wing Clip ability a 30% chance to immobilize the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
-		"Gives your Wing Clip ability a 45% chance to immobilize the target for 5 seconds.  This effect cannot occur more than once per 20 seconds."
 		];
 i++;
 //Clever Traps - Survival
@@ -373,6 +374,11 @@ rank[i] = [
 		"Cast: instant.<br>When activated, increases your dodge and parry chance by 25% for 10 seconds.  (Cooldown: 5 minutes.)"
 		];
 i++;
+//Onslaught - Survival
+rank[i] = [
+		"Your melee critical strikes finish the cooldown of your Raptor Strike."
+		];
+i++;
 //Surefooted - Survival
 rank[i] = [
 		"Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by an additional 5%.",
@@ -382,14 +388,15 @@ rank[i] = [
 i++;
 //Improved Feign Death - Survival
 rank[i] = [
-		"Reduces the chance your Feign Death ability will be resisted by 2% and reduces its cooldown by 2 seconds.",
-		"Reduces the chance your Feign Death ability will be resisted by 4% and reduces its cooldown by 4 seconds."
+		"Reduces the chance your Feign Death ability will be resisted by 2%.",
+		"Reduces the chance your Feign Death ability will be resisted by 4%."
 		];
 i++;
 //Resourcefulness - Survival
 rank[i] = [
 		"Reduces the mana cost of all traps and melee abilities by 20% and reduces the cooldown of all traps by 2 seconds.",
-		"Reduces the mana cost of all traps and melee abilities by 40% and reduces the cooldown of all traps by 4 seconds."
+		"Reduces the mana cost of all traps and melee abilities by 40% and reduces the cooldown of all traps by 4 seconds.",
+		"Reduces the mana cost of all traps and melee abilities by 60% and reduces the cooldown of all traps by 6 seconds."
 		];
 i++;
 //Killer Instinct - Survival
@@ -401,7 +408,7 @@ rank[i] = [
 i++;
 //Counterattack - Survival
 rank[i] = [
-		"Cast: instant.<br>Cost: Y mana.<br>A strike that becomes active after parrying an opponent's attack.  This attack deals X damage and immobilizes the target for 5 seconds.  Counterattack cannot be blocked, dodged, or parried.  (Cooldown: 5 seconds.)<br><br>[Rank 1: X = 60, &nbsp;&nbsp;Y = 45,<br>&nbsp;Rank 2: X = 105, Y = 65 (level 42),<br>&nbsp;Rank 3: X = 165, Y = 85 (level 54).]"
+		"Cast: instant.<br>Cost: Y mana.<br>A strike that becomes active after parrying an opponent's attack.  This attack deals X damage and immobilises the target for 5 seconds.  Counterattack cannot be blocked, dodged, or parried.  (Cooldown: 5 seconds.)<br><br>[Rank 1: X = 60, &nbsp;&nbsp;Y = 45,<br>&nbsp;Rank 2: X = 105, Y = 65 (level 42),<br>&nbsp;Rank 3: X = 165, Y = 85 (level 54).]"
 		];
 i++;
 //Lightning Reflexes - Survival
