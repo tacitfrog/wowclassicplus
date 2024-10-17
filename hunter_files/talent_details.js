@@ -48,7 +48,7 @@ talent[i] = [1, "Trueshot Aura", "", 1, 2, 7, [getTalentID("Barrage"), 3]]; i++;
 treeStartStop[t] = i - 1;
 t++;
 
-talent[i] = [2, "Trap Mastery", "changed", 2, 1, 1]; i++;
+talent[i] = [2, "Improved Raptor Strike", "new", 2, 1, 1]; i++;
 talent[i] = [2, "Humanoid Slaying", "", 3, 2, 1]; i++;
 talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
@@ -59,6 +59,7 @@ talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
 talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
 talent[i] = [2, "Onslaught", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
+talent[i] = [2, "Trap Mastery", "", 2, 1, 4]; i++;
 talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
 talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
 talent[i] = [2, "Resourcefulness", "new", 3, 1, 5]; i++;
@@ -95,8 +96,8 @@ rank[i] = [
 i++;
 //Pathfinding - Beast Mastery
 rank[i] = [
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet while active.",
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet while active.  More effective than Pathfinding (Rank 1)."
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.",
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.  More effective than Pathfinding (Rank 1)."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
@@ -280,9 +281,9 @@ rank[i] = [
 i++;
 //Careful Aim - Marksmanship
 rank[i] = [
-		"Increases your ranged attack power by an amount equal to 10% of your Intellect.",
-		"Increases your ranged attack power by an amount equal to 20% of your Intellect.",
-		"Increases your ranged attack power by an amount equal to 30% of your Intellect."
+		"Increases your ranged attack power by an amount equal to 5% of your Intellect and the damage dealt by your Arcane Shot by 10%.",
+		"Increases your ranged attack power by an amount equal to 10% of your Intellect and the damage dealt by your Arcane Shot by 20%.",
+		"Increases your ranged attack power by an amount equal to 15% of your Intellect and the damage dealt by your Arcane Shot by 30%."
 		];
 i++;
 //Ranged Weapon Specialization - Marksmanship
@@ -303,10 +304,10 @@ i++;
 
 //SURVIVAL
 
-//Trap Mastery - Survival
+//Improved Raptor Strike - Survival
 rank[i] = [
-		"Decreases the chance enemies will resist your trap effects by 3%.",
-		"Decreases the chance enemies will resist your trap effects by 6%."
+		"Increases the damage dealt by your Raptor Strike ability by 3%.",
+		"Increases the damage dealt by your Raptor Strike ability by 6%."
 		];
 i++;
 //Humanoid Slaying - Survival
@@ -343,9 +344,9 @@ rank[i] = [
 i++;
 //Improved Wing Clip - Survival
 rank[i] = [
-		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
-		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds.",
-		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 20 seconds."
+		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds.",
+		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds.",
+		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds."
 		];
 i++;
 //Savage Strikes - Survival
@@ -377,6 +378,12 @@ i++;
 //Onslaught - Survival
 rank[i] = [
 		"Your melee critical strikes finish the cooldown of your Raptor Strike."
+		];
+i++;
+//Trap Mastery - Survival
+rank[i] = [
+		"Decreases the chance enemies will resist your trap effects by 5%.",
+		"Decreases the chance enemies will resist your trap effects by 10%."
 		];
 i++;
 //Surefooted - Survival
