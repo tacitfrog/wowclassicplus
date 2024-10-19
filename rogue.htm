@@ -38,6 +38,7 @@
 					<div class="sidebar-region">
 						<ul id="spec0">
 							<li class="talentChanged"><span>Improved Backstab & Improved Slice and Dice (swapped positions [from TBC])</span></li>
+							<li class="talentChanged"><span>Improved Expose Armor & Murder (swapped positions)</span></li>
 							<li class="talentNew"><span>Envenom (Eviscerate can activate poisons)</span></li>
 							<li class="talentNew"><span>Crippling Brew (Instant Poison also applies Crippling Poison [from WOTLK])</span></li>
 							<li class="talentChanged"><span>Vigor (regains energy, requires 5/5 Seal Fate)</span></li>
@@ -66,23 +67,6 @@
 							<li class="talentNew"><span>Cheat Death ([from TBC]; requires a defensive ability to be active, so not just a freebie; helps mitigate randomness in avoidance tanking)</span></li>
 							<li class="talentChanged"><span>Hemorrhage (stronger bonus but fewer charges [from TBC], refreshes bleeds on hit to enable a bleed tank option; added extra rank)</span></li>
 							<li class="talentChanged"><span>Premeditation (increases damage of next attack on the target [from Shadowstep, TBC])</span></li>
-						</ul>
-					</div>
-					<div class="sidebar-header">New Abilities (1/2)</div>
-					<div class="sidebar-region">
-						<ul>
-							<li>
-								&nbsp;<div class="ability-icon"><img src="rogue_files/corrosionpowder.jpg"></div>
-								<table>
-									<tr><td><span class="ability-name">Corrosion Powder</span><br>Reagent: Khadgar's Whisker.</td></tr>
-								</table>
-								<div class="clear"></div>
-								<div class="ability-text">
-									Creates the reagent for Corrosive Poison.  One Khadgar's Whisker makes 3 Corrosion Powder.
-									<br class="padder">[Note: Corrosion Powder is also sometimes contained in Heavy Junkboxes.]
-									<br class="padder">[Rank 1, learned from trainer at level 42.  Requires 235 Poison skill.]
-								</div>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -118,12 +102,12 @@
 								</table>
 								<div class="clear"></div>
 								<div class="ability-text">
-									Wound Poison (Rank 1/2/3/4) now reduces healing taken by 66/90/126/162 per dose (an increase of 20%).
+									The effectiveness of Wound Poison has been increased by 20%: Rank 1/2/3/4 now reduces healing taken by 66/90/126/162 per dose.
 								</div>
 							</li>
 						</ul>
 					</div>
-					<div class="sidebar-header">New Abilities (2/2)</div>
+					<div class="sidebar-header">New Abilities</div>
 					<div class="sidebar-region">
 						<ul>
 							<li>
@@ -139,19 +123,31 @@
 								</div>
 							</li>
 							<li>
-								&nbsp;<div class="ability-icon"><img src="rogue_files/corrosivepoison.jpg"></div>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/spitefulpoison.jpg"></div>
 								<table>
-									<tr><td><span class="ability-name">Corrosive Poison</span><br>Reagents: Y.</td></tr>
+									<tr><td><span class="ability-name">Spiteful Poison</span><br>Reagents: Y.</td></tr>
 								</table>
 								<div class="clear"></div>
 								<div class="ability-text">
-									Each strike has a 30% chance of poisoning the enemy, reducing their armour by X for 10 seconds and causing a large amount of threat.  Stacks up to 5 times.
-									<br class="padder">[Note: Does not stack with other armour reduction effects.  Lasts 30 minutes and has unlimited charges (like Crippling Poison).]
-									<br class="padder">[Rank 1: X = 200, Y = <span class="ability-reagent"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="rogue_files/dustofdecay.jpg" title="Dust of Decay"><img src="miscellaneous_files/vial.jpg" title="Leaded Vial"></span> (level 30),
-									<br>&nbsp;Rank 2: X = 300, Y = <span class="ability-reagent"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/corrosionpowder.jpg" title="Corrosion Powder"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 42),
-									<br>&nbsp;Rank 3: X = 400, Y = <span class="ability-reagent"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/corrosionpowder.jpg" title="Corrosion Powder"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 54),
-									<br>&nbsp;Rank 4: X = 450, Y = <span class="ability-reagent"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/dustofdeterioration.jpg" title="Dust of Deterioration"><img src="rogue_files/corrosionpowder.jpg" title="Corrosion Powder"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> (level 60).
+									Each strike has a 30% chance of poisoning the enemy which instantly inflicts X Nature damage and causes a large amount of threat.
+									<br class="padder">[Note: Lasts 30 minutes and has unlimited charges (just like Crippling Poison).]
+									<br class="padder">[Rank 1: X = 22, Y = <span class="ability-reagent"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="miscellaneous_files/vial.jpg" title="Leaded Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 30),
+									<br>&nbsp;Rank 2: X = 48, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 42),
+									<br>&nbsp;Rank 3: X = 71, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 54),
+									<br>&nbsp;Rank 4: X = 81, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> (level 60).
 									<br>Ranks 1-3 are learned from trainer; Rank 4 is learned from a bind-on-equip tome dropped by bosses in <a href="pve.htm">Karazhan Tower</a>.]
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/spitepowder.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Spite Powder</span><br>Reagent: Khadgar's Whisker.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Creates the reagent for Spiteful Poison.  One Khadgar's Whisker makes 3 Spite Powder.
+									<br class="padder">[Note: Spite Powder is also sometimes found in Heavy Junkboxes.]
+									<br class="padder">[Rank 1, learned from trainer at level 42.  Requires 235 Poison skill.]
 								</div>
 							</li>
 						</ul>
