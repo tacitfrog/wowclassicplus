@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 5% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 15% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat."
+		"Gives your Corruption and Drain Life spells a 5% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  The additional damage does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  The additional damage does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 15% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  The additional damage does not cause any additional threat."
 		];
 i++;
 //Siphon Life - Affliction
@@ -196,7 +196,7 @@ rank[i] = [
 i++;
 //Seed of Corruption - Affliction
 rank[i] = [
-		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 410, Z = 490, A = 722 (level 56).]"
+		"Cast: 2 seconds.<br>Range: 30 yards.<br>Cost: A mana.<br>Imbeds a demon seed in the enemy target, causing X Shadow damage over 18 sec.  When the target takes X total damage or dies, the seed will inflict Y to Z Shadow damage to all other enemies within 15 yards of the target.  Only one corruption spell per Warlock can be active on any one target.<br><br>[Note: The explosion component cannot critically hit.]<br>[Rank 1: X = 324, Y = 164, Z = 204, A = 474,<br>&nbsp;Rank 2: X = 486, Y = 286, Z = 326, A = 580 (level 48),<br>&nbsp;Rank 3: X = 666, Y = 428, Z = 470, A = 722 (level 56).]"
 		];
 i++;
 

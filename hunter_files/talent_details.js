@@ -59,7 +59,7 @@ talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
 talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
 talent[i] = [2, "Onslaught", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
-talent[i] = [2, "Trap Mastery", "", 2, 1, 4]; i++;
+talent[i] = [2, "Trap Mastery", "changed", 2, 1, 4]; i++;
 talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
 talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
 talent[i] = [2, "Resourcefulness", "new", 3, 1, 5]; i++;
@@ -382,8 +382,8 @@ rank[i] = [
 i++;
 //Trap Mastery - Survival
 rank[i] = [
-		"Decreases the chance enemies will resist your trap effects by 5%.",
-		"Decreases the chance enemies will resist your trap effects by 10%."
+		"Decreases the chance enemies will resist your trap effects by 5% and reduces the cooldown of all traps by 2 seconds.",
+		"Decreases the chance enemies will resist your trap effects by 10% and reduces the cooldown of all traps by 4 seconds."
 		];
 i++;
 //Surefooted - Survival
@@ -401,9 +401,9 @@ rank[i] = [
 i++;
 //Resourcefulness - Survival
 rank[i] = [
-		"Reduces the mana cost of all traps and melee abilities by 20% and reduces the cooldown of all traps by 2 seconds.",
-		"Reduces the mana cost of all traps and melee abilities by 40% and reduces the cooldown of all traps by 4 seconds.",
-		"Reduces the mana cost of all traps and melee abilities by 60% and reduces the cooldown of all traps by 6 seconds."
+		"Reduces the mana cost of all traps and melee abilities by 20%.",
+		"Reduces the mana cost of all traps and melee abilities by 40%.",
+		"Reduces the mana cost of all traps and melee abilities by 60%."
 		];
 i++;
 //Killer Instinct - Survival

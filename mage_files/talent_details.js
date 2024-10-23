@@ -58,7 +58,7 @@ talent[i] = [2, "Improved Frostbolt", "", 5, 2, 1]; i++;
 talent[i] = [2, "Elemental Precision", "", 3, 3, 1]; i++;
 talent[i] = [2, "Ice Shards", "", 5, 1, 2]; i++;
 talent[i] = [2, "Frostbite", "", 3, 2, 2]; i++;
-talent[i] = [2, "Improved Frost Nova", "", 2, 3, 2]; i++;
+talent[i] = [2, "Improved Frost Nova", "changed", 2, 3, 2]; i++;
 talent[i] = [2, "Permafrost", "", 3, 4, 2]; i++;
 talent[i] = [2, "Piercing Ice", "", 3, 1, 3]; i++;
 talent[i] = [2, "Cold Snap", "", 1, 2, 3]; i++;
@@ -146,9 +146,9 @@ rank[i] = [
 i++;
 //Arcane Potency - Arcane
 rank[i] = [
-		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 2%.",
-		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 4%.",
-		"Increases the damage of your Arcane Missiles spell when cast while Clearcasting by 6%."
+		"Increases the damage of your Arcane Missiles spell by 2% when cast while Clearcasting.",
+		"Increases the damage of your Arcane Missiles spell by 4% when cast while Clearcasting.",
+		"Increases the damage of your Arcane Missiles spell by 6% when cast while Clearcasting."
 		];
 i++;
 //Improved Mana Shield - Arcane
@@ -373,8 +373,8 @@ rank[i] = [
 i++;
 //Improved Frost Nova - Frost
 rank[i] = [
-		"Reduces the cooldown of your Frost Nova spell by 2 seconds.",
-		"Reduces the cooldown of your Frost Nova spell by 4 seconds."
+		"Reduces the cooldown of your Frost Nova spell by 3 seconds.",
+		"Reduces the cooldown of your Frost Nova spell by 6 seconds."
 		];
 i++;
 //Permafrost - Frost
