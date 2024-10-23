@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 5% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat.",
-		"Gives your Corruption and Drain Life spells a 15% chance to deal or drain an additional 35% damage when damaging an enemy.  This does not cause any additional threat."
+		"Gives your Corruption and Drain Life spells a 5% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 10% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat.",
+		"Gives your Corruption and Drain Life spells a 15% chance to deal or drain an additional 35% damage or health when damaging or draining an enemy.  This does not cause any additional threat."
 		];
 i++;
 //Siphon Life - Affliction
@@ -180,9 +180,9 @@ rank[i] = [
 i++;
 //Unstable Afflictions - Affliction
 rank[i] = [
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 3% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 2%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 6% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 4%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"When an enemy attempts to dispel your Corruption, Seed of Corruption, or Siphon Life effects, there is a 9% chance that the attempt will fail and that the dispeller will instead suffer X to Y Shadow damage and be silenced for 3 seconds.  In addition, all damage dealt by your Corruption and Seed of Corruption spells is increased by 6%.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]"
+		"Gives your Corruption, Seed of Corruption, and Siphon Life effects an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and Siphon Life effects an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and Siphon Life effects an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]"
 		];
 i++;
 //Shadow Mastery - Affliction
@@ -290,11 +290,11 @@ rank[i] = [
 		"Increases the critical strike chance of your Imp's Firebolt spell by 5% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
 		];
 i++;
-//Improved Firestone - Destruction
+//Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: This can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
 		];
 i++;
 //Improved Enslave Demon - Demonology
