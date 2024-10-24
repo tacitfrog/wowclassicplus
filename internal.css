@@ -319,11 +319,11 @@ span.talentNameStyle {
 }
 
 img.classIcon {
-	height: 40px;
-	width: 40px;
+	height: 36px;
+	width: 36px;
 	border-radius: 4px;
 	border: solid 2px #2D2D2D!important;
-    margin: 0 5px 0 0;
+    margin: 0 3px 0 0;
     -webkit-transition: border-color 400ms ease-out;
     -moz-transition: border-color 400ms ease-out;
     -o-transition: border-color 400ms ease-out;
