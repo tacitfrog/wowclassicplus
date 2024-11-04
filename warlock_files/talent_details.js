@@ -65,10 +65,10 @@ talent[i] = [2, "Intensity", "", 2, 1, 4]; i++;
 talent[i] = [2, "Destructive Reach", "", 2, 2, 4]; i++;
 talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
 talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
-talent[i] = [2, "Improved Immolate", "changed", 3, 2, 5]; i++;
+talent[i] = [2, "Improved Immolate", "", 5, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
-talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 3]]; i++;
+talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -423,9 +423,11 @@ rank[i] = [
 i++;
 //Improved Immolate - Destruction
 rank[i] = [
+		"Increases the initial damage of your Immolate spell by 5%.",
 		"Increases the initial damage of your Immolate spell by 10%.",
+		"Increases the initial damage of your Immolate spell by 15%.",
 		"Increases the initial damage of your Immolate spell by 20%.",
-		"Increases the initial damage of your Immolate spell by 30%."
+		"Increases the initial damage of your Immolate spell by 25%."
 		];
 i++;
 //Ruin - Destruction
