@@ -58,7 +58,7 @@ talent[i] = [2, "Savage Strikes", "changed", 2, 4, 2]; i++;
 talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
 talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
-talent[i] = [2, "Onslaught", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
+talent[i] = [2, "Opportunity", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
 talent[i] = [2, "Trap Mastery", "changed", 2, 1, 4]; i++;
 talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
 talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
@@ -306,8 +306,8 @@ i++;
 
 //Improved Raptor Strike - Survival
 rank[i] = [
-		"Increases the damage dealt by your Raptor Strike ability by 3%.",
-		"Increases the damage dealt by your Raptor Strike ability by 6%."
+		"Increases the damage done by your Raptor Strike ability by 3%.",
+		"Increases the damage done by your Raptor Strike ability by 6%."
 		];
 i++;
 //Humanoid Slaying - Survival
@@ -375,9 +375,9 @@ rank[i] = [
 		"Cast: instant.<br>When activated, increases your dodge and parry chance by 25% for 10 seconds.  (Cooldown: 5 minutes.)"
 		];
 i++;
-//Onslaught - Survival
+//Opportunity - Survival
 rank[i] = [
-		"Your melee critical strikes finish the cooldown of your Raptor Strike."
+		"Increases the critical strike chance of your Raptor Strike ability by 50% against targets that are immobilised, rooted, or frozen."
 		];
 i++;
 //Trap Mastery - Survival
