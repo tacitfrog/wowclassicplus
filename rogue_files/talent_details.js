@@ -271,11 +271,11 @@ rank[i] = [
 i++;
 //Deadened Nerves - Combat
 rank[i] = [
-		"Reduces all Physical damage you take by 2%.  In addition, Blade Dance reduces all Physical damage you take by a further 0.4% per combo point while active.",
-		"Reduces all Physical damage you take by 4%.  In addition, Blade Dance reduces all Physical damage you take by a further 0.8% per combo point while active.",
-		"Reduces all Physical damage you take by 6%.  In addition, Blade Dance reduces all Physical damage you take by a further 1.2% per combo point while active.",
-		"Reduces all Physical damage you take by 8%.  In addition, Blade Dance reduces all Physical damage you take by a further 1.6% per combo point while active.",
-		"Reduces all Physical damage you take by 10%.  In addition, Blade Dance reduces all Physical damage you take by a further 2% per combo point while active."
+		"Reduces all Physical damage you take by 2%.",
+		"Reduces all Physical damage you take by 4%.",
+		"Reduces all Physical damage you take by 6%.",
+		"Reduces all Physical damage you take by 8%.",
+		"Reduces all Physical damage you take by 10%."
 		];
 i++;
 //Improved Kick - Combat
