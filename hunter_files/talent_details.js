@@ -377,7 +377,7 @@ rank[i] = [
 i++;
 //Opportunity - Survival
 rank[i] = [
-		"Increases the critical strike chance of your Raptor Strike ability by 50% against targets that are immobilised, rooted, or frozen."
+		"Increases the critical strike chance of your Raptor Strike ability by 50% against targets that are immobilised, rooted, frozen, or stunned."
 		];
 i++;
 //Trap Mastery - Survival
