@@ -146,9 +146,9 @@ rank[i] = [
 i++;
 //Arcane Potency - Arcane
 rank[i] = [
-		"Increases the damage of your Arcane Missiles spell by 2% when cast while Clearcasting.",
-		"Increases the damage of your Arcane Missiles spell by 4% when cast while Clearcasting.",
-		"Increases the damage of your Arcane Missiles spell by 6% when cast while Clearcasting."
+		"Increases the damage of each successive missile of your Arcane Missiles spell by 1% when cast while Clearcasting.",
+		"Increases the damage of each successive missile of your Arcane Missiles spell by 2% when cast while Clearcasting.",
+		"Increases the damage of each successive missile of your Arcane Missiles spell by 3% when cast while Clearcasting."
 		];
 i++;
 //Improved Mana Shield - Arcane
