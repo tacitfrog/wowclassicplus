@@ -284,10 +284,9 @@ document.getElementById('replaceMeWithHeader').innerHTML = headerReplaceString;
 document.getElementById('replaceMeWithIcons').innerHTML = iconReplaceString;
 if (talentDisplay) document.getElementById('replaceMeWithTalents').innerHTML = talentsReplaceString;
 if (!talentDisplay) document.getElementById('replaceMeWithTitle').innerHTML = titleReplaceString;
-if (className == "fullmoon" || className == "lordkazzak") {
-	if (className == "fullmoon") document.getElementById('className').innerHTML = 'Full Moon';
-	if (className == "lordkazzak") document.getElementById('className').innerHTML = 'Lord Kazzak';
-}
+if (className == "index") document.getElementById('className').innerHTML = 'Welcome';
+else if (className == "fullmoon") document.getElementById('className').innerHTML = 'Full Moon';
+else if (className == "lordkazzak") document.getElementById('className').innerHTML = 'Lord Kazzak';
 else document.getElementById('className').innerHTML = className.charAt(0).toUpperCase() + className.slice(1);
 document.getElementById('className').classList.add(className);
 

@@ -120,6 +120,7 @@ body .ui-tooltip {
 
 /* ---- sidebar  ---- */
 .contentbar { min-height: 300px; float: left; background: #82828208; margin: 0; }
+.mainbar-3 { width: 860px; float: left; margin: 10px 10px; }
 .sidebar { width: 590px; min-height: 500px; float: right; background: #82828208; margin: 0; }
 .sidebar hr { color: #333333; margin: 0 15px 2px; }
 .sidebar .treenamecolour { font-size: 13px; color: #FFE400; }
@@ -142,6 +143,8 @@ body .ui-tooltip {
 	padding: 8px 10px;
 }
 .sidebar-header .talenttreeicon { width: 27px; height: 27px; position: relative; padding: 0 4px 0 0; margin: -6px 0 -7px; }
+
+.mainbar-3 li { list-style: disc; margin-bottom: 4px; }
 
 .sidebar-region {
 	font-size: 11.5px;
