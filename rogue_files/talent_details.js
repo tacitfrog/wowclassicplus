@@ -20,10 +20,9 @@ talent[i] = [0, "Murder", "changed", 3, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
 talent[i] = [0, "Vile Poisons", "", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
-talent[i] = [0, "Envenom", "new", 3, 1, 5]; i++;
+talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Crippling Brew", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changed", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -162,11 +161,10 @@ rank[i] = [
 		"Increases the chance to apply poisons to your target by 10%."
 		];
 i++;
-//Envenom - Assassination
+//Crippling Brew - Assassination
 rank[i] = [
-		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 20% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 40% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]",
-		"Gives your Eviscerate ability a chance to activate doses of your Deadly Poison or Wound Poison on the target.  Each combo point has a separate 60% chance to activate one dose.  Each activated dose is consumed and applies Instant Poison to the target.<br><br>[Note: If you have applied both types of poison to your target, the Deadly Poison doses will be activated first.  Each activated dose applies your highest learned rank of Instant Poison.]"
+		"Gives a 50% chance to apply Crippling Poison whenever you apply Instant Poison, Spiteful Poison, or Deadly Poison.<br><br>[Note: Applies your highest learned rank of Crippling Poison.]",
+		"Gives a 100% chance to apply Crippling Poison whenever you apply Instant Poison, Spiteful Poison, or Deadly Poison.<br><br>[Note: Applies your highest learned rank of Crippling Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -181,12 +179,6 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
 		];
 i++;
-//Crippling Brew - Assassination
-rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison whenever you apply Instant Poison.<br><br>[Note: This effect also triggers when your Envenom procs.  Applies your highest learned rank of Crippling Poison.]",
-		"Gives a 100% chance to apply Crippling Poison whenever you apply Instant Poison.<br><br>[Note: This effect also triggers when your Envenom procs.  Applies your highest learned rank of Crippling Poison.]"
-		];
-i++;
 //Seal Fate - Assassination
 rank[i] = [
 		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
@@ -198,7 +190,7 @@ rank[i] = [
 i++;
 //Vigor - Assassination
 rank[i] = [
-		"Increases your maximum energy by 10.  In addition, your critical strikes from abilities that add combo points cause you to regain 5 energy.<br><br>[Note: The energy regain effect does not stack with the Bonescythe (T3 set) 4-piece set bonus.]"
+		"Your critical strikes from abilities that add combo points cause you to regain 5 energy.  In addition, your maximum energy is increased by 10."
 		];
 i++;
 
