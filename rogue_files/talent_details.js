@@ -16,7 +16,7 @@ talent[i] = [0, "Ruthlessness", "", 3, 1, 2]; i++;
 talent[i] = [0, "Improved Expose Armor", "moved", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
-talent[i] = [0, "Murder", "changed", 3, 2, 3]; i++;
+talent[i] = [0, "Murder", "changedmoved", 3, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
 talent[i] = [0, "Vile Poisons", "", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
@@ -41,7 +41,7 @@ talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Deadened Nerves", "new", 5, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
 talent[i] = [1, "Dual Wield Specialization", "", 5, 3, 4, [getTalentID("Precision"), 5]]; i++;
-talent[i] = [1, "Close Quarters Specialization", "changed", 5, 4, 4]; i++;
+talent[i] = [1, "Close Quarters Specialization", "changedmoved", 5, 4, 4]; i++;
 talent[i] = [1, "Mace Specialization", "", 5, 1, 5]; i++;
 talent[i] = [1, "Blade Dance", "new", 1, 2, 5, [getTalentID("Riposte"), 1]]; i++;
 talent[i] = [1, "Blade Flurry", "", 1, 3, 5]; i++;
@@ -59,7 +59,7 @@ talent[i] = [2, "Initiative", "moved", 3, 1, 2]; i++;
 talent[i] = [2, "Elusiveness", "changed", 2, 2, 2]; i++;
 talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
 talent[i] = [2, "Sadistic Smile", "new", 2, 4, 2]; i++;
-talent[i] = [2, "Improved Sap", "changed", 2, 1, 3]; i++;
+talent[i] = [2, "Improved Sap", "changedmoved", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
 talent[i] = [2, "Improved Ambush", "", 3, 3, 3]; i++;
 talent[i] = [2, "Setup", "", 3, 1, 4]; i++;
@@ -163,8 +163,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]",
-		"Gives a 100% chance to apply Crippling Poison whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]"
+		"Gives a 50% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]",
+		"Gives a 100% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -462,7 +462,7 @@ rank[i] = [
 i++;
 //Preparation - Subtlety
 rank[i] = [
-		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 10 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
+		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 20 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
 		];
 i++;
 

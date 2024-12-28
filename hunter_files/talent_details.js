@@ -11,11 +11,11 @@ i = 0;
 
 talent[i] = [0, "Improved Aspect of the Hawk", "", 5, 2, 1]; i++;
 talent[i] = [0, "Endurance Training", "", 5, 3, 1]; i++;
-talent[i] = [0, "Pathfinding", "changed", 2, 1, 2]; i++;
+talent[i] = [0, "Focused Fire", "new", 2, 1, 2]; i++;
 talent[i] = [0, "Improved Aspect of the Monkey", "changed", 3, 2, 2]; i++;
 talent[i] = [0, "Thick Hide", "", 3, 3, 2]; i++;
 talent[i] = [0, "Improved Revive Pet", "", 2, 4, 2]; i++;
-talent[i] = [0, "Kill Training", "new", 2, 1, 3]; i++;
+talent[i] = [0, "Pathfinding", "changed", 2, 1, 3]; i++;
 talent[i] = [0, "Bestial Swiftness", "", 1, 2, 3]; i++;
 talent[i] = [0, "Unleashed Fury", "", 5, 3, 3]; i++;
 talent[i] = [0, "Improved Mend Pet", "", 2, 2, 4]; i++;
@@ -31,7 +31,7 @@ t++;
 
 talent[i] = [1, "Improved Concussive Shot", "", 5, 2, 1]; i++;
 talent[i] = [1, "Efficiency", "", 5, 3, 1]; i++;
-talent[i] = [1, "Improved Arcane Shot", "changed", 2, 1, 2]; i++;
+talent[i] = [1, "Improved Arcane Shot", "changedmoved", 2, 1, 2]; i++;
 talent[i] = [1, "Improved Hunter's Mark", "changed", 3, 2, 2]; i++;
 talent[i] = [1, "Lethal Shots", "", 5, 3, 2]; i++;
 talent[i] = [1, "Aimed Shot", "", 1, 1, 3]; i++;
@@ -94,10 +94,10 @@ rank[i] = [
 		"Increases the health of your pets by 15%."
 		];
 i++;
-//Pathfinding - Beast Mastery
+//Focused Fire - Beast Mastery
 rank[i] = [
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.",
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.  More effective than Pathfinding (Rank 1)."
+		"While your pet is active, all damage you cause is increased by 1%.",
+		"While your pet is active, all damage you cause is increased by 2%."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
@@ -120,10 +120,10 @@ rank[i] = [
 		"Revive Pet's casting time is reduced by 6 seconds, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%."
 		];
 i++;
-//Kill Training - Beast Mastery
+//Pathfinding - Beast Mastery
 rank[i] = [
-		"Your critical hits cause your pet to generate 2 focus.",
-		"Your critical hits cause your pet to generate 4 focus."
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.",
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.  More effective than Pathfinding (Rank 1)."
 		];
 i++;
 //Bestial Swiftness - Beast Mastery
