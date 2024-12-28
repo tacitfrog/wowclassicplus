@@ -271,7 +271,7 @@ if (talentDisplay) {
 	
 	talentsReplaceString += '<span class="sourceCredits">'+ textToSource +'</span></div>';
 	
-	talentsReplaceString += '<div id = "legendBox"><span class="legendText">LEGENDS:</span><ul><li class="talentChanged"><span>Modified Talent</span></li><li class="talentNew"><span>New Talent</span></li></ul></div>';
+	talentsReplaceString += '<div id = "legendBox"><span class="legendText">LEGENDS:</span><ul><li class="talentMoved"><span>Moved Talent</span></li><li class="talentChanged"><span>Modified Talent</span></li><li class="talentNew"><span>New Talent</span></li></ul></div>';
 	//changeColour button: <a href="" onclick="changeColour();return false;"><img src="img/reset.gif" border="0"></a>
 	
 	talentsReplaceString += '</div>';

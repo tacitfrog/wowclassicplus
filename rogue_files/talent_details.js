@@ -13,8 +13,8 @@ talent[i] = [0, "Improved Eviscerate", "", 3, 1, 1]; i++;
 talent[i] = [0, "Remorseless Attacks", "", 2, 2, 1]; i++;
 talent[i] = [0, "Malice", "", 5, 3, 1]; i++;
 talent[i] = [0, "Ruthlessness", "", 3, 1, 2]; i++;
-talent[i] = [0, "Improved Expose Armor", "changed", 2, 2, 2]; i++;
-talent[i] = [0, "Improved Backstab", "changed", 3, 4, 2]; i++;
+talent[i] = [0, "Improved Expose Armor", "moved", 2, 2, 2]; i++;
+talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Murder", "changed", 3, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
@@ -32,10 +32,10 @@ t++;
 talent[i] = [1, "Improved Gouge", "", 3, 1, 1]; i++;
 talent[i] = [1, "Improved Sinister Strike", "", 2, 2, 1]; i++;
 talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
-talent[i] = [1, "Improved Slice and Dice", "changed", 3, 1, 2]; i++;
+talent[i] = [1, "Improved Slice and Dice", "moved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
-talent[i] = [1, "Improved Sprint", "changed", 2, 4, 2]; i++;
+talent[i] = [1, "Improved Sprint", "moved", 2, 4, 2]; i++;
 talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
 talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Deadened Nerves", "new", 5, 4, 3]; i++;
@@ -55,7 +55,7 @@ t++;
 
 talent[i] = [2, "Master of Deception", "changed", 5, 2, 1]; i++;
 talent[i] = [2, "Opportunity", "", 5, 3, 1]; i++;
-talent[i] = [2, "Initiative", "changed", 3, 1, 2]; i++;
+talent[i] = [2, "Initiative", "moved", 3, 1, 2]; i++;
 talent[i] = [2, "Elusiveness", "changed", 2, 2, 2]; i++;
 talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
 talent[i] = [2, "Sadistic Smile", "new", 2, 4, 2]; i++;
@@ -63,7 +63,7 @@ talent[i] = [2, "Improved Sap", "changed", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
 talent[i] = [2, "Improved Ambush", "", 3, 3, 3]; i++;
 talent[i] = [2, "Setup", "", 3, 1, 4]; i++;
-talent[i] = [2, "Heightened Senses", "changed", 2, 2, 4]; i++;
+talent[i] = [2, "Heightened Senses", "moved", 2, 2, 4]; i++;
 talent[i] = [2, "Serrated Blades", "", 3, 3, 4]; i++;
 talent[i] = [2, "Cheat Death", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Preparation", "", 1, 2, 5]; i++;
@@ -163,8 +163,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison whenever you apply Instant Poison, Spiteful Poison, or Deadly Poison.<br><br>[Note: Applies your highest learned rank of Crippling Poison.]",
-		"Gives a 100% chance to apply Crippling Poison whenever you apply Instant Poison, Spiteful Poison, or Deadly Poison.<br><br>[Note: Applies your highest learned rank of Crippling Poison.]"
+		"Gives a 50% chance to apply Crippling Poison whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]",
+		"Gives a 100% chance to apply Crippling Poison whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -462,7 +462,7 @@ rank[i] = [
 i++;
 //Preparation - Subtlety
 rank[i] = [
-		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, or Ambush ability used against that target by 10%.  Lasts 10 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
+		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 10 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
 		];
 i++;
 

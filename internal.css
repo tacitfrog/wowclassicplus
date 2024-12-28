@@ -256,6 +256,7 @@ div#replaceMeWithTalents tbody {
 #legendBox li span { color: #8F8F8F; }
 #legendBox ul { padding: 4px 0 0; }
 #legendBox .legendText { font-size: 10px; }
+#legendBox .talentMoved { color: #2488BB; }
 #legendBox .talentChanged { color: #FF0000; }
 #legendBox .talentNew { color: #FFC000; }
 

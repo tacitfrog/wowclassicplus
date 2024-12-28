@@ -15,7 +15,7 @@ talent[i] = [0, "Enfeebling Curses", "changed", 5, 1, 2]; i++;
 talent[i] = [0, "Improved Drain Soul", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Life Tap", "", 2, 3, 2]; i++;
 talent[i] = [0, "Improved Drain Life", "changed", 2, 4, 2]; i++;
-talent[i] = [0, "Dark Pact", "changed", 1, 1, 3]; i++;
+talent[i] = [0, "Dark Pact", "moved", 1, 1, 3]; i++;
 talent[i] = [0, "Fel Concentration", "", 5, 2, 3]; i++;
 talent[i] = [0, "Amplify Curse", "", 1, 3, 3]; i++;
 talent[i] = [0, "Grim Reach", "", 2, 1, 4]; i++;
@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 3% chance to deal or drain an additional 30% damage or health when damaging or draining an enemy.",
-		"Gives your Corruption and Drain Life spells a 6% chance to deal or drain an additional 30% damage or health when damaging or draining an enemy.",
-		"Gives your Corruption and Drain Life spells a 9% chance to deal or drain an additional 30% damage or health when damaging or draining an enemy."
+		"Gives your Corruption and Drain Life spells a 3% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 6% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 9% chance to deal or drain an additional 30% damage or health when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
@@ -292,9 +292,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, a Fire wand, or from your Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
 		];
 i++;
 //Improved Enslave Demon - Demonology
@@ -310,8 +310,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of maximum mana.",
-		"When you critically hit a target with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of maximum mana."
+		"While you have a Spellstone equipped, whenever you or your summoned demon critically hit an enemy with a spell, you both restore 2% of maximum mana.",
+		"While you have a Spellstone equipped, whenever you or your summoned demon critically hit an enemy with a spell, you both restore 4% of maximum mana."
 		];
 i++;
 //Master Demonologist - Demonology
