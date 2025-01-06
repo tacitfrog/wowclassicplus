@@ -18,7 +18,7 @@ talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Murder", "changedmoved", 3, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
-talent[i] = [0, "Vile Poisons", "", 5, 2, 4]; i++;
+talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
@@ -145,11 +145,11 @@ rank[i] = [
 i++;
 //Vile Poisons - Assassination
 rank[i] = [
-		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
-		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
+		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]"
 		];
 i++;
 //Improved Poisons - Assassination
@@ -163,8 +163,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]",
-		"Gives a 100% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.]"
+		"Gives a 50% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.  Also triggers on targets of Spitebomb damage.]",
+		"Gives a 100% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.  Also triggers on targets of Spitebomb damage.]"
 		];
 i++;
 //Cold Blood - Assassination
