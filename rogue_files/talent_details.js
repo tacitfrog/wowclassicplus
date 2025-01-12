@@ -69,7 +69,7 @@ talent[i] = [2, "Cheat Death", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Preparation", "", 1, 2, 5]; i++;
 talent[i] = [2, "Dirty Deeds", "", 2, 3, 5]; i++;
 talent[i] = [2, "Hemorrhage", "changed", 1, 4, 5, [getTalentID("Serrated Blades"), 3]]; i++;
-talent[i] = [2, "Deadliness", "", 5, 3, 6]; i++;
+talent[i] = [2, "Deadliness", "changed", 5, 3, 6]; i++;
 talent[i] = [2, "Premeditation", "changed", 1, 2, 7, [getTalentID("Preparation"), 1]]; i++;
 
 treeStartStop[t] = i - 1;
@@ -453,11 +453,11 @@ rank[i] = [
 i++;
 //Deadliness - Subtlety
 rank[i] = [
-		"Increases your attack power by 2%.",
-		"Increases your attack power by 4%.",
+		"Increases your attack power by 3%.",
 		"Increases your attack power by 6%.",
-		"Increases your attack power by 8%.",
-		"Increases your attack power by 10%."
+		"Increases your attack power by 9%.",
+		"Increases your attack power by 12%.",
+		"Increases your attack power by 15%."
 		];
 i++;
 //Preparation - Subtlety
