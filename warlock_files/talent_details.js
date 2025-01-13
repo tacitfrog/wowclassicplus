@@ -48,7 +48,7 @@ talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
 talent[i] = [1, "Improved Spellstone", "changedmoved", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
-talent[i] = [1, "Soul Link", "changedmoved", 1, 3, 7]; i++;
+talent[i] = [1, "Soul Link", "moved", 1, 3, 7]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
