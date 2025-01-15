@@ -50,7 +50,7 @@ t++;
 
 talent[i] = [2, "Improved Healing Wave", "", 5, 2, 1]; i++;
 talent[i] = [2, "Tidal Focus", "", 5, 3, 1]; i++;
-talent[i] = [2, "Improved Reincarnation", "changed", 2, 1, 2]; i++;
+talent[i] = [2, "Improved Reincarnation", "", 2, 1, 2]; i++;
 talent[i] = [2, "Ancestral Healing", "", 3, 2, 2]; i++;
 talent[i] = [2, "Totemic Focus", "", 5, 3, 2]; i++;
 talent[i] = [2, "Nature's Guidance", "", 3, 1, 3]; i++;
@@ -323,8 +323,8 @@ rank[i] = [
 i++;
 //Improved Reincarnation - Restoration
 rank[i] = [
-		"Reduces the cooldown of your Reincarnation spell by 15 minutes and increases the amount of health and mana you reincarnate with by 10%.",
-		"Reduces the cooldown of your Reincarnation spell by 30 minutes and increases the amount of health and mana you reincarnate with by 20%."
+		"Reduces the cooldown of your Reincarnation spell by 10 minutes and increases the amount of health and mana you reincarnate with by 10%.",
+		"Reduces the cooldown of your Reincarnation spell by 20 minutes and increases the amount of health and mana you reincarnate with by 20%."
 		];
 i++;
 //Ancestral Healing - Restoration

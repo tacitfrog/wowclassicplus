@@ -10,8 +10,8 @@ tree[i] = "Frost"; i++;
 i = 0;
 
 talent[i] = [0, "Arcane Subtlety", "", 2, 1, 1]; i++;
-talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
-talent[i] = [0, "Improved Arcane Missiles", "changed", 3, 3, 1]; i++;
+talent[i] = [0, "Arcane Focus", "changed", 3, 2, 1]; i++;
+talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "", 5, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
@@ -55,7 +55,7 @@ t++;
 
 talent[i] = [2, "Frost Warding", "", 2, 1, 1]; i++;
 talent[i] = [2, "Improved Frostbolt", "", 5, 2, 1]; i++;
-talent[i] = [2, "Elemental Precision", "", 3, 3, 1]; i++;
+talent[i] = [2, "Elemental Precision", "changed", 3, 3, 1]; i++;
 talent[i] = [2, "Ice Shards", "", 5, 1, 2]; i++;
 talent[i] = [2, "Frostbite", "", 3, 2, 2]; i++;
 talent[i] = [2, "Improved Frost Nova", "changed", 2, 3, 2]; i++;
@@ -90,15 +90,15 @@ i++;
 rank[i] = [
 		"Reduces the chance that the opponent can resist your Arcane spells by 2%.",
 		"Reduces the chance that the opponent can resist your Arcane spells by 4%.",
-		"Reduces the chance that the opponent can resist your Arcane spells by 6%.",
-		"Reduces the chance that the opponent can resist your Arcane spells by 8%.",
-		"Reduces the chance that the opponent can resist your Arcane spells by 10%."
+		"Reduces the chance that the opponent can resist your Arcane spells by 6%."
 		];
 i++;
 //Improved Arcane Missiles - Arcane
 rank[i] = [
-		"Gives you a 33% chance to avoid interruption caused by damage while channeling Arcane Missles.",
-		"Gives you a 66% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 40% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 60% chance to avoid interruption caused by damage while channeling Arcane Missles.",
+		"Gives you a 80% chance to avoid interruption caused by damage while channeling Arcane Missles.",
 		"Gives you a 100% chance to avoid interruption caused by damage while channeling Arcane Missles."
 		];
 i++;
@@ -350,9 +350,9 @@ rank[i] = [
 i++;
 //Elemental Precision - Frost
 rank[i] = [
-		"Reduces the chance that the opponent can resist your Frost and Fire spells by 2%.",
-		"Reduces the chance that the opponent can resist your Frost and Fire spells by 4%.",
-		"Reduces the chance that the opponent can resist your Frost and Fire spells by 6%."
+		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 1%.",
+		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 2%.",
+		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 3%."
 		];
 i++;
 //Ice Shards - Frost
