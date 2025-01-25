@@ -163,8 +163,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.  Also triggers on targets of Spitebomb damage.]",
-		"Gives a 100% chance to apply Crippling Poison whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison.  Also triggers on targets of Spitebomb damage.]"
+		"Gives a 50% chance to apply Crippling Poison with half its usual duration whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Also triggers on targets of Spitebomb damage.]",
+		"Gives a 100% chance to apply Crippling Poison with half its usual duration whenever you apply any other poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Also triggers on targets of Spitebomb damage.]"
 		];
 i++;
 //Cold Blood - Assassination
