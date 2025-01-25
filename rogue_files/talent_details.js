@@ -184,7 +184,7 @@ rank[i] = [
 		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
 		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.",
 		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 80% chance to add an additional combo point.",
+		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.",
 		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point."
 		];
 i++;
@@ -448,16 +448,16 @@ rank[i] = [
 i++;
 //Hemorrhage - Subtlety
 rank[i] = [
-		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 100% weapon damage and causes the target to hemorrhage, refreshing the duration of your Garrote and Rupture effects on the target by up to 3 seconds and increasing any Physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 3,<br>&nbsp;Rank 2: X = 5 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 7 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 11 (level 58).]"
+		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 100% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 3,<br>&nbsp;Rank 2: X = 5 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 7 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 11 (level 58).]"
 		];
 i++;
 //Deadliness - Subtlety
 rank[i] = [
-		"Increases your attack power by 3%.",
-		"Increases your attack power by 6%.",
-		"Increases your attack power by 9%.",
-		"Increases your attack power by 12%.",
-		"Increases your attack power by 15%."
+		"Gives your Hemorrhage and Backstab abilities a 20% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 1%.",
+		"Gives your Hemorrhage and Backstab abilities a 40% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 2%.",
+		"Gives your Hemorrhage and Backstab abilities a 60% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 3%.",
+		"Gives your Hemorrhage and Backstab abilities an 80% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 4%.",
+		"Gives your Hemorrhage and Backstab abilities a 100% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 5%."
 		];
 i++;
 //Preparation - Subtlety
