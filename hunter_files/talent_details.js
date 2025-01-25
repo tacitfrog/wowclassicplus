@@ -281,9 +281,9 @@ rank[i] = [
 i++;
 //Careful Aim - Marksmanship
 rank[i] = [
-		"Increases your ranged attack power by an amount equal to 10% of your total Intellect and the damage dealt by your Arcane Shot by 10%.",
-		"Increases your ranged attack power by an amount equal to 20% of your total Intellect and the damage dealt by your Arcane Shot by 20%.",
-		"Increases your ranged attack power by an amount equal to 30% of your total Intellect and the damage dealt by your Arcane Shot by 30%."
+		"Increases your ranged attack power by an amount equal to 10% of your total Intellect and the damage dealt by your Arcane Shot by 5%.",
+		"Increases your ranged attack power by an amount equal to 20% of your total Intellect and the damage dealt by your Arcane Shot by 10%.",
+		"Increases your ranged attack power by an amount equal to 30% of your total Intellect and the damage dealt by your Arcane Shot by 15%."
 		];
 i++;
 //Ranged Weapon Specialization - Marksmanship
