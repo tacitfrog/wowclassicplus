@@ -32,7 +32,7 @@ t++;
 talent[i] = [1, "Improved Gouge", "", 3, 1, 1]; i++;
 talent[i] = [1, "Improved Sinister Strike", "", 2, 2, 1]; i++;
 talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
-talent[i] = [1, "Improved Slice and Dice", "moved", 3, 1, 2]; i++;
+talent[i] = [1, "Combat Prowess", "changedmoved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Sprint", "moved", 2, 4, 2]; i++;
@@ -219,11 +219,11 @@ rank[i] = [
 		"Increases your dodge chance by 5%."
 		];
 i++;
-//Improved Slice and Dice - Combat
+//Combat Prowess - Combat
 rank[i] = [
-		"Increases the duration of your Slice and Dice ability by 15%.",
-		"Increases the duration of your Slice and Dice ability by 30%.",
-		"Increases the duration of your Slice and Dice ability by 45%."
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 45%."
 		];
 i++;
 //Deflection - Combat
@@ -305,7 +305,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;14 seconds, X% parry<br>&nbsp;&nbsp;2 points: 18 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 22 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 26 seconds, A% parry<br>&nbsp;&nbsp;5 points: 30 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 38),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 38),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
 		];
 i++;
 //Blade Flurry - Combat
