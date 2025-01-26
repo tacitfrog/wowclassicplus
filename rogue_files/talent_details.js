@@ -32,7 +32,7 @@ t++;
 talent[i] = [1, "Improved Gouge", "", 3, 1, 1]; i++;
 talent[i] = [1, "Improved Sinister Strike", "", 2, 2, 1]; i++;
 talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
-talent[i] = [1, "Combat Prowess", "changedmoved", 3, 1, 2]; i++;
+talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Sprint", "moved", 2, 4, 2]; i++;
@@ -219,7 +219,7 @@ rank[i] = [
 		"Increases your dodge chance by 5%."
 		];
 i++;
-//Combat Prowess - Combat
+//Combat Acumen - Combat
 rank[i] = [
 		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
 		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
