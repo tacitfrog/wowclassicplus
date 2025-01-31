@@ -377,7 +377,7 @@ rank[i] = [
 i++;
 //Propitiousness - Survival
 rank[i] = [
-		"Increases the critical strike chance of your Raptor Strike ability by 30% against targets that are immobilised, rooted, frozen, or stunned."
+		"Increases the critical strike chance of your Raptor Strike ability by 25% against targets that are immobilised, rooted, frozen, or stunned."
 		];
 i++;
 //Trap Mastery - Survival
