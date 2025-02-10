@@ -180,9 +180,9 @@ rank[i] = [
 i++;
 //Unstable Afflictions - Affliction
 rank[i] = [
-		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]"
+		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 2 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 2 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and Siphon Life periodic effects an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will suffer X to Y Shadow damage and be silenced for 2 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]"
 		];
 i++;
 //Shadow Mastery - Affliction
