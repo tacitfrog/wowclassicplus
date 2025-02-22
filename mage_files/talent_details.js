@@ -141,7 +141,7 @@ rank[i] = [
 i++;
 //Arcane Resilience - Arcane
 rank[i] = [
-		"Increases your armour by an amount equal to 50% of your Intellect."
+		"Increases your armour by an amount equal to 50% of your total Intellect."
 		];
 i++;
 //Arcane Potency - Arcane
