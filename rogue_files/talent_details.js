@@ -304,7 +304,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 38),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 50).]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and periodically causes threat to all nearby enemies, making them more likely to attack you.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 6, Y = 7, &nbsp;&nbsp;Z = 8, &nbsp;&nbsp;A = 9, &nbsp;&nbsp;B = 10,<br>&nbsp;Rank 2: X = 7, Y = 9, &nbsp;&nbsp;Z = 11, A = 13, B = 15 (level 42),<br>&nbsp;Rank 3: X = 8, Y = 11, Z = 14, A = 17, B = 20 (level 54).]"
 		];
 i++;
 //Blade Flurry - Combat
