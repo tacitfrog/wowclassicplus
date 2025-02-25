@@ -64,7 +64,7 @@ talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
 talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
 talent[i] = [2, "Resourcefulness", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Killer Instinct", "", 3, 2, 5]; i++;
-talent[i] = [2, "Counterattack", "changed", 1, 3, 5, [getTalentID("Deterrence"), 1]]; i++;
+talent[i] = [2, "Counterattack", "", 1, 3, 5, [getTalentID("Deterrence"), 1]]; i++;
 talent[i] = [2, "Lightning Reflexes", "", 5, 3, 6]; i++;
 talent[i] = [2, "Wyvern Sting", "changed", 1, 2, 7, [getTalentID("Killer Instinct"), 3]]; i++;
 
@@ -306,8 +306,8 @@ i++;
 
 //Improved Raptor Strike - Survival
 rank[i] = [
-		"Increases the damage done by your Raptor Strike ability by 3%.",
-		"Increases the damage done by your Raptor Strike ability by 6%."
+		"Increases the damage dealt by your Raptor Strike ability by 3%.",
+		"Increases the damage dealt by your Raptor Strike ability by 6%."
 		];
 i++;
 //Humanoid Slaying - Survival
@@ -377,7 +377,7 @@ rank[i] = [
 i++;
 //Propitiousness - Survival
 rank[i] = [
-		"Increases the critical strike chance of your Raptor Strike ability by 25% against targets that are immobilised, rooted, frozen, or stunned."
+		"Increases all melee damage you deal to targets that are immobilised, frozen, asleep, or stunned by 10%."
 		];
 i++;
 //Trap Mastery - Survival
@@ -415,7 +415,7 @@ rank[i] = [
 i++;
 //Counterattack - Survival
 rank[i] = [
-		"Cast: instant.<br>Cost: Y mana.<br>A strike that becomes active after parrying an opponent's attack.  This attack deals X damage and immobilises the target for 5 seconds.  Counterattack cannot be blocked, dodged, or parried.  (Cooldown: 5 seconds.)<br><br>[Rank 1: X = 60, &nbsp;&nbsp;Y = 45,<br>&nbsp;Rank 2: X = 105, Y = 65 (level 42),<br>&nbsp;Rank 3: X = 165, Y = 85 (level 54).]"
+		"Cast: instant.<br>Cost: Y mana.<br>A strike that becomes active after parrying an opponent's attack.  This attack deals X damage and immobilises the target for 5 seconds.  Counterattack cannot be blocked, dodged, or parried.  (Cooldown: 5 seconds.)<br><br>[Rank 1: X = 40, &nbsp;&nbsp;Y = 45,<br>&nbsp;Rank 2: X = 70, &nbsp;&nbsp;Y = 65 (level 42),<br>&nbsp;Rank 3: X = 110, Y = 85 (level 54).]"
 		];
 i++;
 //Lightning Reflexes - Survival

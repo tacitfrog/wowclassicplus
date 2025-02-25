@@ -18,7 +18,7 @@ talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
 talent[i] = [0, "Magic Attunement", "", 2, 1, 3]; i++;
 talent[i] = [0, "Improved Arcane Explosion", "", 3, 2, 3]; i++;
 talent[i] = [0, "Arcane Resilience", "", 1, 3, 3]; i++;
-talent[i] = [0, "Arcane Potency", "new", 3, 4, 3, [getTalentID("Arcane Concentration"), 5]]; i++;
+talent[i] = [0, "Arcane Escalation", "new", 3, 4, 3, [getTalentID("Arcane Concentration"), 5]]; i++;
 talent[i] = [0, "Improved Mana Shield", "changed", 2, 1, 4]; i++;
 talent[i] = [0, "Improved Counterspell", "", 2, 2, 4]; i++;
 talent[i] = [0, "Arcane Meditation", "", 3, 4, 4]; i++;
@@ -144,11 +144,11 @@ rank[i] = [
 		"Increases your armour by an amount equal to 50% of your total Intellect."
 		];
 i++;
-//Arcane Potency - Arcane
+//Arcane Escalation - Arcane
 rank[i] = [
-		"Increases the damage of each successive missile of your Arcane Missiles spell by 1% when cast while Clearcasting.",
-		"Increases the damage of each successive missile of your Arcane Missiles spell by 2% when cast while Clearcasting.",
-		"Increases the damage of each successive missile of your Arcane Missiles spell by 3% when cast while Clearcasting."
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 1% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 2% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 3% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
 //Improved Mana Shield - Arcane
