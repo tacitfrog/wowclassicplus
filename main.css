@@ -24,7 +24,7 @@ input[type="button"], button { background:#546939; color:#D6D6D6; border-radius:
 input[type="button"]:hover, button:hover { background:#42532d; }
 
 .clear { clear:both; }
-.wrapper { width:100%; max-width:1490px; min-height:960px; margin: 10px auto; background:url('img/wrap.jpg'); background-size: cover; border:1px solid #222; }
+.wrapper { width:100%; max-width:1490px; min-height:1020px; margin: 10px auto; background:url('img/wrap.jpg'); background-size: cover; border:1px solid #222; }
 .hr { margin:20px 0; height:2px; background:url('img/hr.jpg'); }
 
 .space40 {height:40px;}
