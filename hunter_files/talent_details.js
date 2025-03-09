@@ -96,8 +96,8 @@ rank[i] = [
 i++;
 //Focused Fire - Beast Mastery
 rank[i] = [
-		"While your pet is active, all damage you cause is increased by 1%.",
-		"While your pet is active, all damage you cause is increased by 2%."
+		"Increases all damage that your pet deals to targets affected by your Hunter's Mark by 1%.",
+		"Increases all damage that your pet deals to targets affected by your Hunter's Mark by 2%."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
@@ -122,8 +122,8 @@ rank[i] = [
 i++;
 //Pathfinding - Beast Mastery
 rank[i] = [
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.",
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will attack you and your pet.  More effective than Pathfinding (Rank 1)."
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will see you and your pet.",
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will see you and your pet.  More effective than Pathfinding (Rank 1)."
 		];
 i++;
 //Bestial Swiftness - Beast Mastery
@@ -306,8 +306,8 @@ i++;
 
 //Improved Raptor Strike - Survival
 rank[i] = [
-		"Increases the damage dealt by your Raptor Strike ability by 3%.",
-		"Increases the damage dealt by your Raptor Strike ability by 6%."
+		"Your critical strikes from your Raptor Strike ability increase your melee attack speed by 5% for 6 seconds.",
+		"Your critical strikes from your Raptor Strike ability increase your melee attack speed by 10% for 6 seconds."
 		];
 i++;
 //Humanoid Slaying - Survival
