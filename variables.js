@@ -1,4 +1,4 @@
-var version = "1.2"
+var version = "1.2.1"
 
 var pixelGif = "img/pixel.gif";
 

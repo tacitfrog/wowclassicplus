@@ -24,10 +24,10 @@
 				<div class="goals">
 					<div class="goals-header">Primary Goals:</div>
 					<ul>
-						<li>Make viable tanking builds that enable a Rogue to tank in 5-man dungeons from level 30; these builds should be centred in Combat and have viable complements in each of the other trees.</li>
+						<li>Make viable tanking builds that enable a Rogue to tank in 5-man dungeons from level 30; these builds should be centred in Combat and have viable complements in each of the other trees, without spoiling or overpowering other common builds.</li>
 						<li class="li2">Add a tanking poison that does not run out of charges (just like Crippling Poison). [Spiteful Poison.]</li>
 						<li class="li2">Add mechanisms to grab AOE agro (since AOE is intentionally hard with the combo point system). [Blade Dance, Spitebomb.]</li>
-						<li class="li2">Add passive bleed synergy to Hemorrhage for both PvP and bleed tank option.</li>
+						<li class="li2">Add passive bleed synergy to Hemorrhage for PvP or bleed tank options.</li>
 						<li>Give thrown weapons some unique perks to balance out the lack of stats. [Poisons, Deadly Throw.]</li>
 					</ul>
 				</div>
@@ -53,6 +53,7 @@
 							<li class="talentNew"><span>Deadened Nerves (passive defence)</span></li>
 							<li class="talentChanged"><span>Dagger Specialization & Fist Weapon Specialization (merged [from WOTLK])</span></li>
 							<li class="talentNew"><span>Blade Dance (tanking finishing move [from SOD], periodic AOE threat)</span></li>
+							<li class="talentChanged"><span>Blade Flurry (poisons and effects apply)</span></li>
 						</ul>
 					</div>
 					<div class="sidebar-header treenamecolour"><img src="rogue_files/icon2.png" class="talenttreeicon">Subtlety</div>
@@ -61,7 +62,7 @@
 							<li class="talentChanged"><span>Master of Deception & Sleight of Hand (merged)</span></li>
 							<li class="talentMoved"><span>Initiative (available earlier)</span></li>
 							<li class="talentChanged"><span>Elusiveness (-1 minute per point)</span></li>
-							<li class="talentNew"><span>Sadistic Smile (extra threat for bleed tanking)</span></li>
+							<li class="talentNew"><span>Sadistic Smile (passive threat transfer)</span></li>
 							<li class="talentChanged"><span>Improved Sap (100% reliable [from TBC]; available earlier for low level dungeons)</span></li>
 							<li class="talentMoved"><span>Heightened Senses (available earlier)</span></li>
 							<li class="talentNew"><span>Cheat Death ([from TBC]; requires a defensive ability to be active, so not just a freebie; helps mitigate randomness in avoidance tanking)</span></li>
@@ -80,8 +81,8 @@
 								</table>
 								<div class="clear"></div>
 								<div class="ability-text">
-									Finishing move that reduces the movement of the target by 50% for 6 seconds and causes damage based on your thrown weapon, attack power, and number of combo points used.  (Requires Thrown Weapon.)  [From TBC.]
-									<p>[Rank 1, learned from a level 60 bind-on-equip tome dropped by bosses in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
+									Finishing move that reduces the movement speed of the target by 50% for 1 second plus 1 additional second per combo point and causes damage based on your thrown weapon, attack power, and number of combo points used.  (Requires Thrown Weapon.)  [From TBC.]
+									<p>[Rank 1, learned from a level 60 bind-on-equip book dropped by bosses in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
 								</div>
 							</li>
 						</ul>
@@ -113,6 +114,16 @@
 									<p>The icon has been updated [from TBC].</p>
 								</div>
 							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="rogue_files/throw.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Throw</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Throw now toggles autoshoot.
+								</div>
+							</li>
 						</ul>
 					</div>
 					<div class="sidebar-header">New Poisons</div>
@@ -141,7 +152,7 @@
 									<br>&nbsp;Rank 2: X = 48, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="rogue_files/essenceofpain.jpg" title="Essence of Pain"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 42),
 									<br>&nbsp;Rank 3: X = 71, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 54),
 									<br>&nbsp;Rank 4: X = 81, Y = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> (level 60).
-									<br>Ranks 1-3 are learned from trainer; Rank 4 is learned from a bind-on-equip tome dropped by bosses in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
+									<br>Ranks 1-3 are learned from trainer; Rank 4 is learned from a bind-on-equip book dropped by bosses in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
 								</div>
 							</li>
 							<li>
@@ -158,7 +169,7 @@
 									<br>Z = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="professions_files/solidblastingpowder.jpg" title="Solid Blasting Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(level 48),
 									<br>&nbsp;Rank 3: X = 204, Y = 260,
 									<br>Z = <span class="ability-reagent"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="rogue_files/spitepowder.jpg" title="Spite Powder"><img src="professions_files/denseblastingpowder.jpg" title="Dense Blasting Powder"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="rogue_files/essenceofagony.jpg" title="Essence of Agony"><img src="miscellaneous_files/vial.jpg" title="Crystal Vial"></span> (level 58).
-									<br>Ranks 1-2 are learned from trainer; Rank 3 is learned from a Manual of Spitebomb III, which is bind-on-pickup and purchased from Ravenholdt [coming soon] for 10 gold when Honoured.]</p>
+									<br>Ranks 1-3 are learned from Manuals purchased from <a href="ravenholdt.htm">Ravenholdt</a>.]</p>
 								</div>
 							</li>
 						</ul>

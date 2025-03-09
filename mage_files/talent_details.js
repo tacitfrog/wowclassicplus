@@ -9,23 +9,23 @@ tree[i] = "Frost"; i++;
 
 i = 0;
 
-talent[i] = [0, "Arcane Subtlety", "", 2, 1, 1]; i++;
-talent[i] = [0, "Arcane Focus", "changed", 3, 2, 1]; i++;
+talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "", 5, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
+talent[i] = [0, "Arcane Subtlety", "moved", 2, 4, 2]; i++;
 talent[i] = [0, "Magic Attunement", "", 2, 1, 3]; i++;
 talent[i] = [0, "Improved Arcane Explosion", "", 3, 2, 3]; i++;
 talent[i] = [0, "Arcane Resilience", "", 1, 3, 3]; i++;
-talent[i] = [0, "Arcane Escalation", "new", 3, 4, 3, [getTalentID("Arcane Concentration"), 5]]; i++;
+talent[i] = [0, "Arcane Escalation", "new", 3, 4, 3]; i++;
 talent[i] = [0, "Improved Mana Shield", "changed", 2, 1, 4]; i++;
 talent[i] = [0, "Improved Counterspell", "", 2, 2, 4]; i++;
 talent[i] = [0, "Arcane Meditation", "", 3, 4, 4]; i++;
 talent[i] = [0, "Improved Blink", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Presence of Mind", "", 1, 2, 5]; i++;
 talent[i] = [0, "Arcane Mind", "", 5, 3, 5, [getTalentID("Arcane Resilience"), 1]]; i++;
-talent[i] = [0, "Arcane Instability", "", 3, 2, 6, [getTalentID("Presence of Mind"), 1]]; i++;
+talent[i] = [0, "Arcane Instability", "moved", 3, 2, 6]; i++;
 talent[i] = [0, "Arcane Volatility", "new", 2, 3, 6]; i++;
 talent[i] = [0, "Arcane Power", "", 1, 2, 7, [getTalentID("Arcane Instability"), 3]]; i++;
 
@@ -80,17 +80,13 @@ i = 0;
 
 //ARCANE
 
-//Arcane Subtlety - Arcane
-rank[i] = [
-		"Reduces your target's resistance to all your spells by 5 and reduces the threat caused by your Arcane spells by 20%.",
-		"Reduces your target's resistance to all your spells by 10 and reduces the threat caused by your Arcane spells by 40%."
-		];
-i++;
 //Arcane Focus - Arcane
 rank[i] = [
 		"Reduces the chance that the opponent can resist your Arcane spells by 2%.",
 		"Reduces the chance that the opponent can resist your Arcane spells by 4%.",
-		"Reduces the chance that the opponent can resist your Arcane spells by 6%."
+		"Reduces the chance that the opponent can resist your Arcane spells by 6%.",
+		"Reduces the chance that the opponent can resist your Arcane spells by 8%.",
+		"Reduces the chance that the opponent can resist your Arcane spells by 10%."
 		];
 i++;
 //Improved Arcane Missiles - Arcane
@@ -126,6 +122,12 @@ rank[i] = [
 		"Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  For Arcane Missiles, you have a 5% chance after each missile hits the target.  The Clearcasting state reduces the mana cost of your next spell by 100%."
 		];
 i++;
+//Arcane Subtlety - Arcane
+rank[i] = [
+		"Reduces your target's resistance to all your spells by 5 and reduces the threat caused by your Arcane spells by 20%.",
+		"Reduces your target's resistance to all your spells by 10 and reduces the threat caused by your Arcane spells by 40%."
+		];
+i++;
 //Magic Attunement - Arcane
 rank[i] = [
 		"Increases the effect of your Amplify Magic and Dampen Magic spells by 25%.",
@@ -146,9 +148,9 @@ rank[i] = [
 i++;
 //Arcane Escalation - Arcane
 rank[i] = [
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 1% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 2% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 3% when cast while Clearcasting.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 1%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 2%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 3%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
 //Improved Mana Shield - Arcane
@@ -350,9 +352,9 @@ rank[i] = [
 i++;
 //Elemental Precision - Frost
 rank[i] = [
-		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 1%.",
-		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 2%.",
-		"Reduces the mana cost and the chance that the opponent can resist your Frost and Fire spells by 3%."
+		"Reduces the chance that the opponent can resist your Frost and Fire spells by 1%.",
+		"Reduces the chance that the opponent can resist your Frost and Fire spells by 2%.",
+		"Reduces the chance that the opponent can resist your Frost and Fire spells by 3%."
 		];
 i++;
 //Ice Shards - Frost

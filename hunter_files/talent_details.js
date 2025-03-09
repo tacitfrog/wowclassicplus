@@ -429,7 +429,7 @@ rank[i] = [
 i++;
 //Wyvern Sting - Survival
 rank[i] = [
-		"Cast: instant.<br>Range: 8 - 35 yards.<br>Cost: Y mana.<br>A stinging shot that puts the target to sleep for 12 seconds.  Any damage will cancel the effect.  When the target wakes up, the sting slows the target's movement speed by 50% and causes X Nature damage over 12 seconds.  Only usable out of combat.  Only one sting per Hunter can be active on the target at a time.  (Requires Ranged Weapon. Cooldown: 2 minutes.)<br><br>[Rank 1: X = 300, Y = 115,<br>&nbsp;Rank 2: X = 420, Y = 155 (level 50),<br>&nbsp;Rank 3: X = 600, Y = 205 (level 60).]"
+		"Cast: instant.<br>Range: 8 - 35 yards.<br>Cost: Y mana.<br>A stinging shot that puts the target to sleep for 12 seconds.  Any damage will cancel the effect.  When the target wakes up, the sting slows the target's movement speed by 30% and causes X Nature damage over 12 seconds.  Only usable out of combat.  Only one sting per Hunter can be active on the target at a time.  (Requires Ranged Weapon. Cooldown: 2 minutes.)<br><br>[Rank 1: X = 300, Y = 115,<br>&nbsp;Rank 2: X = 420, Y = 155 (level 50),<br>&nbsp;Rank 3: X = 600, Y = 205 (level 60).]"
 		];
 i++;
 
