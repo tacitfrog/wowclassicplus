@@ -96,8 +96,8 @@ rank[i] = [
 i++;
 //Focused Fire - Beast Mastery
 rank[i] = [
-		"Increases all damage that your pet deals to targets affected by your Hunter's Mark by 1%.",
-		"Increases all damage that your pet deals to targets affected by your Hunter's Mark by 2%."
+		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 25% of the amount of its ranged attack power value.",
+		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 50% of the amount of its ranged attack power value."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
