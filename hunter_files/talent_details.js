@@ -306,8 +306,8 @@ i++;
 
 //Improved Raptor Strike - Survival
 rank[i] = [
-		"Your critical strikes from your Raptor Strike ability increase your melee attack speed by 5% for 6 seconds.",
-		"Your critical strikes from your Raptor Strike ability increase your melee attack speed by 10% for 6 seconds."
+		"Your critical strikes from Raptor Strike increase your melee attack speed by 5% for 6 seconds.",
+		"Your critical strikes from Raptor Strike increase your melee attack speed by 10% for 6 seconds."
 		];
 i++;
 //Humanoid Slaying - Survival
