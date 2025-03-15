@@ -391,7 +391,7 @@ rank[i] = [
 i++;
 //Shadowburn - Destruction
 rank[i] = [
-		"Cast: instant.<br>Range: 20 yards.<br>Cost: Z mana.<br>Reagent: Soul Shard.<br>Instantly blasts the target for X to Y Shadow damage.  If the target dies within 5 seconds of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  (Cooldown: 15 seconds.)<br><br>[Rank 1: X = 87, &nbsp;&nbsp;Y = 100, Z = 105,<br>&nbsp;Rank 2: X = 115, Y = 132, Z = 130 (level 24),<br>&nbsp;Rank 3: X = 186, Y = 211, Z = 190 (level 32),<br>&nbsp;Rank 4: X = 261, Y = 294, Z = 245 (level 40),<br>&nbsp;Rank 5: X = 350, Y = 393, Z = 305 (level 48),<br>&nbsp;Rank 6: X = 450, Y = 503, Z = 365 (level 56).]"
+		"Cast: instant.<br>Range: 20 yards.<br>Cost: Z mana.<br>Reagent: Soul Shard.<br>Instantly blasts the target for X to Y Shadow damage.  If the target dies within 5 seconds of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.  (Cooldown: 15 seconds.)<br><br>[Rank 1: X = 91, &nbsp;&nbsp;Y = 104, Z = 105,<br>&nbsp;Rank 2: X = 123, Y = 140, Z = 130 (level 24),<br>&nbsp;Rank 3: X = 196, Y = 221, Z = 190 (level 32),<br>&nbsp;Rank 4: X = 274, Y = 307, Z = 245 (level 40),<br>&nbsp;Rank 5: X = 365, Y = 408, Z = 305 (level 48),<br>&nbsp;Rank 6: X = 462, Y = 514, Z = 365 (level 56).]"
 		];
 i++;
 //Intensity - Destruction
@@ -446,7 +446,7 @@ rank[i] = [
 i++;
 //Conflagrate - Destruction
 rank[i] = [
-		"Cast: instant.<br>Range: 30 yards.<br>Cost: Z mana.<br>Ignites a target that is already afflicted by Immolate, dealing X to Y Fire damage and consuming the Immolate spell.  (Cooldown: 10 seconds.)<br><br>[Rank 1: X = 240, Y = 307, Z = 165,<br>&nbsp;Rank 2: X = 316, Y = 397, Z = 200 (level 48),<br>&nbsp;Rank 3: X = 383, Y = 480, Z = 230 (level 54),<br>&nbsp;Rank 4: X = 447, Y = 558, Z = 255 (level 60).]"
+		"Cast: instant.<br>Range: 30 yards.<br>Cost: Z mana.<br>Ignites a target that is already afflicted by Immolate, dealing X to Y Fire damage and consuming the Immolate spell.  (Cooldown: 10 seconds.)<br><br>[Rank 1: X = 249, Y = 316, Z = 165,<br>&nbsp;Rank 2: X = 326, Y = 407, Z = 200 (level 48),<br>&nbsp;Rank 3: X = 395, Y = 491, Z = 230 (level 54),<br>&nbsp;Rank 4: X = 447, Y = 557, Z = 255 (level 60).]"
 		];
 i++;
 

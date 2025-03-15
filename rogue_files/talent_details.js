@@ -461,7 +461,7 @@ rank[i] = [
 i++;
 //Preparation - Subtlety
 rank[i] = [
-		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 20 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
+		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 15 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
 		];
 i++;
 

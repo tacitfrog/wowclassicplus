@@ -363,11 +363,11 @@ rank[i] = [
 i++;
 //Survivalist - Survival
 rank[i] = [
-		"Increases your total health by 2%.",
-		"Increases your total health by 4%.",
-		"Increases your total health by 6%.",
-		"Increases your total health by 8%.",
-		"Increases your total health by 10%."
+		"Increases your maximum health by 2%.",
+		"Increases your maximum health by 4%.",
+		"Increases your maximum health by 6%.",
+		"Increases your maximum health by 8%.",
+		"Increases your maximum health by 10%."
 		];
 i++;
 //Deterrence - Survival
