@@ -11,7 +11,7 @@ i = 0;
 
 talent[i] = [0, "Suppression", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Corruption", "", 5, 3, 1]; i++;
-talent[i] = [0, "Enfeebling Curses", "changedmoved", 5, 1, 2]; i++;
+talent[i] = [0, "Enfeebling Curses", "new", 5, 1, 2]; i++;
 talent[i] = [0, "Improved Drain Soul", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Life Tap", "", 2, 3, 2]; i++;
 talent[i] = [0, "Improved Drain Life", "changed", 2, 4, 2]; i++;
