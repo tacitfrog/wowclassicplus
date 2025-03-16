@@ -98,11 +98,11 @@ rank[i] = [
 i++;
 //Enfeebling Curses - Affliction
 rank[i] = [
-		"Increases the effect of your Curse of Weakness by 4%, the damage dealt by your Curse of Agony by 2%, and the speed reduction of your Curse of Exhaustion by 4%.",
-		"Increases the effect of your Curse of Weakness by 8%, the damage dealt by your Curse of Agony by 4%, and the speed reduction of your Curse of Exhaustion by 8%.",
-		"Increases the effect of your Curse of Weakness by 12%, the damage dealt by your Curse of Agony by 6%, and the speed reduction of your Curse of Exhaustion by 12%.",
-		"Increases the effect of your Curse of Weakness by 16%, the damage dealt by your Curse of Agony by 8%, and the speed reduction of your Curse of Exhaustion by 16%.",
-		"Increases the effect of your Curse of Weakness by 20%, the damage dealt by your Curse of Agony by 10%, and the speed reduction of your Curse of Exhaustion by 20%."
+		"Increases the effect of your Curse of Weakness, Curse of Agony, and Curse of Exhaustion by 4%.",
+		"Increases the effect of your Curse of Weakness, Curse of Agony, and Curse of Exhaustion by 8%.",
+		"Increases the effect of your Curse of Weakness, Curse of Agony, and Curse of Exhaustion by 12%.",
+		"Increases the effect of your Curse of Weakness, Curse of Agony, and Curse of Exhaustion by 16%.",
+		"Increases the effect of your Curse of Weakness, Curse of Agony, and Curse of Exhaustion by 20%."
 		];
 i++;
 //Improved Drain Soul - Affliction
