@@ -407,6 +407,8 @@ td.treeBlock img {
 .professions { color: #DDDDDD!important; }
 .miscellaneous { color: #DDDDDD!important; }
 
+.item-junk { color: #9D9D9D!important; }
+.item-common { color: #FFFFFF!important; }
 .item-uncommon { color: #1EFF00!important; }
 .item-rare { color: #0070DD!important; }
 .item-epic { color: #A335EE!important; }
