@@ -144,11 +144,11 @@ rank[i] = [
 i++;
 //Vile Poisons - Assassination
 rank[i] = [
-		"Increases the damage dealt by your poisons by 5% and gives your poisons an additional 8% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 10% and gives your poisons an additional 16% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 15% and gives your poisons an additional 24% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 32% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 25% and gives your poisons an additional 40% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]"
+		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
+		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]"
 		];
 i++;
 //Improved Poisons - Assassination
@@ -447,7 +447,7 @@ rank[i] = [
 i++;
 //Hemorrhage - Subtlety
 rank[i] = [
-		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 100% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to X.  Lasts 15 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 3,<br>&nbsp;Rank 2: X = 5 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 7 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 11 (level 58).]"
+		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to X.  Lasts 20 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 4,<br>&nbsp;Rank 2: X = 6 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 9 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 12 (level 58).]"
 		];
 i++;
 //Deadliness - Subtlety
