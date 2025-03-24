@@ -26,7 +26,7 @@ talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
 talent[i] = [0, "Unstable Afflictions", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Shadow Mastery", "", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
-talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7]; i++;
+talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7, [getTalentID("Shadow Mastery"), 1]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
