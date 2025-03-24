@@ -262,11 +262,11 @@ rank[i] = [
 i++;
 //Deadened Nerves - Combat
 rank[i] = [
+		"Reduces all Physical damage you take by 1%.",
 		"Reduces all Physical damage you take by 2%.",
+		"Reduces all Physical damage you take by 3%.",
 		"Reduces all Physical damage you take by 4%.",
-		"Reduces all Physical damage you take by 6%.",
-		"Reduces all Physical damage you take by 8%.",
-		"Reduces all Physical damage you take by 10%."
+		"Reduces all Physical damage you take by 5%."
 		];
 i++;
 //Improved Kick - Combat
