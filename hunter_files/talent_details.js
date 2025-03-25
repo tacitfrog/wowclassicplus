@@ -11,7 +11,7 @@ i = 0;
 
 talent[i] = [0, "Improved Aspect of the Hawk", "", 5, 2, 1]; i++;
 talent[i] = [0, "Endurance Training", "", 5, 3, 1]; i++;
-talent[i] = [0, "Focused Fire", "new", 2, 1, 2]; i++;
+talent[i] = [0, "Focused Attacks", "new", 2, 1, 2]; i++;
 talent[i] = [0, "Improved Aspect of the Monkey", "changed", 3, 2, 2]; i++;
 talent[i] = [0, "Thick Hide", "", 3, 3, 2]; i++;
 talent[i] = [0, "Improved Revive Pet", "", 2, 4, 2]; i++;
@@ -94,7 +94,7 @@ rank[i] = [
 		"Increases the health of your pets by 15%."
 		];
 i++;
-//Focused Fire - Beast Mastery
+//Focused Attacks - Beast Mastery
 rank[i] = [
 		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 25% of the amount of its ranged attack power value.",
 		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 50% of the amount of its ranged attack power value."

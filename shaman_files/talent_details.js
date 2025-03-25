@@ -44,7 +44,7 @@ talent[i] = [1, "Toughness", "", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Weapon Totems", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Elemental Weapons", "changed", 3, 2, 5]; i++;
 talent[i] = [1, "Parry", "", 1, 3, 5]; i++;
-talent[i] = [1, "Fury of Earth", "new", 1, 4, 5]; i++;
+talent[i] = [1, "Epicentre", "new", 1, 4, 5]; i++;
 talent[i] = [1, "Weapon Mastery", "", 5, 3, 6]; i++;
 talent[i] = [1, "Stormstrike", "", 1, 2, 7, [getTalentID("Elemental Weapons"), 3]]; i++;
 
@@ -305,9 +305,9 @@ rank[i] = [
 		"Gives you a chance to parry enemy melee attacks."
 		];
 i++;
-//Fury of Earth - Enhancement
+//Epicentre - Enhancement
 rank[i] = [
-		"Your Earth Shock spell causes its Nature damage and threat to all enemies within 3 yards of the target.<br><br>[Note: Only the target is interrupted, but all nearby enemies suffer the damage and threat.  The damage is copied to nearby enemies in the same way as the Rogue talent Blade Flurry.  The copied damage cannot crit; but if the Earth Shock crits the target or if the target is affected by Stormstrike, the increased damage is copied.  The damage that each enemy suffers is modified by its own effects and Nature resistance.]"
+		"Your Earth Shock spell also causes half damage and full threat to all other enemies within 3 yards of the target.<br><br>[Note: Only the target is interrupted, but all nearby enemies suffer half of the damage and all of the threat.  The damage is applied to nearby enemies in the same way as the Rogue talent Blade Flurry.  The copied damage cannot crit; but if the Earth Shock crits the target or if the target is affected by Stormstrike, the increased damage is copied.  The damage that each enemy suffers is modified by its own effects and Nature resistance.]"
 		];
 i++;
 //Weapon Mastery - Enhancement

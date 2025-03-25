@@ -25,7 +25,7 @@ talent[i] = [0, "Arcane Meditation", "", 3, 4, 4]; i++;
 talent[i] = [0, "Improved Blink", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Presence of Mind", "", 1, 2, 5]; i++;
 talent[i] = [0, "Arcane Mind", "", 5, 3, 5, [getTalentID("Arcane Resilience"), 1]]; i++;
-talent[i] = [0, "Arcane Instability", "moved", 3, 2, 6]; i++;
+talent[i] = [0, "Arcane Instability", "", 3, 2, 6, [getTalentID("Presence of Mind"), 1]]; i++;
 talent[i] = [0, "Arcane Volatility", "new", 2, 3, 6]; i++;
 talent[i] = [0, "Arcane Power", "", 1, 2, 7, [getTalentID("Arcane Instability"), 3]]; i++;
 
@@ -148,9 +148,9 @@ rank[i] = [
 i++;
 //Arcane Escalation - Arcane
 rank[i] = [
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 1%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 2%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Increases the damage dealt by each successive missile of your Arcane Missiles spell by 3%.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
+		"Each successive missile of your Arcane Missiles spell deals an additional 1% damage.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Each successive missile of your Arcane Missiles spell deals an additional 2% damage.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage..<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
 //Improved Mana Shield - Arcane

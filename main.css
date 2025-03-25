@@ -26,7 +26,6 @@ input[type="button"]:hover, button:hover { background:#42532d; }
 .clear { clear: both; }
 .wrapper { width: 100%; max-width: 1490px; margin: 10px auto; background: url('img/wrap.jpg'); background-size: cover; border: 1px solid #222; display: flex; padding-bottom: 10px; }
 .hr { margin: 20px 0; height: 2px; background: url('img/hr.jpg'); }
-.emphasis { color: #DDDDDD; font-weight: bold; }
 .space40 { height: 40px; }
 
 /* ---- menu  ---- */
@@ -119,6 +118,7 @@ body .ui-tooltip {
 
 /* ---- sidebar  ---- */
 .contentbar { min-height: 300px; float: left; background: #82828208; margin: 0; }
+.contentbar .emphasis { color: #DDDDDD; font-weight: bold; }
 .mainbar-3 { width: 860px; float: left; margin: 10px 10px 20px; }
 .sidebar { width: 590px; min-height: 500px; float: right; background: #82828208; margin: 0; }
 .sidebar hr { color: #333333; margin: 0 15px 2px; }
@@ -161,6 +161,7 @@ body .ui-tooltip {
 .sidebar-region .talentChanged { color: #FF0000; }
 .sidebar-region .talentNew { color: #FFC000; }
 .sidebar-region .ability-reagent img { width: 15px; height: 15px; padding: 0 0 1px; }
+.sidebar-region .rightArrow img { width: 12px; height: 12px; padding: 0 2px 3px; }
 
 .sidebar-region .noticeBox {
 	width: 230px;
