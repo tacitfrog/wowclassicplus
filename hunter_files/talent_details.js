@@ -122,8 +122,8 @@ rank[i] = [
 i++;
 //Pathfinding - Beast Mastery
 rank[i] = [
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which Beasts will see you and your pet.",
-		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which Beasts will see you and your pet.  More effective than Pathfinding (Rank 1)."
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.  In addition, your Aspect of the Beast reduces the range at which hostile Beasts will see you and your pet.",
+		"Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%.  In addition, your Aspect of the Beast reduces the range at which hostile Beasts will see you and your pet.  More effective than Pathfinding (Rank 1)."
 		];
 i++;
 //Bestial Swiftness - Beast Mastery
