@@ -35,7 +35,7 @@ talent[i] = [1, "Shield Specialization", "", 5, 3, 1]; i++;
 talent[i] = [1, "Guardian Totems", "changed", 3, 1, 2]; i++;
 talent[i] = [1, "Thundering Strikes", "", 5, 2, 2]; i++;
 talent[i] = [1, "Improved Ghost Wolf", "", 2, 3, 2]; i++;
-talent[i] = [1, "Improved Lightning Shield", "", 3, 4, 2]; i++;
+talent[i] = [1, "Improved Lightning Shield", "changed", 3, 4, 2]; i++;
 talent[i] = [1, "Enhancing Totems", "", 2, 1, 3]; i++;
 talent[i] = [1, "Two-handed Axes and Maces", "changed", 1, 3, 3]; i++;
 talent[i] = [1, "Anticipation", "", 5, 4, 3]; i++;
@@ -244,9 +244,9 @@ rank[i] = [
 i++;
 //Improved Lightning Shield - Enhancement
 rank[i] = [
-		"Increases the damage done by your Lightning Shield orbs by 5%.",
 		"Increases the damage done by your Lightning Shield orbs by 10%.",
-		"Increases the damage done by your Lightning Shield orbs by 15%."
+		"Increases the damage done by your Lightning Shield orbs by 20%.",
+		"Increases the damage done by your Lightning Shield orbs by 30%."
 		];
 i++;
 //Enhancing Totems - Enhancement
@@ -428,8 +428,8 @@ rank[i] = [
 i++;
 //Improved Chain Heal - Restoration
 rank[i] = [
-		"Increases the amount healed by your Chain Heal spell by 3%.",
-		"Increases the amount healed by your Chain Heal spell by 6%."
+		"Increases the amount healed by your Chain Heal spell to targets after the first by 5%.",
+		"Increases the amount healed by your Chain Heal spell to targets after the first by 10%."
 		];
 i++;
 //Purification - Restoration
