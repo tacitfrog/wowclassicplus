@@ -119,6 +119,7 @@ body .ui-tooltip {
 /* ---- sidebar  ---- */
 .contentbar { min-height: 300px; float: left; background: #82828208; margin: 0; }
 .contentbar .emphasis { color: #DDDDDD; font-weight: bold; }
+.contentbar .hidden { color: #82828208; font-weight: bold; }
 .mainbar-3 { width: 860px; float: left; margin: 10px 10px 20px; }
 .sidebar { width: 590px; min-height: 500px; float: right; background: #82828208; margin: 0; }
 .sidebar hr { color: #333333; margin: 0 15px 2px; }
