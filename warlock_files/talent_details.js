@@ -41,12 +41,12 @@ talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
 talent[i] = [1, "Fel Stamina", "", 5, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
+talent[i] = [1, "Improved Firestone", "changedmoved", 3, 1, 4]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
-talent[i] = [1, "Improved Firestone", "changedmoved", 3, 4, 4]; i++;
-talent[i] = [1, "Improved Enslave Demon", "changed", 2, 1, 5]; i++;
+talent[i] = [1, "Improved Spellstone", "changedmoved", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
-talent[i] = [1, "Improved Spellstone", "changedmoved", 2, 4, 5]; i++;
+talent[i] = [1, "Improved Enslave Demon", "changed", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
 talent[i] = [1, "Soul Link", "moved", 1, 3, 7]; i++;
 
@@ -65,10 +65,10 @@ talent[i] = [2, "Intensity", "", 2, 1, 4]; i++;
 talent[i] = [2, "Destructive Reach", "", 2, 2, 4]; i++;
 talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
 talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
-talent[i] = [2, "Improved Immolate", "", 5, 2, 5]; i++;
+talent[i] = [2, "Improved Immolate", "", 3, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
-talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 5]]; i++;
+talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 3]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -275,6 +275,13 @@ rank[i] = [
 		"Increases the armour given by your Demon Skin and Demon Armor spells by 15% and the health restored by 6 every 5 seconds."
 		];
 i++;
+//Improved Firestone - Demonology
+rank[i] = [
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		];
+i++;
 //Master Summoner - Demonology
 rank[i] = [
 		"Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 2 seconds and the mana cost by 20%.",
@@ -290,17 +297,10 @@ rank[i] = [
 		"Increases the critical strike chance of your Imp's Firebolt spell by 5% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
 		];
 i++;
-//Improved Firestone - Demonology
+//Improved Spellstone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
-		];
-i++;
-//Improved Enslave Demon - Demonology
-rank[i] = [
-		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
-		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 10%."
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of maximum mana.",
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of maximum mana."
 		];
 i++;
 //Demonic Sacrifice - Demonology
@@ -308,10 +308,10 @@ rank[i] = [
 		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any demon is summoned.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of your total health every 4 seconds.<br><br>Succubus: Increases your Shadow damage by 15%.<br><br>Felhunter: Restores 2% of your total mana every 4 seconds."
 		];
 i++;
-//Improved Spellstone - Demonology
+//Improved Enslave Demon - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon restore 2% of maximum mana.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon restore 4% of maximum mana."
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 10%."
 		];
 i++;
 //Master Demonologist - Demonology
@@ -425,9 +425,7 @@ i++;
 rank[i] = [
 		"Increases the initial damage of your Immolate spell by 5%.",
 		"Increases the initial damage of your Immolate spell by 10%.",
-		"Increases the initial damage of your Immolate spell by 15%.",
-		"Increases the initial damage of your Immolate spell by 20%.",
-		"Increases the initial damage of your Immolate spell by 25%."
+		"Increases the initial damage of your Immolate spell by 15%."
 		];
 i++;
 //Ruin - Destruction
