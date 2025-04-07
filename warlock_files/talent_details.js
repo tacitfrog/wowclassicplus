@@ -256,7 +256,7 @@ rank[i] = [
 i++;
 //Fel Domination - Demonology
 rank[i] = [
-		"Cast: instant.<br>Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 5.5 seconds and its mana cost reduced by 50%.  (Cooldown: 15 minutes.)"
+		"Cast: instant.<br>Your next Imp, Voidwalker, Succubus, or Felhunter summon spell has its casting time reduced by 5.5 seconds and its mana cost reduced by 50%.  (Cooldown: 15 minutes.)"
 		];
 i++;
 //Fel Stamina - Demonology
@@ -277,15 +277,15 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave.]"
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]"
 		];
 i++;
 //Master Summoner - Demonology
 rank[i] = [
-		"Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 2 seconds and the mana cost by 20%.",
-		"Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 4 seconds and the mana cost by 40%."
+		"Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter summoning spells by 2 seconds and the mana cost by 20%.",
+		"Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter summoning spells by 4 seconds and the mana cost by 40%."
 		];
 i++;
 //Unholy Power - Demonology
