@@ -46,7 +46,7 @@ talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Spellstone", "changedmoved", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
-talent[i] = [1, "Improved Enslave Demon", "changedmoved", 2, 4, 5]; i++;
+talent[i] = [1, "Improved Enslave Demon", "changed", 2, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
 talent[i] = [1, "Soul Link", "moved", 1, 3, 7]; i++;
 
