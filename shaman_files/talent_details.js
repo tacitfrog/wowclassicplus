@@ -272,9 +272,9 @@ rank[i] = [
 i++;
 //Elemental Weapons - Enhancement
 rank[i] = [
-		"Increases the attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 10%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
-		"Increases the attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 20%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 20%.",
-		"Increases the attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 30%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 30%."
+		"Increases the attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
+		"Increases the attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 26%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 20%.",
+		"Increases the attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40%, and the damage caused by your Flametongue Weapon and Frostbrand Weapon by 30%."
 		];
 i++;
 //Flurry - Enhancement
