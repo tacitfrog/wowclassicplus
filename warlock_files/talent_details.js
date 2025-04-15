@@ -26,7 +26,7 @@ talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
 talent[i] = [0, "Unstable Afflictions", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Shadow Mastery", "", 5, 2, 6, [getTalentID("Siphon Life"), 1]]; i++;
-talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7, [getTalentID("Shadow Mastery"), 1]]; i++;
+talent[i] = [0, "Seed of Corruption", "new", 1, 2, 7, [getTalentID("Shadow Mastery"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 3% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 6% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 9% chance to deal or drain an additional 30% damage or health when damaging an enemy."
+		"Gives your Corruption and Drain Life spells a 4% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 8% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 13% chance to deal or drain an additional 30% damage or health when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
@@ -227,8 +227,8 @@ rank[i] = [
 i++;
 //Improved Health Funnel - Demonology
 rank[i] = [
-		"Increases the amount of health transferred by your Health Funnel spell by 10% and reduces the health cost by 10%.",
-		"Increases the amount of health transferred by your Health Funnel spell by 20% and reduces the health cost by 20%."
+		"Increases the amount of health transferred by your Health Funnel spell by 10% and reduces the initial health cost by 25%.",
+		"Increases the amount of health transferred by your Health Funnel spell by 20% and reduces the initial health cost by 50%."
 		];
 i++;
 //Improved Voidwalker - Demonology
@@ -277,9 +277,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
-		"While you have a Firestone equipped, any Fire damage that you or your Imp deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  The effect only heals you, not your Imp.  This effect can trigger from your Firestone effect, Fire wands, Fire Shield, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]"
+		"While you have a Firestone equipped, any Fire damage that you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage that you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage that you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]"
 		];
 i++;
 //Master Summoner - Demonology
