@@ -309,7 +309,7 @@ rank[i] = [
 i++;
 //Blade Flurry - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any poison procs and on-hit effects that your weapons apply to the main target are also applied to the additional opponent.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any poison procs and on-hit effects that your weapons apply to the target are also applied to the additional opponent.  This does not consume any extra poison charges.  Instant Poison and Spiteful Poison damage dealt to the target no longer copies to the additional opponent, as the poisons now proc separately on that opponent.]"
 		];
 i++;
 //Sword Specialization - Combat
