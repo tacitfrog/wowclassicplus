@@ -20,10 +20,10 @@ talent[i] = [0, "Reverberation", "", 5, 2, 3]; i++;
 talent[i] = [0, "Call of Thunder", "", 5, 3, 3]; i++;
 talent[i] = [0, "Improved Fire Totems", "changed", 2, 1, 4]; i++;
 talent[i] = [0, "Eye of the Storm", "", 3, 2, 4]; i++;
-talent[i] = [0, "Lightning Overload", "new", 3, 4, 4]; i++;
+talent[i] = [0, "Unrelenting Storm", "new", 2, 4, 4]; i++;
 talent[i] = [0, "Storm Reach", "", 2, 1, 5]; i++;
 talent[i] = [0, "Elemental Fury", "", 1, 2, 5]; i++;
-talent[i] = [0, "Unrelenting Storm", "new", 5, 4, 5]; i++;
+talent[i] = [0, "Lightning Overload", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Lightning Mastery", "", 5, 3, 6, [getTalentID("Call of Thunder"), 5]]; i++;
 talent[i] = [0, "Elemental Mastery", "", 1, 2, 7, [getTalentID("Elemental Fury"), 1]]; i++;
 
@@ -158,11 +158,10 @@ rank[i] = [
 		"Gives you a 100% chance to gain the Focused Casting effect that lasts for 6 seconds after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage."
 		];
 i++;
-//Lightning Overload - Elemental
+//Unrelenting Storm - Elemental
 rank[i] = [
-		"Gives your Lightning Bolt and Chain Lightning spells a 2% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-		"Gives your Lightning Bolt and Chain Lightning spells a 4% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-		"Gives your Lightning Bolt and Chain Lightning spells a 6% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+		"Allows 5% of your mana regeneration to continue while casting.",
+		"Allows 10% of your mana regeneration to continue while casting.",
 		];
 i++;
 //Storm Reach - Elemental
@@ -176,13 +175,11 @@ rank[i] = [
 		"Increases the critical strike damage bonus of your Searing, Magma, and Fire Nova Totems and your Fire, Frost, and Nature spells by 100%."
 		];
 i++;
-//Unrelenting Storm - Elemental
+//Lightning Overload - Elemental
 rank[i] = [
-		"Regenerate mana equal to 2% of your total Intellect every 5 seconds.",
-		"Regenerate mana equal to 4% of your total Intellect every 5 seconds.",
-		"Regenerate mana equal to 6% of your total Intellect every 5 seconds.",
-		"Regenerate mana equal to 8% of your total Intellect every 5 seconds.",
-		"Regenerate mana equal to 10% of your total Intellect every 5 seconds."
+		"Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+		"Gives your Lightning Bolt and Chain Lightning spells a 6% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+		"Gives your Lightning Bolt and Chain Lightning spells a 9% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
 		];
 i++;
 //Lightning Mastery - Elemental

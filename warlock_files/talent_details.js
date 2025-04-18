@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 4% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 8% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 13% chance to deal or drain an additional 30% damage or health when damaging an enemy."
+		"Gives your Corruption and Drain Life spells a 6% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 13% chance to deal or drain an additional 30% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 30% damage or health when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
