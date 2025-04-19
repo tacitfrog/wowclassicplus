@@ -157,8 +157,8 @@ rank[i] = [
 i++;
 //Spirit Bond - Beast Mastery
 rank[i] = [
-		"While your pet is active, you and your pet will regenerate 2% of maximum health every 10 seconds.",
-		"While your pet is active, you and your pet will regenerate 4% of maximum health every 10 seconds."
+		"While your pet is active, both you and your pet will regenerate 2% of maximum health every 10 seconds.",
+		"While your pet is active, both you and your pet will regenerate 4% of maximum health every 10 seconds."
 		];
 i++;
 //Intimidation - Beast Mastery

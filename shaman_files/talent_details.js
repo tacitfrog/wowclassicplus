@@ -23,7 +23,7 @@ talent[i] = [0, "Eye of the Storm", "", 3, 2, 4]; i++;
 talent[i] = [0, "Unrelenting Storm", "new", 2, 4, 4]; i++;
 talent[i] = [0, "Storm Reach", "", 2, 1, 5]; i++;
 talent[i] = [0, "Elemental Fury", "", 1, 2, 5]; i++;
-talent[i] = [0, "Lightning Overload", "new", 3, 4, 5]; i++;
+talent[i] = [0, "Lightning Overload", "new", 5, 4, 5]; i++;
 talent[i] = [0, "Lightning Mastery", "", 5, 3, 6, [getTalentID("Call of Thunder"), 5]]; i++;
 talent[i] = [0, "Elemental Mastery", "", 1, 2, 7, [getTalentID("Elemental Fury"), 1]]; i++;
 
@@ -177,9 +177,11 @@ rank[i] = [
 i++;
 //Lightning Overload - Elemental
 rank[i] = [
-		"Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+		"Gives your Lightning Bolt and Chain Lightning spells a 2% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+		"Gives your Lightning Bolt and Chain Lightning spells a 4% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
 		"Gives your Lightning Bolt and Chain Lightning spells a 6% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-		"Gives your Lightning Bolt and Chain Lightning spells a 9% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+		"Gives your Lightning Bolt and Chain Lightning spells a 8% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+		"Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
 		];
 i++;
 //Lightning Mastery - Elemental
