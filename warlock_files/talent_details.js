@@ -423,11 +423,11 @@ rank[i] = [
 i++;
 //Improved Immolate - Destruction
 rank[i] = [
-		"Increases the initial damage of your Immolate spell by 4% and an additional 4% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 8% and an additional 8% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 12% and an additional 12% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 16% and an additional 16% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 20% and an additional 20% if the target is already affected by any Immolate spell."
+		"Increases the initial damage of your Immolate spell by 3% and an additional 4% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 6% and an additional 8% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 9% and an additional 12% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 12% and an additional 16% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 15% and an additional 20% if the target is already affected by any Immolate spell."
 		];
 i++;
 //Ruin - Destruction
