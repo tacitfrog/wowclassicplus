@@ -189,7 +189,7 @@ rank[i] = [
 i++;
 //Vigor - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points cause you to regain 5 energy.  In addition, your maximum energy is increased by 10."
+		"Your critical strikes from abilities that add combo points cause you to regain 5 energy.  In addition, your maximum energy is increased by 10.<br><br>[Note: The Nightslayer (T1 set) 5-piece set bonus does stack with the maximum energy component, for a total of 120 energy.  The Bonescythe (T3 set) 4-piece set bonus does not stack with the energy regain component."
 		];
 i++;
 
