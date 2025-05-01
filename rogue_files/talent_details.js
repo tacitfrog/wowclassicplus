@@ -24,7 +24,7 @@ talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
-talent[i] = [0, "Vigor", "changed", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
+talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
