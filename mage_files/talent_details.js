@@ -148,9 +148,9 @@ rank[i] = [
 i++;
 //Arcane Escalation - Arcane
 rank[i] = [
-		"Each successive missile of your Arcane Missiles spell deals an additional 1% damage.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Each successive missile of your Arcane Missiles spell deals an additional 2% damage.<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage..<br><br>[Note: To clarify, the first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
+		"Each successive missile of your Arcane Missiles spell deals an additional 1% damage.<br><br>[Note: The first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Each successive missile of your Arcane Missiles spell deals an additional 2% damage.<br><br>[Note: The first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
+		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage..<br><br>[Note: The first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
 //Improved Mana Shield - Arcane
@@ -201,8 +201,8 @@ rank[i] = [
 i++;
 //Arcane Volatility - Arcane
 rank[i] = [
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 5% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect will heal the caster if he is within 5 yards of the target.]",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 10% of the damage caused.<br><br>[Note: The healing causes no threat.  This effect will heal the caster if he is within 5 yards of the target.]"
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 5% of the damage caused.  This healing causes no threat.",
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 10% of the damage caused.  This healing causes no threat."
 		];
 i++;
 //Arcane Power - Arcane
