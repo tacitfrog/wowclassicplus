@@ -13,10 +13,10 @@ talent[i] = [0, "Improved Eviscerate", "", 3, 1, 1]; i++;
 talent[i] = [0, "Remorseless Attacks", "", 2, 2, 1]; i++;
 talent[i] = [0, "Malice", "", 5, 3, 1]; i++;
 talent[i] = [0, "Ruthlessness", "", 3, 1, 2]; i++;
-talent[i] = [0, "Improved Expose Armor", "moved", 2, 2, 2]; i++;
+talent[i] = [0, "Murder", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
-talent[i] = [0, "Murder", "moved", 2, 2, 3]; i++;
+talent[i] = [0, "Improved Expose Armor", "", 2, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
 talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
@@ -109,10 +109,10 @@ rank[i] = [
 		"Gives your finishing moves a 60% chance to add a combo point to your target."
 		];
 i++;
-//Improved Expose Armor - Assassination
+//Murder - Assassination
 rank[i] = [
-		"Increases the armour reduced by your Expose Armor ability by 25%.",
-		"Increases the armour reduced by your Expose Armor ability by 50%."
+		"Increases all damage that you cause to Humanoid, Giant, Beast, and Dragonkin targets by 1%.",
+		"Increases all damage that you cause to Humanoid, Giant, Beast, and Dragonkin targets by 2%."
 		];
 i++;
 //Improved Backstab - Assassination
@@ -127,10 +127,10 @@ rank[i] = [
 		"Your finishing moves have a 20% chance per combo point to restore 25 energy."
 		];
 i++;
-//Murder - Assassination
+//Improved Expose Armor - Assassination
 rank[i] = [
-		"Increases all damage that you cause to Humanoid, Giant, Beast, and Dragonkin targets by 1%.",
-		"Increases all damage that you cause to Humanoid, Giant, Beast, and Dragonkin targets by 2%."
+		"Increases the armour reduced by your Expose Armor ability by 25%.",
+		"Increases the armour reduced by your Expose Armor ability by 50%."
 		];
 i++;
 //Lethality - Assassination

@@ -98,7 +98,7 @@ input[type="button"]:hover, button:hover { background:#42532d; }
 .row.contact input, textarea, select { padding: 10px 10px;}
 .row.contact button { margin: 8px 0 0; padding: 10px 25px; }
 
-.goals-header { color: #DDD; margin-bottom: 4px; margin-top: -15px; font-size: 14px; }
+.goals-header { color: #DDD; margin-bottom: 4px; margin-top: -25px; font-size: 14px; }
 .goals li { list-style: disc; margin-bottom: 4px; font-size: 11.5px; }
 
 /* ---- tooltip  ---- */
