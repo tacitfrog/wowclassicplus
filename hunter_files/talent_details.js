@@ -96,8 +96,8 @@ rank[i] = [
 i++;
 //Focused Attacks - Beast Mastery
 rank[i] = [
-		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 15% of the amount of its ranged attack power bonus.",
-		"Your Hunter's Mark also increases the melee attack power of your pets when striking the target by 30% of the amount of its ranged attack power bonus."
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 15% of its ranged attack power bonus.",
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 30% of its ranged attack power bonus."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
