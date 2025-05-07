@@ -12,7 +12,7 @@ i = 0;
 talent[i] = [0, "Suppression", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Corruption", "", 5, 3, 1]; i++;
 talent[i] = [0, "Enfeebling Curses", "new", 5, 1, 2]; i++;
-talent[i] = [0, "Improved Drain Soul", "", 2, 2, 2]; i++;
+talent[i] = [0, "Improved Drain Soul", "changed", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Life Tap", "", 2, 3, 2]; i++;
 talent[i] = [0, "Improved Drain Life", "changed", 2, 4, 2]; i++;
 talent[i] = [0, "Dark Pact", "changedmoved", 1, 1, 3]; i++;
@@ -107,8 +107,8 @@ rank[i] = [
 i++;
 //Improved Drain Soul - Affliction
 rank[i] = [
-		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.",
-		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal."
+		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]",
+		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed by you while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]"
 		];
 i++;
 //Improved Life Tap - Affliction
@@ -277,9 +277,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage that you deal has a 10% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
-		"While you have a Firestone equipped, any Fire damage that you deal has a 20% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
-		"While you have a Firestone equipped, any Fire damage that you deal has a 30% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently from any wave of hits and is calculated off the total damage dealt in that wave, but there is only one roll per wave so the trigger is independent of number of targets.]"
 		];
 i++;
 //Master Summoner - Demonology

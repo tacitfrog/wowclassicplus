@@ -10,7 +10,7 @@ tree[i] = "Subtlety"; i++;
 i = 0;
 
 talent[i] = [0, "Improved Eviscerate", "", 3, 1, 1]; i++;
-talent[i] = [0, "Remorseless Attacks", "", 2, 2, 1]; i++;
+talent[i] = [0, "Remorseless Attacks", "changed", 2, 2, 1]; i++;
 talent[i] = [0, "Malice", "", 5, 3, 1]; i++;
 talent[i] = [0, "Ruthlessness", "", 3, 1, 2]; i++;
 talent[i] = [0, "Murder", "", 2, 2, 2]; i++;
@@ -89,8 +89,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds."
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
