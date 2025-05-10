@@ -142,6 +142,7 @@ body .ui-tooltip {
 	margin: auto;
 	padding: 8px 10px;
 }
+.sidebar-header .subtitle { color: #CCC; font-size: 10.5px; }
 .sidebar-header .talenttreeicon { width: 27px; height: 27px; position: relative; padding: 0 4px 0 0; margin: -6px 0 -7px; }
 
 .mainbar-3 li { list-style: disc; margin-bottom: 4px; }
