@@ -89,8 +89,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 3 seconds of its death.]"
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
