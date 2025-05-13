@@ -38,7 +38,7 @@ talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
 talent[i] = [1, "Improved Sprint", "moved", 2, 4, 2]; i++;
 talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
 talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
-talent[i] = [1, "Deadened Nerves", "new", 5, 4, 3]; i++;
+talent[i] = [1, "Deadened Nerves", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
 talent[i] = [1, "Dual Wield Specialization", "", 5, 3, 4, [getTalentID("Precision"), 5]]; i++;
 talent[i] = [1, "Close Quarters Specialization", "changedmoved", 5, 4, 4]; i++;
@@ -264,9 +264,7 @@ i++;
 rank[i] = [
 		"Reduces all Physical damage you take by 2%.",
 		"Reduces all Physical damage you take by 4%.",
-		"Reduces all Physical damage you take by 6%.",
-		"Reduces all Physical damage you take by 8%.",
-		"Reduces all Physical damage you take by 10%."
+		"Reduces all Physical damage you take by 6%."
 		];
 i++;
 //Improved Kick - Combat
