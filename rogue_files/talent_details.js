@@ -89,8 +89,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Hemorrhage, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Hemorrhage, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
@@ -135,11 +135,11 @@ rank[i] = [
 i++;
 //Lethality - Assassination
 rank[i] = [
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 6%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 12%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 18%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 24%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 30%."
+		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 6%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 12%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 18%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 24%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 30%."
 		];
 i++;
 //Vile Poisons - Assassination

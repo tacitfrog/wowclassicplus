@@ -41,7 +41,7 @@ talent[i] = [1, "Improved Stings", "changed", 5, 2, 4]; i++;
 talent[i] = [1, "Mortal Shots", "", 5, 3, 4, [getTalentID("Lethal Shots"), 5]]; i++;
 talent[i] = [1, "Scatter Shot", "", 1, 1, 5]; i++;
 talent[i] = [1, "Barrage", "", 3, 2, 5]; i++;
-talent[i] = [1, "Careful Aim", "new", 3, 3, 5]; i++;
+talent[i] = [1, "Arcane Aim", "new", 3, 3, 5]; i++;
 talent[i] = [1, "Ranged Weapon Specialization", "", 5, 3, 6]; i++;
 talent[i] = [1, "Trueshot Aura", "", 1, 2, 7, [getTalentID("Barrage"), 3]]; i++;
 
@@ -279,11 +279,11 @@ rank[i] = [
 		"Increases the damage done by your Multi-Shot and Volley spells by 15%."
 		];
 i++;
-//Careful Aim - Marksmanship
+//Arcane Aim - Marksmanship
 rank[i] = [
-		"Increases your ranged attack power by an amount equal to 10% of your total Intellect and the damage dealt by your Arcane Shot by 5%.",
-		"Increases your ranged attack power by an amount equal to 20% of your total Intellect and the damage dealt by your Arcane Shot by 10%.",
-		"Increases your ranged attack power by an amount equal to 30% of your total Intellect and the damage dealt by your Arcane Shot by 15%."
+		"Increases the critical strike chance of your Arcane Shot by 3%.",
+		"Increases the critical strike chance of your Arcane Shot by 6%.",
+		"Increases the critical strike chance of your Arcane Shot by 9%."
 		];
 i++;
 //Ranged Weapon Specialization - Marksmanship
@@ -401,9 +401,9 @@ rank[i] = [
 i++;
 //Resourcefulness - Survival
 rank[i] = [
+		"Reduces the mana cost of all traps and melee abilities by 10%.",
 		"Reduces the mana cost of all traps and melee abilities by 20%.",
-		"Reduces the mana cost of all traps and melee abilities by 40%.",
-		"Reduces the mana cost of all traps and melee abilities by 60%."
+		"Reduces the mana cost of all traps and melee abilities by 30%."
 		];
 i++;
 //Killer Instinct - Survival
