@@ -53,12 +53,11 @@ talent[i] = [1, "Adrenaline Rush", "", 1, 2, 7]; i++;
 treeStartStop[t] = i - 1;
 t++;
 
-talent[i] = [2, "Master of Deception", "", 5, 2, 1]; i++;
+talent[i] = [2, "Master of Deception", "changed", 5, 2, 1]; i++;
 talent[i] = [2, "Opportunity", "", 5, 3, 1]; i++;
-talent[i] = [2, "Sleight of Hand", "", 2, 1, 2]; i++;
+talent[i] = [2, "Initiative", "moved", 3, 1, 2]; i++;
 talent[i] = [2, "Elusiveness", "changed", 2, 2, 2]; i++;
 talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
-talent[i] = [2, "Initiative", "moved", 3, 4, 2]; i++;
 talent[i] = [2, "Improved Sap", "changedmoved", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
 talent[i] = [2, "Serrated Blades", "moved", 3, 3, 3]; i++;
@@ -343,11 +342,11 @@ i++;
 
 //Master of Deception - Subtlety
 rank[i] = [
-		"Reduces the chance enemies have to detect you while in Stealth mode.",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 1).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 2).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 3).",
-		"Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 4)."
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 1%.",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 2%.  More effective than Master of Deception (Rank 1).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 3%.  More effective than Master of Deception (Rank 2).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 4%.  More effective than Master of Deception (Rank 3).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 5%.  More effective than Master of Deception (Rank 4)."
 		];
 i++;
 //Opportunity - Subtlety
@@ -359,10 +358,11 @@ rank[i] = [
 		"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
 		];
 i++;
-//Sleight of Hand - Subtlety
+//Initiative - Subtlety
 rank[i] = [
-		"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-		"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+		"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+		"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+		"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
 		];
 i++;
 //Elusiveness - Subtlety
@@ -378,13 +378,6 @@ rank[i] = [
 		"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 seconds.",
 		"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 seconds.",
 		"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 seconds."
-		];
-i++;
-//Initiative - Subtlety
-rank[i] = [
-		"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-		"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-		"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
 		];
 i++;
 //Improved Sap - Subtlety
