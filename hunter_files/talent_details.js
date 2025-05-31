@@ -281,9 +281,9 @@ rank[i] = [
 i++;
 //Arcane Aim - Marksmanship
 rank[i] = [
-		"Increases the critical strike chance of your Arcane Shot by 3%.",
-		"Increases the critical strike chance of your Arcane Shot by 6%.",
-		"Increases the critical strike chance of your Arcane Shot by 9%."
+		"Increases the critical strike chance of your Arcane Shot by 2%.",
+		"Increases the critical strike chance of your Arcane Shot by 4%.",
+		"Increases the critical strike chance of your Arcane Shot by 6%."
 		];
 i++;
 //Ranged Weapon Specialization - Marksmanship
