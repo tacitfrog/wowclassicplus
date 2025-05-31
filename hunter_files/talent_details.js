@@ -401,9 +401,9 @@ rank[i] = [
 i++;
 //Resourcefulness - Survival
 rank[i] = [
-		"Reduces the mana cost of all traps and melee abilities by 10%.",
 		"Reduces the mana cost of all traps and melee abilities by 20%.",
-		"Reduces the mana cost of all traps and melee abilities by 30%."
+		"Reduces the mana cost of all traps and melee abilities by 40%.",
+		"Reduces the mana cost of all traps and melee abilities by 60%."
 		];
 i++;
 //Killer Instinct - Survival

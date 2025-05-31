@@ -429,9 +429,9 @@ rank[i] = [
 i++;
 //Arctic Winds - Frost
 rank[i] = [
-		"Reduces the chance that you are hit by melee and ranged attacks by 1% and reduces the mana cost of your Frost Ward spell by 10%.",
-		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 20%.",
-		"Reduces the chance that you are hit by melee and ranged attacks by 3% and reduces the mana cost of your Frost Ward spell by 30%."
+		"Reduces the chance that you are hit by melee and ranged attacks by 1% and reduces the mana cost of your Frost Ward spell by 20%.",
+		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 40%.",
+		"Reduces the chance that you are hit by melee and ranged attacks by 3% and reduces the mana cost of your Frost Ward spell by 60%."
 		];
 i++;
 //Ice Block - Frost

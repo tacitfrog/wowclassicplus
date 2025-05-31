@@ -61,10 +61,10 @@ talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
 talent[i] = [2, "Initiative", "moved", 3, 4, 2]; i++;
 talent[i] = [2, "Improved Sap", "changedmoved", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
-talent[i] = [2, "Improved Ambush", "", 3, 3, 3]; i++;
+talent[i] = [2, "Serrated Blades", "moved", 3, 3, 3]; i++;
 talent[i] = [2, "Setup", "", 3, 1, 4]; i++;
 talent[i] = [2, "Heightened Senses", "moved", 2, 2, 4]; i++;
-talent[i] = [2, "Serrated Blades", "", 3, 3, 4]; i++;
+talent[i] = [2, "Improved Ambush", "changedmoved", 2, 3, 4]; i++;
 talent[i] = [2, "Cheat Death", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Preparation", "", 1, 2, 5]; i++;
 talent[i] = [2, "Dirty Deeds", "", 2, 3, 5]; i++;
@@ -89,8 +89,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Hemorrhage, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Hemorrhage, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, Ambush, or Eviscerate.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, Ambush, or Eviscerate.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
@@ -307,7 +307,7 @@ rank[i] = [
 i++;
 //Blade Flurry - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any poison procs and on-hit effects that your weapons apply to the target are also applied to the additional opponent.  This does not consume any extra poison charges.  Instant Poison and Spiteful Poison damage dealt to the target no longer copies to the additional opponent, as the poisons now proc separately on that opponent.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any Rogue poisons that your weapons apply to the target are also applied to the additional opponent.  This consumes an extra poison charge.  Instant Poison and Spiteful Poison damage dealt to the target no longer copies to the additional opponent, as the poisons now proc separately on that opponent.]"
 		];
 i++;
 //Sword Specialization - Combat
@@ -398,11 +398,11 @@ rank[i] = [
 		"Cast: instant.<br>Cost: 40 energy.<br>An instant strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 seconds.  Awards 1 combo point.  (Cooldown: 20 seconds.)"
 		];
 i++;
-//Improved Ambush - Subtlety
+//Serrated Blades - Subtlety
 rank[i] = [
-		"Increases the critical strike chance of your Ambush ability by 15%.",
-		"Increases the critical strike chance of your Ambush ability by 30%.",
-		"Increases the critical strike chance of your Ambush ability by 45%."
+		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 10%.<br><br>[Note: X = 1.67 * your current level.]",
+		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 20%.<br><br>[Note: X = 3.33 * your current level.]",
+		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 30%.<br><br>[Note: X = 5 * your current level.]"
 		];
 i++;
 //Setup - Subtlety
@@ -418,11 +418,10 @@ rank[i] = [
 		"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
 		];
 i++;
-//Serrated Blades - Subtlety
+//Improved Ambush - Subtlety
 rank[i] = [
-		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 10%.<br><br>[Note: X = 1.67 * your current level.]",
-		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 20%.<br><br>[Note: X = 3.33 * your current level.]",
-		"Causes your attacks to ignore X of your target's armour and increases the damage dealt by your Rupture ability by 30%.<br><br>[Note: X = 5 * your current level.]"
+		"Increases the critical strike chance of your Ambush ability by 25%.",
+		"Increases the critical strike chance of your Ambush ability by 50%.",
 		];
 i++;
 //Cheat Death - Subtlety
