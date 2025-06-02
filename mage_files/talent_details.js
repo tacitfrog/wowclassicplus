@@ -12,7 +12,7 @@ i = 0;
 talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
-talent[i] = [0, "Magic Absorption", "", 5, 2, 2]; i++;
+talent[i] = [0, "Magic Absorption", "changed", 2, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
 talent[i] = [0, "Arcane Subtlety", "moved", 2, 4, 2]; i++;
 talent[i] = [0, "Magic Attunement", "", 2, 1, 3]; i++;
@@ -106,11 +106,8 @@ rank[i] = [
 i++;
 //Magic Absorption - Arcane
 rank[i] = [
-		"Increases all resistances by 2 and causes all spells you fully resist to restore 1% of your total mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 4 and causes all spells you fully resist to restore 2% of your total mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 6 and causes all spells you fully resist to restore 3% of your total mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 8 and causes all spells you fully resist to restore 4% of your total mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 10 and causes all spells you fully resist to restore 5% of your total mana.  This effect cannot occur more than once per second."
+		"Increases all resistances by 5 and causes all spells you fully resist to restore 1% of your total mana.  This effect cannot occur more than once per second.",
+		"Increases all resistances by 10 and causes all spells you fully resist to restore 2% of your total mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Arcane Concentration - Arcane
@@ -174,8 +171,8 @@ rank[i] = [
 i++;
 //Improved Blink - Arcane
 rank[i] = [
-		"Reduces the mana cost of your Blink spell by 25%.",
-		"Reduces the mana cost of your Blink spell by 50%."
+		"After casting your Blink spell, you have a 50% chance to be out of phase for 3 seconds, reducing the chance that you are hit by any attack or spell by 15%.",
+		"After casting your Blink spell, you have a 100% chance to be out of phase for 3 seconds, reducing the chance that you are hit by any attack or spell by 15%."
 		];
 i++;
 //Presence of Mind - Arcane

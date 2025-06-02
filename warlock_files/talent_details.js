@@ -119,8 +119,8 @@ rank[i] = [
 i++;
 //Improved Drain Life - Affliction
 rank[i] = [
-		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target.",
-		"Increases the health drained by your Drain Life spell by 4% for each of your other Affliction effects on the target."
+		"Increases the health drained by your Drain Life spell by 1% for each of your other Affliction effects on the target.",
+		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target."
 		];
 i++;
 //Dark Pact - Affliction
