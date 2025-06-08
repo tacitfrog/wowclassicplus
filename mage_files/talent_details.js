@@ -106,8 +106,8 @@ rank[i] = [
 i++;
 //Magic Absorption - Arcane
 rank[i] = [
-		"Increases all resistances by 5 and causes all spells you fully resist to restore 1% of your total mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 10 and causes all spells you fully resist to restore 2% of your total mana.  This effect cannot occur more than once per second."
+		"Increases all resistances by 5 and causes all spells you fully resist to restore 1% of your maximum mana.  This effect cannot occur more than once per second.",
+		"Increases all resistances by 10 and causes all spells you fully resist to restore 2% of your maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Arcane Concentration - Arcane
