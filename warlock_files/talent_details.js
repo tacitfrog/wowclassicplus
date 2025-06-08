@@ -34,12 +34,12 @@ t++;
 talent[i] = [1, "Improved Healthstone", "", 2, 1, 1]; i++;
 talent[i] = [1, "Improved Imp", "", 3, 2, 1]; i++;
 talent[i] = [1, "Demonic Embrace", "", 5, 3, 1]; i++;
-talent[i] = [1, "Improved Health Funnel", "changed", 3, 1, 2]; i++;
+talent[i] = [1, "Improved Health Funnel", "changed", 2, 1, 2]; i++;
 talent[i] = [1, "Improved Voidwalker", "", 3, 2, 2]; i++;
-talent[i] = [1, "Fel Intellect", "", 3, 3, 2]; i++;
+talent[i] = [1, "Fel Intellect", "changed", 3, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
-talent[i] = [1, "Fel Stamina", "", 3, 3, 3]; i++;
+talent[i] = [1, "Fel Stamina", "changed", 3, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Improved Firestone", "changedmoved", 3, 1, 4]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
@@ -64,7 +64,7 @@ talent[i] = [2, "Shadowburn", "", 1, 4, 3]; i++;
 talent[i] = [2, "Intensity", "", 2, 1, 4]; i++;
 talent[i] = [2, "Destructive Reach", "", 2, 2, 4]; i++;
 talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
-talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
+talent[i] = [2, "Pyroclasm", "changed", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
 talent[i] = [2, "Improved Immolate", "changed", 5, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells a 6% chance to deal or drain an additional 20% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 13% chance to deal or drain an additional 20% damage or health when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 20% chance to deal or drain an additional 20% damage or health when damaging an enemy."
+		"Gives your Corruption and Drain Life spells a 8% chance to deal or drain an additional 20% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 16% chance to deal or drain an additional 20% damage or health when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 25% chance to deal or drain an additional 20% damage or health when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
@@ -228,8 +228,7 @@ i++;
 //Improved Health Funnel - Demonology
 rank[i] = [
 		"Increases the amount of health transferred by your Health Funnel spell by 10% and reduces the initial health cost by 20%.",
-		"Increases the amount of health transferred by your Health Funnel spell by 20% and reduces the initial health cost by 40%.",
-		"Increases the amount of health transferred by your Health Funnel spell by 30% and reduces the initial health cost by 60%."
+		"Increases the amount of health transferred by your Health Funnel spell by 20% and reduces the initial health cost by 40%."
 		];
 i++;
 //Improved Voidwalker - Demonology
@@ -296,8 +295,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 50% chance to restore 2% of maximum mana and be cleansed of one negative magic effect.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 100% chance to restore 2% of maximum mana and be cleansed of one negative magic effect."
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 50% chance to restore 2% of maximum mana and have one negative magic effect dispelled.",
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 100% chance to restore 2% of maximum mana and have one negative magic effect dispelled."
 		];
 i++;
 //Demonic Sacrifice - Demonology
@@ -414,8 +413,8 @@ rank[i] = [
 i++;
 //Pyroclasm - Destruction
 rank[i] = [
-		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 seconds.",
-		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 26% chance to stun the target for 3 seconds."
+		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 15% chance to stun the target for 3 seconds.",
+		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 30% chance to stun the target for 3 seconds."
 		];
 i++;
 //Improved Immolate - Destruction
