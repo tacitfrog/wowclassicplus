@@ -9,7 +9,7 @@ tree[i] = "Survival"; i++;
 
 i = 0;
 
-talent[i] = [0, "Improved Aspect of the Hawk", "", 5, 2, 1]; i++;
+talent[i] = [0, "Improved Aspect of the Hawk", "changed", 5, 2, 1]; i++;
 talent[i] = [0, "Endurance Training", "", 5, 3, 1]; i++;
 talent[i] = [0, "Focused Attacks", "new", 2, 1, 2]; i++;
 talent[i] = [0, "Improved Aspect of the Monkey", "changed", 3, 2, 2]; i++;
@@ -49,10 +49,10 @@ treeStartStop[t] = i - 1;
 t++;
 
 talent[i] = [2, "Improved Raptor Strike", "new", 2, 1, 1]; i++;
-talent[i] = [2, "Humanoid Slaying", "", 3, 2, 1]; i++;
+talent[i] = [2, "Monster Slaying", "", 3, 2, 1]; i++;
 talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
-talent[i] = [2, "Monster Slaying", "moved", 3, 2, 2]; i++;
+talent[i] = [2, "Humanoid Slaying", "moved", 3, 2, 2]; i++;
 talent[i] = [2, "Improved Wing Clip", "changed", 3, 3, 2]; i++;
 talent[i] = [2, "Savage Strikes", "changed", 2, 4, 2]; i++;
 talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
@@ -78,11 +78,11 @@ i = 0;
 
 //Improved Aspect of the Hawk - Beast Mastery
 rank[i] = [
-		"While Aspect of the Hawk is active, all normal ranged attacks have a 1% chance of increasing ranged attack speed by 30% for 12 seconds.",
-		"While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing ranged attack speed by 30% for 12 seconds.",
-		"While Aspect of the Hawk is active, all normal ranged attacks have a 3% chance of increasing ranged attack speed by 30% for 12 seconds.",
-		"While Aspect of the Hawk is active, all normal ranged attacks have a 4% chance of increasing ranged attack speed by 30% for 12 seconds.",
-		"While Aspect of the Hawk is active, all normal ranged attacks have a 5% chance of increasing ranged attack speed by 30% for 12 seconds."
+		"While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing your ranged attack speed by 20% for 12 seconds.",
+		"While Aspect of the Hawk is active, all normal ranged attacks have a 4% chance of increasing your ranged attack speed by 20% for 12 seconds.",
+		"While Aspect of the Hawk is active, all normal ranged attacks have a 6% chance of increasing your ranged attack speed by 20% for 12 seconds.",
+		"While Aspect of the Hawk is active, all normal ranged attacks have a 8% chance of increasing your ranged attack speed by 20% for 12 seconds.",
+		"While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing your ranged attack speed by 20% for 12 seconds."
 		];
 i++;
 //Endurance Training - Beast Mastery
@@ -310,11 +310,11 @@ rank[i] = [
 		"Your critical strikes from Raptor Strike increase your melee attack speed by 10% for 6 seconds."
 		];
 i++;
-//Humanoid Slaying - Survival
+//Monster Slaying - Survival
 rank[i] = [
-		"Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
-		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
-		"Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 1% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 1%.",
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%.",
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 3% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 3%."
 		];
 i++;
 //Deflection - Survival
@@ -335,11 +335,11 @@ rank[i] = [
 		"Gives your Immolation Trap, Frost Trap, and Explosive Trap a 25% chance to entrap the target, preventing them from moving for 5 seconds."
 		];
 i++;
-//Monster Slaying - Survival
+//Humanoid Slaying - Survival
 rank[i] = [
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 1% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 1%.",
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%.",
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 3% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 3%."
+		"Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
+		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
+		"Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
 		];
 i++;
 //Improved Wing Clip - Survival

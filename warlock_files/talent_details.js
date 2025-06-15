@@ -107,8 +107,8 @@ rank[i] = [
 i++;
 //Improved Drain Soul - Affliction
 rank[i] = [
-		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused non-periodic damage to the target within 2 seconds of its death.]",
-		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused non-periodic damage to the target within 2 seconds of its death.]"
+		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct or channeled damage (DOTs don't count) to the target within 2 seconds of its death.]",
+		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct or channeled damage (DOTs don't count) to the target within 2 seconds of its death.]"
 		];
 i++;
 //Improved Life Tap - Affliction
@@ -119,8 +119,8 @@ rank[i] = [
 i++;
 //Improved Drain Life - Affliction
 rank[i] = [
-		"Increases the health drained by your Drain Life spell by 1% for each of your other Affliction effects on the target.",
-		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target."
+		"Increases the health drained by your Drain Life spell by 2% for each of your other Affliction effects on the target.",
+		"Increases the health drained by your Drain Life spell by 4% for each of your other Affliction effects on the target."
 		];
 i++;
 //Dark Pact - Affliction

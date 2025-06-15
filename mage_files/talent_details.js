@@ -68,7 +68,7 @@ talent[i] = [2, "Frost Channeling", "", 3, 2, 4]; i++;
 talent[i] = [2, "Shatter", "", 5, 3, 4, [getTalentID("Improved Frost Nova"), 2]]; i++;
 talent[i] = [2, "Arctic Winds", "new", 3, 1, 5]; i++;
 talent[i] = [2, "Ice Block", "", 1, 2, 5]; i++;
-talent[i] = [2, "Improved Cone of Cold", "", 3, 3, 5]; i++;
+talent[i] = [2, "Improved Cone of Cold", "changed", 3, 3, 5]; i++;
 talent[i] = [2, "Winter's Chill", "", 5, 3, 6]; i++;
 talent[i] = [2, "Ice Barrier", "", 1, 2, 7, [getTalentID("Ice Block"), 1]]; i++;
 
@@ -438,9 +438,9 @@ rank[i] = [
 i++;
 //Improved Cone of Cold - Frost
 rank[i] = [
-		"Increases the damage dealt by your Cone of Cold spell by 15%.",
-		"Increases the damage dealt by your Cone of Cold spell by 25%.",
-		"Increases the damage dealt by your Cone of Cold spell by 35%."
+		"Increases the damage dealt by your Cone of Cold spell by 10%.",
+		"Increases the damage dealt by your Cone of Cold spell by 20%.",
+		"Increases the damage dealt by your Cone of Cold spell by 30%."
 		];
 i++;
 //Winter's Chill - Frost
