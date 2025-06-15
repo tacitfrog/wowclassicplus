@@ -23,6 +23,7 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
+talent[i] = [0, "Deadened Nerves", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -35,10 +36,9 @@ talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
 talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
-talent[i] = [1, "Improved Sprint", "moved", 2, 4, 2]; i++;
 talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
 talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
-talent[i] = [1, "Deadened Nerves", "new", 3, 4, 3]; i++;
+talent[i] = [1, "Improved Sprint", "", 2, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
 talent[i] = [1, "Dual Wield Specialization", "", 5, 3, 4, [getTalentID("Precision"), 5]]; i++;
 talent[i] = [1, "Close Quarters Specialization", "changedmoved", 5, 4, 4]; i++;
@@ -177,6 +177,13 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
 		];
 i++;
+//Deadened Nerves - Combat
+rank[i] = [
+		"Reduces all Physical damage you take by 2%.",
+		"Reduces all Physical damage you take by 4%.",
+		"Reduces all Physical damage you take by 6%."
+		];
+i++;
 //Seal Fate - Assassination
 rank[i] = [
 		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
@@ -242,12 +249,6 @@ rank[i] = [
 		"Increases your chance to hit with melee weapons by 5%."
 		];
 i++;
-//Improved Sprint - Combat
-rank[i] = [
-		"Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
-		"Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
-		];
-i++;
 //Endurance - Combat
 rank[i] = [
 		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
@@ -259,11 +260,10 @@ rank[i] = [
 		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  (Cooldown: 6 seconds.)"
 		];
 i++;
-//Deadened Nerves - Combat
+//Improved Sprint - Combat
 rank[i] = [
-		"Reduces all Physical damage you take by 2%.",
-		"Reduces all Physical damage you take by 4%.",
-		"Reduces all Physical damage you take by 6%."
+		"Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
+		"Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
 		];
 i++;
 //Improved Kick - Combat
