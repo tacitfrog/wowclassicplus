@@ -40,7 +40,7 @@ talent[i] = [1, "Enhancing Totems", "", 2, 1, 3]; i++;
 talent[i] = [1, "Two-handed Axes and Maces", "changed", 1, 3, 3]; i++;
 talent[i] = [1, "Anticipation", "", 5, 4, 3]; i++;
 talent[i] = [1, "Elemental Weapons", "changedmoved", 3, 1, 4]; i++;
-talent[i] = [1, "Flurry", "changed", 5, 2, 4, [getTalentID("Thundering Strikes"), 5]]; i++;
+talent[i] = [1, "Flurry", "", 5, 2, 4, [getTalentID("Thundering Strikes"), 5]]; i++;
 talent[i] = [1, "Toughness", "", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Weapon Totems", "changed", 2, 1, 5]; i++;
 talent[i] = [1, "Spirit Weapons", "new", 3, 2, 5]; i++;
@@ -278,10 +278,10 @@ rank[i] = [
 i++;
 //Flurry - Enhancement
 rank[i] = [
-		"Increases your attack speed by 6% for your next 3 swings after dealing a critical strike.",
-		"Increases your attack speed by 12% for your next 3 swings after dealing a critical strike.",
-		"Increases your attack speed by 18% for your next 3 swings after dealing a critical strike.",
-		"Increases your attack speed by 24% for your next 3 swings after dealing a critical strike.",
+		"Increases your attack speed by 10% for your next 3 swings after dealing a critical strike.",
+		"Increases your attack speed by 15% for your next 3 swings after dealing a critical strike.",
+		"Increases your attack speed by 20% for your next 3 swings after dealing a critical strike.",
+		"Increases your attack speed by 25% for your next 3 swings after dealing a critical strike.",
 		"Increases your attack speed by 30% for your next 3 swings after dealing a critical strike."
 		];
 i++;
