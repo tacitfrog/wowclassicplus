@@ -11,7 +11,7 @@ i = 0;
 
 talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;
-talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
+talent[i] = [0, "Wand Specialization", "changed", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "changed", 2, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
 talent[i] = [0, "Arcane Subtlety", "moved", 2, 4, 2]; i++;
@@ -100,8 +100,8 @@ rank[i] = [
 i++;
 //Wand Specialization - Arcane
 rank[i] = [
-		"Increases your damage with Wands by 13%.",
-		"Increases your damage with Wands by 25%."
+		"Increases your damage with Wands by 15%.",
+		"Increases your damage with Wands by 30%."
 		];
 i++;
 //Magic Absorption - Arcane
