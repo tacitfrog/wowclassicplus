@@ -79,20 +79,20 @@ i = 0;
 
 //Convection - Elemental
 rank[i] = [
-		"Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 2%.",
-		"Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 4%.",
-		"Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 6%.",
-		"Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 8%.",
-		"Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by 10%."
+		"Reduces the mana cost of your shock, Lightning Bolt, and Chain Lightning spells by 2%.",
+		"Reduces the mana cost of your shock, Lightning Bolt, and Chain Lightning spells by 4%.",
+		"Reduces the mana cost of your shock, Lightning Bolt, and Chain Lightning spells by 6%.",
+		"Reduces the mana cost of your shock, Lightning Bolt, and Chain Lightning spells by 8%.",
+		"Reduces the mana cost of your shock, Lightning Bolt, and Chain Lightning spells by 10%."
 		];
 i++;
 //Concussion - Elemental
 rank[i] = [
-		"Increases the damage done by your Shock, Lightning Bolt, and Chain Lightning spells by 1%.",
-		"Increases the damage done by your Shock, Lightning Bolt, and Chain Lightning spells by 2%.",
-		"Increases the damage done by your Shock, Lightning Bolt, and Chain Lightning spells by 3%.",
-		"Increases the damage done by your Shock, Lightning Bolt, and Chain Lightning spells by 4%.",
-		"Increases the damage done by your Shock, Lightning Bolt, and Chain Lightning spells by 5%."
+		"Increases the damage done by your shock, Lightning Bolt, and Chain Lightning spells by 1%.",
+		"Increases the damage done by your shock, Lightning Bolt, and Chain Lightning spells by 2%.",
+		"Increases the damage done by your shock, Lightning Bolt, and Chain Lightning spells by 3%.",
+		"Increases the damage done by your shock, Lightning Bolt, and Chain Lightning spells by 4%.",
+		"Increases the damage done by your shock, Lightning Bolt, and Chain Lightning spells by 5%."
 		];
 i++;
 //Earth's Grasp - Elemental
@@ -129,11 +129,11 @@ rank[i] = [
 i++;
 //Reverberation - Elemental
 rank[i] = [
-		"Reduces the cooldown of your Shock spells by 0.2 seconds.",
-		"Reduces the cooldown of your Shock spells by 0.4 seconds.",
-		"Reduces the cooldown of your Shock spells by 0.6 seconds.",
-		"Reduces the cooldown of your Shock spells by 0.8 seconds.",
-		"Reduces the cooldown of your Shock spells by 1 second."
+		"Reduces the cooldown of your shock spells by 0.2 seconds.",
+		"Reduces the cooldown of your shock spells by 0.4 seconds.",
+		"Reduces the cooldown of your shock spells by 0.6 seconds.",
+		"Reduces the cooldown of your shock spells by 0.8 seconds.",
+		"Reduces the cooldown of your shock spells by 1 second."
 		];
 i++;
 //Call of Thunder - Elemental
