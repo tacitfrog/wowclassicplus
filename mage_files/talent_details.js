@@ -106,8 +106,8 @@ rank[i] = [
 i++;
 //Magic Absorption - Arcane
 rank[i] = [
-		"Increases all resistances by 5 and causes all spells you fully resist to restore 1% of your maximum mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 10 and causes all spells you fully resist to restore 2% of your maximum mana.  This effect cannot occur more than once per second."
+		"Increases all resistances by 5 and gives you a 50% chance to restore 2% of your maximum mana whenever you fully resist an enemy spell.  This effect cannot occur more than once per second.",
+		"Increases all resistances by 10 and gives you a 100% chance to restore 2% of your maximum mana whenever you fully resist an enemy spell.  This effect cannot occur more than once per second."
 		];
 i++;
 //Arcane Concentration - Arcane
@@ -433,7 +433,7 @@ rank[i] = [
 i++;
 //Ice Block - Frost
 rank[i] = [
-		"Cast: instant.<br>Cost: 15 mana.<br>You become encased in a block of ice, protecting you from all physical attacks and spells for 10 seconds, but during that time you cannot attack, move or cast spells.  (Cooldown: 5 minutes.)"
+		"Cast: instant.<br>Cost: 15 mana.<br>You become encased in a block of ice, protecting you from all attacks and spells for 10 seconds, but during that time you cannot attack, move or cast spells.  (Cooldown: 5 minutes.)"
 		];
 i++;
 //Improved Cone of Cold - Frost

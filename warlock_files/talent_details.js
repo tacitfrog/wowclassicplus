@@ -295,8 +295,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 50% chance to restore 2% of maximum mana and have one negative magic effect dispelled.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your summoned demon have a 100% chance to restore 2% of maximum mana and have one negative magic effect dispelled."
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, it has a 50% chance to restore 2% maximum mana to and remove one negative magic effect from both you and your summoned demon.",
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, it has a 100% chance to restore 2% maximum mana to and remove one negative magic effect from both you and your summoned demon."
 		];
 i++;
 //Demonic Sacrifice - Demonology
