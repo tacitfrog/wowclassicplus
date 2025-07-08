@@ -40,8 +40,8 @@ talent[i] = [1, "Hawk Eye", "", 3, 4, 3]; i++;
 talent[i] = [1, "Improved Stings", "changed", 5, 2, 4]; i++;
 talent[i] = [1, "Mortal Shots", "", 5, 3, 4, [getTalentID("Lethal Shots"), 5]]; i++;
 talent[i] = [1, "Scatter Shot", "", 1, 1, 5]; i++;
-talent[i] = [1, "Barrage", "", 3, 2, 5]; i++;
-talent[i] = [1, "Arcane Aim", "new", 3, 3, 5]; i++;
+talent[i] = [1, "Barrage", "changed", 3, 2, 5]; i++;
+talent[i] = [1, "Arcane Intensity", "new", 3, 3, 5]; i++;
 talent[i] = [1, "Ranged Weapon Specialization", "", 5, 3, 6]; i++;
 talent[i] = [1, "Trueshot Aura", "", 1, 2, 7, [getTalentID("Barrage"), 3]]; i++;
 
@@ -274,16 +274,16 @@ rank[i] = [
 i++;
 //Barrage - Marksmanship
 rank[i] = [
-		"Increases the damage done by your Multi-Shot and Volley spells by 5%.",
-		"Increases the damage done by your Multi-Shot and Volley spells by 10%.",
-		"Increases the damage done by your Multi-Shot and Volley spells by 15%."
+		"Increases the damage done by your Multi-Shot by 5% and gives you a 33% chance to avoid interruption caused by damage while channeling Volley.",
+		"Increases the damage done by your Multi-Shot by 10% and gives you a 66% chance to avoid interruption caused by damage while channeling Volley.",
+		"Increases the damage done by your Multi-Shot by 15% and gives you a 100% chance to avoid interruption caused by damage while channeling Volley."
 		];
 i++;
 //Arcane Aim - Marksmanship
 rank[i] = [
-		"Increases the critical strike chance of your Arcane Shot by 2%.",
-		"Increases the critical strike chance of your Arcane Shot by 4%.",
-		"Increases the critical strike chance of your Arcane Shot by 6%."
+		"Increases the damage done by your Arcane Shot and Volley abilities by 10%.",
+		"Increases the damage done by your Arcane Shot and Volley abilities by 20%.",
+		"Increases the damage done by your Arcane Shot and Volley abilities by 30%."
 		];
 i++;
 //Ranged Weapon Specialization - Marksmanship
