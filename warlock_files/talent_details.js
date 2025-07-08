@@ -180,9 +180,9 @@ rank[i] = [
 i++;
 //Unstable Afflictions - Affliction
 rank[i] = [
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 10% chance to resist dispel or decurse effects.  If an enemy's dispel or decurse attempt fails due to this, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 20% chance to resist dispel or decurse effects.  If an enemy's dispel or decurse attempt fails due to this, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 30% chance to resist dispel or decurse effects.  If an enemy's dispel or decurse attempt fails due to this, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 6 * your current level, Y = 7 * your current level.]"
+		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 6 * your current level, Y = 7 * your current level.]"
 		];
 i++;
 //Shadow Mastery - Affliction
