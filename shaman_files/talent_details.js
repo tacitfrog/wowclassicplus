@@ -314,7 +314,7 @@ rank[i] = [
 i++;
 //Epicentre - Enhancement
 rank[i] = [
-		"Your Earth Shock spell and Lightning Shield orbs also cause half damage and full threat to all other enemies within 3 yards of the target.<br><br>[Note: The interrupt component of Earth Shock only affects the target.  The 'target' of Lightning Shield is the enemy that triggers it.  The damage is applied to nearby enemies in the same way as the Rogue talent Blade Flurry.  The copied damage cannot crit; but if Earth Shock crits the target or if the target is affected by Stormstrike, the increased damage is copied.  The damage that each enemy suffers is modified by its own effects and Nature resistance.]"
+		"Your Earth Shock spell and Lightning Shield orbs also cause half damage and full threat to all other enemies within 3 yards of the target.<br><br>[Note: The interrupt component of Earth Shock only affects the target.  The 'target' of Lightning Shield is the enemy that triggers it.  The damage is applied to nearby enemies in the same way as the Rogue talent Blade Flurry.  The copied damage cannot crit; but if Earth Shock crits the target, the increased damage is copied.  The damage that each enemy suffers is modified by its own effects and Nature resistance.]"
 		];
 i++;
 //Weapon Mastery - Enhancement
