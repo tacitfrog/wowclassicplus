@@ -18,12 +18,13 @@ talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Improved Expose Armor", "", 2, 2, 3]; i++;
 talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
+talent[i] = [0, "Deadened Nerves", "new", 3, 4, 3]; i++;
 talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Deadened Nerves", "new", 3, 4, 5]; i++;
+talent[i] = [0, "Malicious Infusion", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -55,9 +56,10 @@ t++;
 
 talent[i] = [2, "Master of Deception", "changed", 5, 2, 1]; i++;
 talent[i] = [2, "Opportunity", "", 5, 3, 1]; i++;
-talent[i] = [2, "Initiative", "moved", 3, 1, 2]; i++;
+talent[i] = [2, "Sleight of Hand", "", 2, 1, 2]; i++;
 talent[i] = [2, "Elusiveness", "changed", 2, 2, 2]; i++;
 talent[i] = [2, "Camouflage", "", 5, 3, 2]; i++;
+talent[i] = [2, "Initiative", "moved", 3, 4, 2]; i++;
 talent[i] = [2, "Improved Sap", "changedmoved", 2, 1, 3]; i++;
 talent[i] = [2, "Ghostly Strike", "", 1, 2, 3]; i++;
 talent[i] = [2, "Serrated Blades", "moved", 3, 3, 3]; i++;
@@ -141,6 +143,13 @@ rank[i] = [
 		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 30%."
 		];
 i++;
+//Deadened Nerves - Combat
+rank[i] = [
+		"Reduces all Physical damage you take by 2%.",
+		"Reduces all Physical damage you take by 4%.",
+		"Reduces all Physical damage you take by 6%."
+		];
+i++;
 //Vile Poisons - Assassination
 rank[i] = [
 		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
@@ -177,11 +186,10 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
 		];
 i++;
-//Deadened Nerves - Combat
+//Malicious Infusion - Combat
 rank[i] = [
-		"Reduces all Physical damage you take by 2%.",
-		"Reduces all Physical damage you take by 4%.",
-		"Reduces all Physical damage you take by 6%."
+		"Increases the healing reduction of your Wound Poison and the threat caused by your Spiteful Poison by 10%.",
+		"Increases the healing reduction of your Wound Poison and the threat caused by your Spiteful Poison by 20%."
 		];
 i++;
 //Seal Fate - Assassination
@@ -342,11 +350,11 @@ i++;
 
 //Master of Deception - Subtlety
 rank[i] = [
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 1%.",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 2%.  More effective than Master of Deception (Rank 1).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 3%.  More effective than Master of Deception (Rank 2).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 4%.  More effective than Master of Deception (Rank 3).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the chance you are critically hit by melee and ranged attacks by 5%.  More effective than Master of Deception (Rank 4)."
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 2.",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 4.  More effective than Master of Deception (Rank 1).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 6.  More effective than Master of Deception (Rank 2).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 8.  More effective than Master of Deception (Rank 3).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 10.  More effective than Master of Deception (Rank 4)."
 		];
 i++;
 //Opportunity - Subtlety
@@ -358,11 +366,10 @@ rank[i] = [
 		"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
 		];
 i++;
-//Initiative - Subtlety
+//Sleight of Hand - Subtlety
 rank[i] = [
-		"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-		"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-		"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+		"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
+		"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
 		];
 i++;
 //Elusiveness - Subtlety
@@ -378,6 +385,13 @@ rank[i] = [
 		"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 seconds.",
 		"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 seconds.",
 		"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 seconds."
+		];
+i++;
+//Initiative - Subtlety
+rank[i] = [
+		"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+		"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+		"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
 		];
 i++;
 //Improved Sap - Subtlety
