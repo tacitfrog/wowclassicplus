@@ -24,7 +24,7 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Malicious Infusion", "new", 2, 4, 5]; i++;
+talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -90,8 +90,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, Ambush, or Eviscerate.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, Ambush, or Eviscerate.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]"
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
@@ -186,10 +186,10 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
 		];
 i++;
-//Malicious Infusion - Combat
+//Painful Infusion - Combat
 rank[i] = [
-		"Increases the healing reduction of your Wound Poison and the threat caused by your Spiteful Poison by 10%.",
-		"Increases the healing reduction of your Wound Poison and the threat caused by your Spiteful Poison by 20%."
+		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies affected by your Wound Poison can be critically healed by 2%.",
+		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies affected by your Wound Poison can be critically healed by 4%."
 		];
 i++;
 //Seal Fate - Assassination
@@ -350,11 +350,11 @@ i++;
 
 //Master of Deception - Subtlety
 rank[i] = [
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 2.",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 4.  More effective than Master of Deception (Rank 1).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 6.  More effective than Master of Deception (Rank 2).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 8.  More effective than Master of Deception (Rank 3).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the energy cost of your Distract ability by 10.  More effective than Master of Deception (Rank 4)."
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 2 seconds.",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 4 seconds.  More effective than Master of Deception (Rank 1).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 6 seconds.  More effective than Master of Deception (Rank 2).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 8 seconds.  More effective than Master of Deception (Rank 3).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 10 seconds.  More effective than Master of Deception (Rank 4)."
 		];
 i++;
 //Opportunity - Subtlety
@@ -368,8 +368,8 @@ rank[i] = [
 i++;
 //Sleight of Hand - Subtlety
 rank[i] = [
-		"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-		"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+		"Reduces the chance that you can be critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
+		"Reduces the chance that you can be critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
 		];
 i++;
 //Elusiveness - Subtlety
@@ -421,8 +421,8 @@ rank[i] = [
 i++;
 //Heightened Senses - Subtlety
 rank[i] = [
-		"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-		"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
+		"Increases your Stealth detection and reduces the chance that you can be hit by spells and ranged attacks by 2%.",
+		"Increases your Stealth detection and reduces the chance that you can be hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
 		];
 i++;
 //Improved Ambush - Subtlety

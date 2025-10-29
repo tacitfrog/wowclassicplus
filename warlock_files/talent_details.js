@@ -180,9 +180,9 @@ rank[i] = [
 i++;
 //Unstable Afflictions - Affliction
 rank[i] = [
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, Siphon Life, and curses an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 6 * your current level, Y = 7 * your current level.]"
+		"Gives your Corruption, Seed of Corruption, and Siphon Life spells an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.]",
+		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 6 * your current level, Y = 7 * your current level.]"
 		];
 i++;
 //Shadow Mastery - Affliction
@@ -295,8 +295,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 50% chance that both you and your summoned demon will restore 2% maximum mana and have one negative magic effect removed.  This effect cannot occur more than once per second.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 100% chance that both you and your summoned demon will restore 2% maximum mana and have one negative magic effect removed.  This effect cannot occur more than once per second."
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 50% chance that both you and your summoned demon will restore 2% maximum mana.  This effect cannot occur more than once per second.",
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 100% chance that both you and your summoned demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Demonic Sacrifice - Demonology

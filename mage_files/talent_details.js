@@ -55,7 +55,7 @@ t++;
 
 talent[i] = [2, "Frost Warding", "", 2, 1, 1]; i++;
 talent[i] = [2, "Improved Frostbolt", "", 5, 2, 1]; i++;
-talent[i] = [2, "Elemental Precision", "changed", 3, 3, 1]; i++;
+talent[i] = [2, "Elemental Precision", "", 3, 3, 1]; i++;
 talent[i] = [2, "Ice Shards", "", 5, 1, 2]; i++;
 talent[i] = [2, "Frostbite", "", 3, 2, 2]; i++;
 talent[i] = [2, "Improved Frost Nova", "changed", 2, 3, 2]; i++;
@@ -171,8 +171,8 @@ rank[i] = [
 i++;
 //Improved Blink - Arcane
 rank[i] = [
-		"After casting your Blink spell, you have a 50% chance to be out of phase for 3 seconds, reducing the chance that you are hit by any attack or spell by 30%.",
-		"After casting your Blink spell, you have a 100% chance to be out of phase for 3 seconds, reducing the chance that you are hit by any attack or spell by 30%."
+		"After casting your Blink spell, you have a 50% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%.",
+		"After casting your Blink spell, you have a 100% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%."
 		];
 i++;
 //Presence of Mind - Arcane
@@ -349,9 +349,9 @@ rank[i] = [
 i++;
 //Elemental Precision - Frost
 rank[i] = [
-		"Reduces the chance that the opponent can resist your Frost and Fire spells by 1%.",
 		"Reduces the chance that the opponent can resist your Frost and Fire spells by 2%.",
-		"Reduces the chance that the opponent can resist your Frost and Fire spells by 3%."
+		"Reduces the chance that the opponent can resist your Frost and Fire spells by 4%.",
+		"Reduces the chance that the opponent can resist your Frost and Fire spells by 6%."
 		];
 i++;
 //Ice Shards - Frost
