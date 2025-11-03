@@ -435,8 +435,8 @@ rank[i] = [
 i++;
 //Improved Chain Heal - Restoration
 rank[i] = [
-		"Increases the amount healed by your Chain Heal spell to targets after the first by 5%.",
-		"Increases the amount healed by your Chain Heal spell to targets after the first by 10%."
+		"Increases the amount healed by your Chain Heal spell to targets after the first by 10%<br><br>[Note: The Ten Storms (T2 set) 3-piece set bonus has been reduced to 20%, from 30%; it stacks additively with this effect for a total of 30%.].",
+		"Increases the amount healed by your Chain Heal spell to targets after the first by 20%<br><br>[Note: The Ten Storms (T2 set) 3-piece set bonus has been reduced to 20%, from 30%; it stacks additively with this effect for a total of 40%.]."
 		];
 i++;
 //Purification - Restoration

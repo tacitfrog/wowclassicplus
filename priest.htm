@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="internal.css">
+	
+    <title>WOW Classic+ Project</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="content-wrap">
+			<div class="content content-3">
+				<div id="replaceMeWithHeader"></div>
+				<div id="replaceMeWithIcons"></div>
+				<div id="replaceMeWithTalents"></div>
+				<div class="clear"></div>
+				<div class="goals">
+					<div class="goals-header">Primary Goals:</div>
+					<ul>
+						<li>Make Shadow DPS builds viable for PVE raids by enhancing its unique functionality.</li>
+						<li>Fix Lightwell.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="sidebar-one">
+					<div class="sidebar-header treenamecolour"><img src="priest_files/icon0.png" class="talenttreeicon">Discipline</div>
+					<div class="sidebar-region">
+						<ul id="spec0">
+							<li class="talentChanged"><span>Wand Specialization (better value per point)</span></li>
+							<li class="talentChanged"><span>Silent Resolve (Holy and Discipline only, also protects spells [from TBC])</span></li>
+							<li class="talentChanged"><span>Improved Inner Fire (available earlier, increases number of charges [from WOTLK])</span></li>
+							<li class="talentNew"><span>Absolution (reduces mana cost of cleansing spells [from TBC])</span></li>
+							<li class="talentChanged"><span>Improved Mana Burn (-0.5 seconds per point [from TBC])</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header treenamecolour"><img src="priest_files/icon1.png" class="talenttreeicon">Holy</div>
+					<div class="sidebar-region">
+						<ul id="spec1">
+							<li class="talentChanged"><span>Holy Reach (includes Lightwell)</span></li>
+							<li class="talentChanged"><span>Lightwell (works like a strong, indestructible, short-ranged healing totem)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header treenamecolour"><img src="priest_files/icon2.png" class="talenttreeicon">Shadow</div>
+					<div class="sidebar-region">
+						<ul id="spec2">
+							<li class="talentChanged"><span>Spirit Tap (does not require killing blow)</span></li>
+							<li class="talentChanged"><span>Improved Psychic Scream (-3 seconds per point)</span></li>
+							<li class="talentChanged"><span>Improved Fade (reduces threat while active)</span></li>
+							<li class="talentChanged"><span>Shadow Reach (2 ranks [from TBC])</span></li>
+							<li class="talentChanged"><span>Shadow Weaving (triggers from and affects racial spells)</span></li>
+							<li class="talentChanged"><span>Improved Vampiric Embrace (added mana gain [from Vampiric Touch, TBC])</span></li>
+							<li class="talentNew"><span>Mind Melt (increases crit chance of Mind Blast [from WOTLK] and redirects threat when it crits)</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-header">Modified Items</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/aegisofpreservation.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name item-epic">Aegis of Preservation</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									The cooldown of Aegis of Preservation has been reduced from 5 minutes to 3 minutes.
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sidebar-two">
+					<div class="sidebar-header">Modified Abilities</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/mindflay.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Channeled Attacks</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Mind Flay no longer counts towards the maximum number of debuffs on the target.  See under <a href="pve.htm">Endgame</a>.
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/feedback.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Feedback</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									The amount of mana burned by Feedback (Human spell) has been increased by 20%: Rank 1/2/3/4/5 now burns 22/42/65/92/126 of the attacker's mana.
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/shadowguard.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Shadowguard</span></td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									The damage caused by Shadowguard (Troll spell) orbs has been increased by 40%: Rank 1/2/3/4/5/6 now strike the attacker for 28/49/71/98/126/162 Shadow damage.
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="sidebar-header">New Abilities</div>
+					<div class="sidebar-region">
+						<ul>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/shadowworddeath.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Shadow Word: Death</span><br>Cast: instant.  Range: 30 yards.<br>Cost: 348 mana.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									A word of dark binding that inflicts 402 to 458 Shadow damage on the target.  If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.  (Requires Shadowform.  Cooldown: 30 seconds.)  [From TBC, but restricted to Shadowform and balanced for level 60.]
+									<p>[Rank 1, learned from a level 60, non-binding codex dropped in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
+								</div>
+							</li>
+							<li>
+								&nbsp;<div class="ability-icon"><img src="priest_files/smite.jpg"></div>
+								<table>
+									<tr><td><span class="ability-name">Smite (Rank 9)</span><br>Cast: 2.5 seconds.  Range: 30 yards.<br>Cost: 320 mana.</td></tr>
+								</table>
+								<div class="clear"></div>
+								<div class="ability-text">
+									Smite an enemy for 422 to 470 Holy damage.
+									<p>[Rank 9, learned from a level 60, non-binding codex dropped in <a href="karazhan.htm">Karazhan Tower</a>.]</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="variables.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="priest_files/talent_details.js"></script>
+	<script type="text/javascript" src="populateArrays.js"></script>
+	<script type="text/javascript" src="putContent.js"></script>
+</body>
+
+</html>

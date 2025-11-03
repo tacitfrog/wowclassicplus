@@ -188,8 +188,8 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies affected by your Wound Poison can be critically healed by 2%.",
-		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies affected by your Wound Poison can be critically healed by 4%."
+		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies affected by your Wound Poison will be critically healed by 2%.",
+		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies affected by your Wound Poison will be critically healed by 4%."
 		];
 i++;
 //Seal Fate - Assassination
@@ -368,8 +368,8 @@ rank[i] = [
 i++;
 //Sleight of Hand - Subtlety
 rank[i] = [
-		"Reduces the chance that you can be critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-		"Reduces the chance that you can be critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+		"Reduces the chance that you will be critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
+		"Reduces the chance that you will be critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
 		];
 i++;
 //Elusiveness - Subtlety
@@ -421,8 +421,8 @@ rank[i] = [
 i++;
 //Heightened Senses - Subtlety
 rank[i] = [
-		"Increases your Stealth detection and reduces the chance that you can be hit by spells and ranged attacks by 2%.",
-		"Increases your Stealth detection and reduces the chance that you can be hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
+		"Increases your Stealth detection and reduces the chance that you will be hit by spells and ranged attacks by 2%.",
+		"Increases your Stealth detection and reduces the chance that you will be hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
 		];
 i++;
 //Improved Ambush - Subtlety

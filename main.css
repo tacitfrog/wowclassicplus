@@ -160,6 +160,7 @@ body .ui-tooltip {
 .sidebar-region li span { color: #8F8F8F; }
 .sidebar-region li table { float: left; width: 200px; }
 .sidebar-region li .nomargin { list-style: disc; margin-bottom: 0px; }
+.sidebar-region .nobullet { list-style-type: none; } 
 .sidebar-region .talentMoved { color: #2488BB; }
 .sidebar-region .talentChanged { color: #FF0000; }
 .sidebar-region .talentNew { color: #FFC000; }
