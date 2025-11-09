@@ -171,8 +171,8 @@ rank[i] = [
 i++;
 //Improved Blink - Arcane
 rank[i] = [
-		"After casting your Blink spell, you have a 50% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%.",
-		"After casting your Blink spell, you have a 100% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%."
+		"After casting your Blink spell, you have a 50% chance to be out of phase for 2 seconds, reducing the chance that you will be hit by any attack or spell by 40%.",
+		"After casting your Blink spell, you have a 100% chance to be out of phase for 2 seconds, reducing the chance that you will be hit by any attack or spell by 40%."
 		];
 i++;
 //Presence of Mind - Arcane
