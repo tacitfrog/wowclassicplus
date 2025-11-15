@@ -35,7 +35,7 @@ talent[i] = [1, "Shield Specialization", "", 5, 3, 1]; i++;
 talent[i] = [1, "Guardian Totems", "changed", 3, 1, 2]; i++;
 talent[i] = [1, "Thundering Strikes", "", 5, 2, 2]; i++;
 talent[i] = [1, "Improved Ghost Wolf", "", 2, 3, 2]; i++;
-talent[i] = [1, "Improved Lightning Shield", "changed", 3, 4, 2]; i++;
+talent[i] = [1, "Improved Lightning Shield", "", 3, 4, 2]; i++;
 talent[i] = [1, "Enhancing Totems", "", 2, 1, 3]; i++;
 talent[i] = [1, "Two-handed Axes and Maces", "changed", 1, 3, 3]; i++;
 talent[i] = [1, "Anticipation", "", 5, 4, 3]; i++;
@@ -160,8 +160,8 @@ rank[i] = [
 i++;
 //Unrelenting Storm - Elemental
 rank[i] = [
-		"Adds 1 orb to your Lightning Shield and 1 globe to your Water Shield.  In addition, while you have an elemental shield active, you regenerate 5 mana per 5 seconds.",
-		"Adds 2 orbs to your Lightning Shield and 2 globes to your Water Shield.  In addition, while you have an elemental shield active, you regenerate 10 mana per 5 seconds.",
+		"Increases the number of orbs in your Lightning Shield by 1.  In addition, while you have any elemental shield active, you gain 4 mana every 5 seconds.",
+		"Increases the number of orbs in your Lightning Shield by 2.  In addition, while you have any elemental shield active, you gain 8 mana every 5 seconds.",
 		];
 i++;
 //Storm Reach - Elemental
@@ -244,9 +244,9 @@ rank[i] = [
 i++;
 //Improved Lightning Shield - Enhancement
 rank[i] = [
+		"Increases the damage done by your Lightning Shield orbs by 5%.",
 		"Increases the damage done by your Lightning Shield orbs by 10%.",
-		"Increases the damage done by your Lightning Shield orbs by 20%.",
-		"Increases the damage done by your Lightning Shield orbs by 30%."
+		"Increases the damage done by your Lightning Shield orbs by 15%."
 		];
 i++;
 //Enhancing Totems - Enhancement

@@ -170,8 +170,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from poisons that can be crafted by Rogues.  Also triggers on targets of Spitebomb damage.]",
-		"Gives a 100% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from poisons that can be crafted by Rogues.  Also triggers on targets of Spitebomb damage.]"
+		"Gives a 50% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from all poisons that can be crafted by Rogues, except Crippling Poison.  Also triggers on targets of Spitebomb damage.]",
+		"Gives a 100% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from all poisons that can be crafted by Rogues, except Crippling Poison.  Also triggers on targets of Spitebomb damage.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -188,8 +188,8 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies affected by your Wound Poison will be critically healed by 2%.",
-		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies affected by your Wound Poison will be critically healed by 4%."
+		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies afflicted with your Wound Poison will be critically healed by 2%.",
+		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies afflicted with your Wound Poison will be critically healed by 4%."
 		];
 i++;
 //Seal Fate - Assassination
