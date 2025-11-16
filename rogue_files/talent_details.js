@@ -145,9 +145,9 @@ rank[i] = [
 i++;
 //Deadened Nerves - Combat
 rank[i] = [
-		"Reduces all Physical damage you take by 2%.",
-		"Reduces all Physical damage you take by 4%.",
-		"Reduces all Physical damage you take by 6%."
+		"Reduces all physical damage you take by 2%.",
+		"Reduces all physical damage you take by 4%.",
+		"Reduces all physical damage you take by 6%."
 		];
 i++;
 //Vile Poisons - Assassination
@@ -451,7 +451,7 @@ rank[i] = [
 i++;
 //Hemorrhage - Subtlety
 rank[i] = [
-		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 4,<br>&nbsp;Rank 2: X = 6 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 9 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 12 (level 58).]"
+		"Cast: instant.<br>Cost: 35 energy.<br>An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any physical damage dealt to the target by up to X.  Lasts 10 charges or 15 seconds.  Awards 1 combo point.<br><br>[Rank 1: X = 4,<br>&nbsp;Rank 2: X = 6 &nbsp;&nbsp;(level 38),<br>&nbsp;Rank 3: X = 9 &nbsp;&nbsp;(level 48),<br>&nbsp;Rank 4: X = 12 (level 58).]"
 		];
 i++;
 //Deadliness - Subtlety
