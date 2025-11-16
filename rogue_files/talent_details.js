@@ -38,7 +38,7 @@ talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
 talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
-talent[i] = [1, "Riposte", "", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
+talent[i] = [1, "Riposte", "changed", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Improved Sprint", "", 2, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
 talent[i] = [1, "Dual Wield Specialization", "", 5, 3, 4, [getTalentID("Precision"), 5]]; i++;
@@ -265,7 +265,7 @@ rank[i] = [
 i++;
 //Riposte - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  (Cooldown: 6 seconds.)"
+		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
 		];
 i++;
 //Improved Sprint - Combat
