@@ -366,7 +366,7 @@ rank[i] = [
 i++;
 //Mind Flay - Shadow
 rank[i] = [
-		"Cast: channeled (3 seconds).<br>Cost: Y mana.<br>Assault the target's mind with Shadow energy, causing X Shadow damage over 3 seconds and slowing their movement speed by 50%.<br><br>[Rank 1: X = 75, &nbsp;&nbsp;Y = 45, <br>&nbsp;Rank 2: X = 126, Y = 70 (level 28),<br>&nbsp;Rank 3: X = 186, Y = 100 (level 36),<br>&nbsp;Rank 4: X = 261, Y = 135 (level 44),<br>&nbsp;Rank 5: X = 330, Y = 165 (level 52),<br>&nbsp;Rank 6: X = 426, Y = 205 (level 60).]"
+		"Cast: channeled (3 seconds).<br>Range: 20 yards.<br>Cost: Y mana.<br>Assault the target's mind with Shadow energy, causing X Shadow damage over 3 seconds and slowing their movement speed by 50%.<br><br>[Rank 1: X = 75, &nbsp;&nbsp;Y = 45, <br>&nbsp;Rank 2: X = 126, Y = 70 (level 28),<br>&nbsp;Rank 3: X = 186, Y = 100 (level 36),<br>&nbsp;Rank 4: X = 261, Y = 135 (level 44),<br>&nbsp;Rank 5: X = 330, Y = 165 (level 52),<br>&nbsp;Rank 6: X = 426, Y = 205 (level 60).]"
 		];
 i++;
 //Improved Fade - Shadow
