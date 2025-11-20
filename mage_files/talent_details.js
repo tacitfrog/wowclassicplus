@@ -198,8 +198,8 @@ rank[i] = [
 i++;
 //Arcane Volatility - Arcane
 rank[i] = [
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 5% of the damage caused.  This healing causes no threat.",
-		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all raid or party members within 5 yards of the target are healed for 10% of the damage caused.  This healing causes no threat."
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all members of your raid or party within 5 yards of the target will be healed for 5% of the damage caused.  This healing causes no threat.",
+		"When your Arcane Missiles or Arcane Explosion spells critically hit an enemy target, all members of your raid or party within 5 yards of the target will be healed for 10% of the damage caused.  This healing causes no threat."
 		];
 i++;
 //Arcane Power - Arcane
