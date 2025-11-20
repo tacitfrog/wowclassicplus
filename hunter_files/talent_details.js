@@ -54,7 +54,7 @@ talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
 talent[i] = [2, "Humanoid Slaying", "moved", 3, 2, 2]; i++;
 talent[i] = [2, "Improved Wing Clip", "changed", 3, 3, 2]; i++;
-talent[i] = [2, "Savage Strikes", "changed", 2, 4, 2]; i++;
+talent[i] = [2, "Savage Strikes", "", 2, 4, 2]; i++;
 talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
 talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
@@ -351,8 +351,8 @@ rank[i] = [
 i++;
 //Savage Strikes - Survival
 rank[i] = [
-		"Increases the critical strike chance of your Raptor Strike, Mongoose Bite, and Counterattack abilities by 10%.",
-		"Increases the critical strike chance of your Raptor Strike, Mongoose Bite, and Counterattack abilities by 20%."
+		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 10%.",
+		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 20%."
 		];
 i++;
 //Clever Traps - Survival
@@ -388,9 +388,9 @@ rank[i] = [
 i++;
 //Surefooted - Survival
 rank[i] = [
-		"Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by an additional 5%.",
-		"Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by an additional 10%.",
-		"Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by an additional 15%."
+		"Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by 5%.",
+		"Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by 10%.",
+		"Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by 15%."
 		];
 i++;
 //Improved Feign Death - Survival

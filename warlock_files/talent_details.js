@@ -301,7 +301,7 @@ rank[i] = [
 i++;
 //Demonic Sacrifice - Demonology
 rank[i] = [
-		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any demon is summoned.<br><br>Imp: Increases your Fire damage by 15%.<br><br>Voidwalker: Restores 3% of your total health every 4 seconds.<br><br>Succubus: Increases your Shadow damage by 15%.<br><br>Felhunter: Restores 2% of your total mana every 4 seconds."
+		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any demon is summoned.<br><br>Imp - Increases your Fire damage by 15%.<br><br>Voidwalker - Restores 3% of your maximum health every 4 seconds.<br><br>Succubus - Increases your Shadow damage by 15%.<br><br>Felhunter - Restores 2% of your maximum mana every 4 seconds."
 		];
 i++;
 //Improved Enslave Demon - Demonology

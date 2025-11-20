@@ -25,7 +25,7 @@ talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
 talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
-talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
+talent[i] = [0, "Seal Fate", "changed", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
@@ -194,11 +194,11 @@ rank[i] = [
 i++;
 //Seal Fate - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point."
+		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]"
 		];
 i++;
 //Vigor - Assassination
