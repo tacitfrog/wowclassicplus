@@ -17,7 +17,7 @@ talent[i] = [0, "Murder", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Backstab", "moved", 3, 4, 2]; i++;
 talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Improved Expose Armor", "", 2, 2, 3]; i++;
-talent[i] = [0, "Lethality", "", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
+talent[i] = [0, "Lethality", "changed", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
 talent[i] = [0, "Deadened Nerves", "new", 3, 4, 3]; i++;
 talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
@@ -136,11 +136,11 @@ rank[i] = [
 i++;
 //Lethality - Assassination
 rank[i] = [
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 6%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 12%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 18%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 24%.",
-		"Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Hemorrhage, and Ghostly Strike abilities by 30%."
+		"Increases the critical strike damage bonus of your Sinister Strike, Backstab, Gouge, Riposte, Hemorrhage, and Ghostly Strike abilities by 6%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Backstab, Gouge, Riposte, Hemorrhage, and Ghostly Strike abilities by 12%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Backstab, Gouge, Riposte, Hemorrhage, and Ghostly Strike abilities by 18%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Backstab, Gouge, Riposte, Hemorrhage, and Ghostly Strike abilities by 24%.",
+		"Increases the critical strike damage bonus of your Sinister Strike, Backstab, Gouge, Riposte, Hemorrhage, and Ghostly Strike abilities by 30%."
 		];
 i++;
 //Deadened Nerves - Combat
@@ -194,11 +194,11 @@ rank[i] = [
 i++;
 //Seal Fate - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: Also affects Riposte when Blade Dance is active.]"
+		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
+		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]"
 		];
 i++;
 //Vigor - Assassination
@@ -265,7 +265,7 @@ rank[i] = [
 i++;
 //Riposte - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
+		"Cast: instant.<br>Cost: 20 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
 		];
 i++;
 //Improved Sprint - Combat
