@@ -188,8 +188,8 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and reduces the chance that enemies afflicted with your Wound Poison will be critically healed by 2%.",
-		"Increases the threat caused by your Spiteful Poison by 20% and reduces the chance that enemies afflicted with your Wound Poison will be critically healed by 4%."
+		"Increases the threat caused by your Spiteful Poison by 10% and your critical strike chance against targets affected by your Wound Poison by 1%.",
+		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%."
 		];
 i++;
 //Seal Fate - Assassination
