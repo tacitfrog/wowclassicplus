@@ -19,7 +19,7 @@ talent[i] = [0, "Relentless Strikes", "", 1, 1, 3]; i++;
 talent[i] = [0, "Improved Expose Armor", "", 2, 2, 3]; i++;
 talent[i] = [0, "Lethality", "changed", 5, 3, 3, [getTalentID("Malice"), 5]]; i++;
 talent[i] = [0, "Deadened Nerves", "new", 3, 4, 3]; i++;
-talent[i] = [0, "Vile Poisons", "changed", 5, 2, 4]; i++;
+talent[i] = [0, "Vile Poisons", "", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
@@ -152,11 +152,11 @@ rank[i] = [
 i++;
 //Vile Poisons - Assassination
 rank[i] = [
-		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]",
-		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects.<br><br>[Note: Also affects Spitebomb damage.]"
+		"Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
+		"Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
 		];
 i++;
 //Improved Poisons - Assassination
@@ -170,8 +170,8 @@ rank[i] = [
 i++;
 //Crippling Brew - Assassination
 rank[i] = [
-		"Gives a 50% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from all poisons that can be crafted by Rogues, except Crippling Poison.  Also triggers on targets of Spitebomb damage.]",
-		"Gives a 100% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from all poisons that can be crafted by Rogues, except Crippling Poison.  Also triggers on targets of Spitebomb damage.]"
+		"Gives a 50% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from poisons that can be crafted by Rogues, except for Crippling Poison.]",
+		"Gives a 100% chance to apply Crippling Poison with half its usual duration whenever you apply another poison.<br><br>[Note: Does not require you to have Crippling Poison applied to your weapons.  Applies your highest learned rank of Crippling Poison (for 6 seconds).  Only triggers from poisons that can be crafted by Rogues, except for Crippling Poison.]"
 		];
 i++;
 //Cold Blood - Assassination
@@ -194,11 +194,11 @@ rank[i] = [
 i++;
 //Seal Fate - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]",
-		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: Also applies to Riposte when Blade Dance is active.]"
+		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
+		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
+		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
+		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
+		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]"
 		];
 i++;
 //Vigor - Assassination
@@ -265,7 +265,7 @@ rank[i] = [
 i++;
 //Riposte - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 20 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
+		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
 		];
 i++;
 //Improved Sprint - Combat
@@ -309,12 +309,12 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation, and causes your attacks to graze all enemies within 5 yards of your target for 5% damage and 40% threat.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, increases all threat you generate by 25% to cancel out the Rogue class' passive 20% reduction.  Any Rogue poisons that your weapons apply to the target are also applied (and with full damage and threat) to the additional opponents.  This consumes an extra poison charge per opponent.<br><br>If you use Blade Dance and Blade Flurry at the same time, your attacks will strike the target and one opponent for full damage and threat and all other opponents for 5% damage and 40% threat.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation, and causes your attacks to graze all enemies within 5 yards of your target for 5% damage and 40% threat.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, increases all threat you generate by 25% to cancel out Rogues' passive 20% reduction.  Any Rogue poisons that your weapons apply to the target are also applied to the additional opponents; poisons are applied with full damage, threat, and effect.  This consumes an extra poison charge per opponent.  The damage that each opponent suffers is modified by its own defences.<br><br>If you use Blade Dance and Blade Flurry at the same time, your attacks will strike the target and one opponent for full damage and threat and all other opponents for 5% damage and 40% threat.]"
 		];
 i++;
 //Blade Flurry - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any Rogue poisons that your weapons apply to the target are also applied to the additional opponent.  This consumes an extra poison charge.  Instant Poison and Spiteful Poison damage dealt to the target no longer copies to the additional opponent, as the poisons now proc separately on that opponent.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any Rogue poisons that your weapons apply to the target are also separately applied to the additional opponent.  This consumes an extra poison charge.  Instant Poison damage dealt to the target no longer copies to the additional opponent, as poisons now proc separately.  The damage that each opponent suffers is modified by its own defences.]"
 		];
 i++;
 //Sword Specialization - Combat
