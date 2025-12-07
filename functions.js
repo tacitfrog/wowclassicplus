@@ -50,7 +50,7 @@ function resetTree(theTree) {
 		i++;
 	}
 	
-    document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
+    setLevelRequired();
 	document.getElementById('tabPointsAvailable').innerHTML = rankPoints;
 	//each tree's points
 	document.getElementById(tree[theTree]+'tabPoints').innerHTML = 0;
@@ -62,6 +62,16 @@ function resetTree(theTree) {
 function resetTreeAll() {
 	for (var i = 0; i < tree.length; i++) {
 		resetTree(i);
+	}
+}
+
+function setLevelRequired() {
+	document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;
+	
+	if (document.getElementById('levelRequired').innerHTML < 10) {
+		document.getElementById("requiredLevelOverall").style.visibility = "hidden";
+	} else {
+		document.getElementById("requiredLevelOverall").style.visibility = "visible";
 	}
 }
 
@@ -237,6 +247,15 @@ function checkRequiredTalent(talentID) {
 	return true;
 }
 
+function getNextRankText(talentID) {
+	var nextRankString = rankTop[talentID][2]
+	
+	//remove any comments from the next rank
+	var nextRank = nextRankString.replace(/<br\s*\/?><br\s*\/?>\s*\[[^\]]*\]/i, "");
+	
+	return nextRank;
+}
+
 function rankTopOnClick(talentID) {
 	var theTree = talent[talentID][0];
 	var oldMaxTier = maxTierArray[theTree];
@@ -259,7 +278,7 @@ function rankTopOnClick(talentID) {
 		rankPoints--;
 		
 		if (theUpdatedRank != maxRank) {
-			rankString = rankTop[talentID][1] +'<br><br><font color = "ffffff">'+ textNextRank +'</font><br>'+ rankTop[talentID][2];
+			rankString = rankTop[talentID][1] +'<br><br><font color = "ffffff">'+ textNextRank +'</font><br>'+ getNextRankText(talentID);
 			document.getElementById('iconOverGreen'+ talentID).style.visibility = "visible";
 		} else {
 			rankString = rankTop[talentID][1];			
@@ -295,7 +314,7 @@ function rankTopOnClick(talentID) {
     document.getElementById('modifyRankTop'+talentID).innerHTML = rankTop[talentID][0];
     document.getElementById('modifyRankTopDescription'+talentID).innerHTML = rankTop[talentID][0];
     //document.getElementById('modifyRankPoints').innerHTML = rankPointsMax - rankPoints;
-    document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
+    setLevelRequired();
     document.getElementById('spec' + theTree).innerHTML = pointsTree[theTree];
     document.getElementById('tabPointsAvailable').innerHTML = rankPoints;	
     document.getElementById(tree[theTree]+'tabPoints').innerHTML = pointsTree[theTree];		
@@ -331,7 +350,7 @@ function rankTopOnRightClick(talentID) {
 		if (rankTop[talentID][0] - 1 != -1) {
 			rankTop[talentID][1] = rank[talentID][(rankTop[talentID][0] - 1)];
 			rankTop[talentID][2] = rank[talentID][(rankTop[talentID][0])];
-			rankString = rankTop[talentID][1] + '<br><br><font color = "ffffff">' + textNextRank +'</font><br>'+ rankTop[talentID][2];			
+			rankString = rankTop[talentID][1] + '<br><br><font color = "ffffff">' + textNextRank +'</font><br>'+ getNextRankText(talentID);			
 		} else {
 			rankTop[talentID][1] = rank[talentID][rankTop[talentID][0]];			
 			rankString = rankTop[talentID][1];
@@ -386,7 +405,7 @@ function rankTopOnRightClick(talentID) {
     document.getElementById('modifyRankTop' + talentID).innerHTML = rankTop[talentID][0];
     document.getElementById('modifyRankTopDescription' + talentID).innerHTML = rankTop[talentID][0];
     //document.getElementById('modifyRankPoints').innerHTML = rankPointsMax - rankPoints;	
-    document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;	
+    setLevelRequired();
 	document.getElementById('spec' + theTree).innerHTML = pointsTree[theTree];	
     document.getElementById(tree[theTree] + 'tabPoints').innerHTML = pointsTree[theTree];	
     document.getElementById('tabPointsAvailable').innerHTML = rankPoints;		

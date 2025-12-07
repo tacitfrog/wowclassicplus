@@ -28,7 +28,7 @@ if (talentDisplay) {
 	
 	talentsReplaceString += '<tr>';
 	
-	//finally we get to arrange and print out all the info
+	//arrange and print out all the info
 	for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 		var tier = 0;
 		var treeID;		
@@ -294,9 +294,12 @@ if (talentDisplay) {
 	for (i = 0; i < 3; i++) {
 		document.getElementById('spec' + i).innerHTML = pointsTree[i];	
 	}
+	
 	//required level
 	document.getElementById('levelRequired').innerHTML = rankPointsMax - rankPoints + levelMin - 1;
-	//pointsLeft
+	document.getElementById("requiredLevelOverall").style.visibility = "hidden";
+	
+	//points left
 	document.getElementById('tabPointsAvailable').innerHTML = rankPoints;
 	
 	canTurnGreen(0, 0, 1);

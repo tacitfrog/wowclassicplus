@@ -147,7 +147,7 @@ i++;
 rank[i] = [
 		"Each successive missile of your Arcane Missiles spell deals an additional 1% damage.<br><br>[Note: The first missile will deal 100% damage, the second 101%, ..., and the fifth 104%, for an average damage increase of 2% per missile but weighted to favour the latter ones to reward spell completion.]",
 		"Each successive missile of your Arcane Missiles spell deals an additional 2% damage.<br><br>[Note: The first missile will deal 100% damage, the second 102%, ..., and the fifth 108%, for an average damage increase of 4% per missile but weighted to favour the latter ones to reward spell completion.]",
-		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage..<br><br>[Note: The first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
+		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage.<br><br>[Note: The first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
 //Improved Mana Shield - Arcane
