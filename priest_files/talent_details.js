@@ -402,8 +402,8 @@ rank[i] = [
 i++;
 //Improved Vampiric Embrace - Shadow
 rank[i] = [
-		"Your Vampiric Embrace also causes party members to gain mana equal to 2% of the Shadow spell damage you deal to the target.",
-		"Your Vampiric Embrace also causes party members to gain mana equal to 4% of the Shadow spell damage you deal to the target."
+		"Your Vampiric Embrace also causes party members to gain mana equal to 1% of the Shadow spell damage you deal to the target.",
+		"Your Vampiric Embrace also causes party members to gain mana equal to 2% of the Shadow spell damage you deal to the target."
 		];
 i++;
 //Mind Melt - Shadow
