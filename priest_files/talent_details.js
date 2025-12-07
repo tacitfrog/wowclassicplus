@@ -10,7 +10,7 @@ tree[i] = "Shadow"; i++;
 i = 0;
 
 talent[i] = [0, "Unbreakable Will", "", 5, 2, 1]; i++;
-talent[i] = [0, "Wand Specialization", "changed", 5, 3, 1]; i++;
+talent[i] = [0, "Wand Specialization", "", 5, 3, 1]; i++;
 talent[i] = [0, "Silent Resolve", "changed", 5, 1, 2]; i++;
 talent[i] = [0, "Improved Power Word: Fortitude", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Power Word: Shield", "", 3, 3, 2]; i++;
@@ -86,11 +86,11 @@ rank[i] = [
 i++;
 //Wand Specialization - Discipline
 rank[i] = [
-		"Increases your damage with Wands by 6%.",
-		"Increases your damage with Wands by 12%.",
-		"Increases your damage with Wands by 18%.",
-		"Increases your damage with Wands by 24%.",
-		"Increases your damage with Wands by 30%."
+		"Increases your damage with Wands by 5%.",
+		"Increases your damage with Wands by 10%.",
+		"Increases your damage with Wands by 15%.",
+		"Increases your damage with Wands by 20%.",
+		"Increases your damage with Wands by 25%."
 		];
 i++;
 //Silent Resolve - Discipline
