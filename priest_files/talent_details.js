@@ -77,11 +77,11 @@ i = 0;
 
 //Unbreakable Will - Discipline
 rank[i] = [
-		"Increases your chance to resist stun, fear, and silence effects by an additional 3%.",
-		"Increases your chance to resist stun, fear, and silence effects by an additional 6%.",
-		"Increases your chance to resist stun, fear, and silence effects by an additional 9%.",
-		"Increases your chance to resist stun, fear, and silence effects by an additional 12%.",
-		"Increases your chance to resist stun, fear, and silence effects by an additional 15%."
+		"Increases your chance to resist stun, fear, and silence effects by 3%.",
+		"Increases your chance to resist stun, fear, and silence effects by 6%.",
+		"Increases your chance to resist stun, fear, and silence effects by 9%.",
+		"Increases your chance to resist stun, fear, and silence effects by 12%.",
+		"Increases your chance to resist stun, fear, and silence effects by 15%."
 		];
 i++;
 //Wand Specialization - Discipline

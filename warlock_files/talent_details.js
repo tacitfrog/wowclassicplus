@@ -64,7 +64,7 @@ talent[i] = [2, "Shadowburn", "", 1, 4, 3]; i++;
 talent[i] = [2, "Intensity", "", 2, 1, 4]; i++;
 talent[i] = [2, "Destructive Reach", "", 2, 2, 4]; i++;
 talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
-talent[i] = [2, "Pyroclasm", "changed", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
+talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
 talent[i] = [2, "Improved Immolate", "changed", 5, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
@@ -163,9 +163,9 @@ rank[i] = [
 i++;
 //Paroxysm - Affliction
 rank[i] = [
-		"Gives your Corruption and Drain Life spells an 8% chance to increase the amount of damage caused or health drained by an additional 20% when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 16% chance to increase the amount of damage caused or health drained by an additional 20% when damaging an enemy.",
-		"Gives your Corruption and Drain Life spells a 25% chance to increase the amount of damage caused or health drained by an additional 20% when damaging an enemy."
+		"Gives your Corruption and Drain Life spells an 8% chance to deal or drain an additional 20% when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 16% chance to deal or drain an additional 20% when damaging an enemy.",
+		"Gives your Corruption and Drain Life spells a 25% chance to deal or drain an additional 20% when damaging an enemy."
 		];
 i++;
 //Siphon Life - Affliction
@@ -273,9 +273,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage to any target - this means that any given wave of hits could result in multiple self-heals.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage to any target - this means that any given wave of hits could result in multiple self-heals.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage to any target - this means that any given wave of hits could result in multiple self-heals.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]"
 		];
 i++;
 //Master Summoner - Demonology
@@ -413,8 +413,8 @@ rank[i] = [
 i++;
 //Pyroclasm - Destruction
 rank[i] = [
-		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 15% chance to stun the target for 3 seconds.",
-		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 30% chance to stun the target for 3 seconds."
+		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 seconds.",
+		"Gives your Rain of Fire, Hellfire, and Soul Fire spells a 25% chance to stun the target for 3 seconds."
 		];
 i++;
 //Improved Immolate - Destruction

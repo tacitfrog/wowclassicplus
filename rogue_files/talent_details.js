@@ -24,7 +24,7 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
+talent[i] = [0, "Painful Infusion", "new", 3, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "changed", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -189,7 +189,8 @@ i++;
 //Painful Infusion - Combat
 rank[i] = [
 		"Increases the threat caused by your Spiteful Poison by 10% and your critical strike chance against targets affected by your Wound Poison by 1%.",
-		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%."
+		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%.",
+		"Increases the threat caused by your Spiteful Poison by 30% and your critical strike chance against targets affected by your Wound Poison by 3%."
 		];
 i++;
 //Seal Fate - Assassination
@@ -265,7 +266,7 @@ rank[i] = [
 i++;
 //Riposte - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if Blade Dance is active.  (Cooldown: 6 seconds.)"
+		"Cast: instant.<br>Cost: 10 energy.<br>An instant strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 seconds.  Awards 1 combo point if used while Blade Dance is active.  (Cooldown: 6 seconds.)"
 		];
 i++;
 //Improved Sprint - Combat
@@ -465,7 +466,7 @@ rank[i] = [
 i++;
 //Preparation - Subtlety
 rank[i] = [
-		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate used against that target by 10%.  Lasts 20 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
+		"Cast: instant.<br>When used, adds 2 combo points to your target and increases the damage of your next Backstab, Garrote, Ambush, or Eviscerate ability used against that target by 15%.  Lasts 20 seconds.  You must add to or use the combo points before the effect ends or they will be lost.  (Requires Stealth. Does not break Stealth. Cooldown: 2 minutes.)"
 		];
 i++;
 
