@@ -188,9 +188,9 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and your critical strike chance against targets affected by your Wound Poison by 1%.",
-		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%.",
-		"Increases the threat caused by your Spiteful Poison by 30% and your critical strike chance against targets affected by your Wound Poison by 3%."
+		"Increases the threat caused by your Spiteful Poison by 10% and your critical strike chance against targets affected by your Wound Poison by 1%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
+		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
+		"Increases the threat caused by your Spiteful Poison by 30% and your critical strike chance against targets affected by your Wound Poison by 3%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
 		];
 i++;
 //Seal Fate - Assassination
@@ -310,12 +310,12 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation, and causes your attacks to graze all enemies within 5 yards of your target for 5% damage and 40% threat.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, increases all threat you generate by 25% to cancel out Rogues' passive 20% reduction.  Any Rogue poisons that your weapons apply to the target are also applied to the additional opponents; poisons are applied with full damage, threat, and effect.  This consumes an extra poison charge per opponent.  The damage that each opponent suffers is modified by its own defences.<br><br>If you use Blade Dance and Blade Flurry at the same time, your attacks will strike the target and one additional opponent for full damage and threat and all other opponents for 5% damage and 40% threat.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation, and causes your attacks to graze all other enemies within melee range for 5% of the damage and 40% of the threat that you cause to your target.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, increases all threat you generate by 25% to cancel out Rogues' passive 20% reduction.  Any Rogue poisons that your weapons apply to the target are also applied to the additional opponents; poisons are applied with full damage, threat, and effect.  This consumes an extra poison charge per opponent.  The damage that each opponent suffers is modified by its own defences.<br><br>If you use Blade Dance and Blade Flurry at the same time, your attacks will strike the target and one additional opponent for full damage and threat and all other opponents for 5% damage and 40% threat.]"
 		];
 i++;
 //Blade Flurry - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any Rogue poisons that your weapons apply to the target are also separately applied to the additional opponent.  This consumes an extra poison charge.  Instant Poison damage dealt to the target no longer copies to the additional opponent, as poisons now proc separately.  The damage that each opponent suffers is modified by its own defences.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 seconds.  (Cooldown: 2 minutes.)<br><br>[Note: Any Rogue poisons that your weapons apply to the target are now also separately applied to the additional opponent.  This consumes an extra poison charge.  Instant Poison damage dealt to the target no longer copies to the additional opponent, as poisons now proc separately.  The damage that each opponent suffers is modified by its own defences.]"
 		];
 i++;
 //Sword Specialization - Combat
