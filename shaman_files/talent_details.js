@@ -160,8 +160,8 @@ rank[i] = [
 i++;
 //Unrelenting Storm - Elemental
 rank[i] = [
-		"Increases the number of orbs in your Lightning Shield by 1.  In addition, while you have any elemental shield active, you gain 4 mana every 5 seconds.",
-		"Increases the number of orbs in your Lightning Shield by 2.  In addition, while you have any elemental shield active, you gain 8 mana every 5 seconds.",
+		"Increases the number of orbs in your Lightning Shield by 1.  In addition, 5% of your mana regeneration may continue while casting as long as you have any elemental shield active.",
+		"Increases the number of orbs in your Lightning Shield by 2.  In addition, 10% of your mana regeneration may continue while casting as long as you have any elemental shield active.",
 		];
 i++;
 //Storm Reach - Elemental
