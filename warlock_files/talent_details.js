@@ -39,7 +39,7 @@ talent[i] = [1, "Improved Voidwalker", "", 3, 2, 2]; i++;
 talent[i] = [1, "Fel Intellect", "changed", 3, 3, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
-talent[i] = [1, "Fel Stamina", "changed", 3, 3, 3]; i++;
+talent[i] = [1, "Fel Stamina", "changed", 5, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Improved Firestone", "changedmoved", 3, 1, 4]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
@@ -180,9 +180,9 @@ rank[i] = [
 i++;
 //Unstable Afflictions - Affliction
 rank[i] = [
-		"Gives your Corruption, Seed of Corruption, and Siphon Life spells an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.]",
-		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 3 seconds.<br><br>[Note: X = 6 * your current level, Y = 7 * your current level.]"
+		"Gives your Corruption, Seed of Corruption, and Siphon Life spells an additional 10% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 4 seconds.<br><br>[Note: X = 3 * your current level, Y = 4 * your current level.  This damage is not increased by spell power, but is increased by Shadow Mastery.  The Unstable Affliction silence debuff placed on the enemy is a magical effect.]",
+		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 20% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 4 seconds.<br><br>[Note: X = 4 * your current level, Y = 5 * your current level.  This damage is not increased by spell power, but is increased by Shadow Mastery.  The Unstable Affliction silence debuff placed on the enemy is a magical effect.]",
+		"Gives your Corruption, Seed of Corruption, and  Siphon Life spells an additional 30% chance to resist dispel effects.  If an enemy's dispel attempt fails, there is a 50% chance that they will instead suffer X to Y Shadow damage and be silenced for 4 seconds.<br><br>[Note: X = 5 * your current level, Y = 6 * your current level.  This damage is not increased by spell power, but is increased by Shadow Mastery.  The Unstable Affliction silence debuff placed on the enemy is a magical effect.]"
 		];
 i++;
 //Shadow Mastery - Affliction
@@ -259,9 +259,11 @@ rank[i] = [
 i++;
 //Fel Stamina - Demonology
 rank[i] = [
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 5%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 10%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 4%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 8%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 16%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 20%."
 		];
 i++;
 //Improved Demon Armor - Demonology

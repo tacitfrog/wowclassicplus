@@ -19,7 +19,7 @@ talent[i] = [0, "Pathfinding", "changed", 2, 1, 3]; i++;
 talent[i] = [0, "Bestial Swiftness", "", 1, 2, 3]; i++;
 talent[i] = [0, "Unleashed Fury", "", 5, 3, 3]; i++;
 talent[i] = [0, "Improved Mend Pet", "", 2, 2, 4]; i++;
-talent[i] = [0, "Ferocity", "", 5, 3, 4]; i++;
+talent[i] = [0, "Ferocity", "changed", 5, 3, 4]; i++;
 talent[i] = [0, "Spirit Bond", "changed", 2, 1, 5]; i++;
 talent[i] = [0, "Intimidation", "", 1, 2, 5]; i++;
 talent[i] = [0, "Bestial Discipline", "changed", 3, 4, 5]; i++;
@@ -96,8 +96,8 @@ rank[i] = [
 i++;
 //Focused Attacks - Beast Mastery
 rank[i] = [
-		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 15% of its ranged attack power bonus.",
-		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 30% of its ranged attack power bonus."
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 20% of its ranged attack power bonus.",
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 40% of its ranged attack power bonus."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
@@ -148,11 +148,11 @@ rank[i] = [
 i++;
 //Ferocity - Beast Mastery
 rank[i] = [
-		"Increases the critical strike chance of your pets by 3%.",
+		"Increases the critical strike chance of your pets by 2%.",
+		"Increases the critical strike chance of your pets by 4%.",
 		"Increases the critical strike chance of your pets by 6%.",
-		"Increases the critical strike chance of your pets by 9%.",
-		"Increases the critical strike chance of your pets by 12%.",
-		"Increases the critical strike chance of your pets by 15%."
+		"Increases the critical strike chance of your pets by 8%.",
+		"Increases the critical strike chance of your pets by 10%."
 		];
 i++;
 //Spirit Bond - Beast Mastery
