@@ -188,8 +188,8 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and your Wound Poison increases the time between the target's attacks by 10%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
-		"Increases the threat caused by your Spiteful Poison by 20% and your Wound Poison increases the time between the target's attacks by 20%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
+		"Increases the threat caused by your Spiteful Poison by 10% and your Wound Poison now also increases the time between the target's attacks by 2% per dose.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
+		"Increases the threat caused by your Spiteful Poison by 20% and your Wound Poison now also increases the time between the target's attacks by 4% per dose.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
 		];
 i++;
 //Seal Fate - Assassination
