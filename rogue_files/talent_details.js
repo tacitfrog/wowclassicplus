@@ -24,7 +24,7 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Painful Infusion", "new", 3, 4, 5]; i++;
+talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "changed", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -188,9 +188,8 @@ rank[i] = [
 i++;
 //Painful Infusion - Combat
 rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and your critical strike chance against targets affected by your Wound Poison by 1%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
-		"Increases the threat caused by your Spiteful Poison by 20% and your critical strike chance against targets affected by your Wound Poison by 2%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
-		"Increases the threat caused by your Spiteful Poison by 30% and your critical strike chance against targets affected by your Wound Poison by 3%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
+		"Increases the threat caused by your Spiteful Poison by 10% and your Wound Poison increases the time between the target's attacks by 10%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
+		"Increases the threat caused by your Spiteful Poison by 20% and your Wound Poison increases the time between the target's attacks by 20%.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
 		];
 i++;
 //Seal Fate - Assassination
