@@ -107,8 +107,8 @@ rank[i] = [
 i++;
 //Improved Drain Soul - Affliction
 rank[i] = [
-		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct or channeled damage (DOTs don't count) to the target within 2 seconds of its death.]",
-		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct or channeled damage (DOTs don't count) to the target within 2 seconds of its death.]"
+		"Gives you a 50% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death and be draining its soul as it dies.]",
+		"Gives you a 100% chance to get a 100% increase to your mana regeneration for 10 seconds if the target is killed while you drain its soul.  For the duration, your mana may continue to regenerate while casting at 50% of normal.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death and be draining its soul as it dies.]"
 		];
 i++;
 //Improved Life Tap - Affliction

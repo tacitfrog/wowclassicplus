@@ -25,7 +25,7 @@ talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
 talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
-talent[i] = [0, "Seal Fate", "changed", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
+talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
@@ -90,8 +90,8 @@ rank[i] = [
 i++;
 //Remorseless Attacks - Assassination
 rank[i] = [
-		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]",
-		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused direct damage (DOTs don't count) to the target within 2 seconds of its death.]"
+		"After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ghostly Strike, or Ambush.  Lasts 20 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
 		];
 i++;
 //Malice - Assassination
@@ -194,11 +194,11 @@ rank[i] = [
 i++;
 //Seal Fate - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
-		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
-		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
-		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]",
-		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.<br><br>[Note: can apply to Riposte.]"
+		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
+		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.",
+		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.",
+		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.",
+		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point."
 		];
 i++;
 //Vigor - Assassination
@@ -309,7 +309,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation, and causes your attacks to graze up to 3 other enemies within melee range for 5% of the damage and half of the threat that you cause to your target.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, increases all threat you generate by 25% to cancel out Rogues' passive 20% reduction.  Any Rogue poisons that your weapons apply to the target are also applied to the additional opponents; poisons are applied with full damage, threat, and effect.  This consumes an extra poison charge per opponent struck.  The damage that each opponent suffers is modified by its own defences.<br><br>If you use Blade Dance and Blade Flurry at the same time, your attacks will strike the target and one additional opponent for full damage and threat and up to 3 other opponents for 5% damage and 50% threat.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, the Rogue no longer receives a passive 20% threat reduction modifier.  This effectively increases threat generation by 25%.]"
 		];
 i++;
 //Blade Flurry - Combat

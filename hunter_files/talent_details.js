@@ -388,9 +388,9 @@ rank[i] = [
 i++;
 //Surefooted - Survival
 rank[i] = [
-		"Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by 5%.",
-		"Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by 10%.",
-		"Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by 15%."
+		"Increases your hit chance by 1% and your chance to resist movement impairing effects by 5%.",
+		"Increases your hit chance by 2% and your chance to resist movement impairing effects by 10%.",
+		"Increases your hit chance by 3% and your chance to resist movement impairing effects by 15%."
 		];
 i++;
 //Improved Feign Death - Survival
