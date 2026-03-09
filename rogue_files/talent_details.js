@@ -24,7 +24,6 @@ talent[i] = [0, "Improved Poisons", "", 5, 3, 4]; i++;
 talent[i] = [0, "Crippling Brew", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Cold Blood", "", 1, 2, 5]; i++;
 talent[i] = [0, "Improved Kidney Shot", "", 3, 3, 5]; i++;
-talent[i] = [0, "Painful Infusion", "new", 2, 4, 5]; i++;
 talent[i] = [0, "Seal Fate", "", 5, 2, 6, [getTalentID("Cold Blood"), 1]]; i++;
 talent[i] = [0, "Vigor", "changedmoved", 1, 2, 7, [getTalentID("Seal Fate"), 5]]; i++;
 
@@ -184,12 +183,6 @@ rank[i] = [
 		"While affected by your Kidney Shot ability, the target receives an additional 3% damage from all sources.",
 		"While affected by your Kidney Shot ability, the target receives an additional 6% damage from all sources.",
 		"While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
-		];
-i++;
-//Painful Infusion - Combat
-rank[i] = [
-		"Increases the threat caused by your Spiteful Poison by 10% and your Wound Poison now also increases the time between the target's attacks by 2% per dose.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]",
-		"Increases the threat caused by your Spiteful Poison by 20% and your Wound Poison now also increases the time between the target's attacks by 4% per dose.<br><br>[Note: Increases the total threat caused by Spiteful Poison, including the base amount and the amount caused by its damage.]"
 		];
 i++;
 //Seal Fate - Assassination
