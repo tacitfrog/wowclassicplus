@@ -66,7 +66,7 @@ talent[i] = [2, "Improved Blizzard", "", 3, 4, 3]; i++;
 talent[i] = [2, "Arctic Reach", "", 2, 1, 4]; i++;
 talent[i] = [2, "Frost Channeling", "", 3, 2, 4]; i++;
 talent[i] = [2, "Shatter", "", 5, 3, 4, [getTalentID("Improved Frost Nova"), 2]]; i++;
-talent[i] = [2, "Arctic Winds", "new", 3, 1, 5]; i++;
+talent[i] = [2, "Arctic Winds", "new", 2, 1, 5]; i++;
 talent[i] = [2, "Ice Block", "", 1, 2, 5]; i++;
 talent[i] = [2, "Improved Cone of Cold", "", 3, 3, 5]; i++;
 talent[i] = [2, "Winter's Chill", "", 5, 3, 6]; i++;
@@ -426,9 +426,8 @@ rank[i] = [
 i++;
 //Arctic Winds - Frost
 rank[i] = [
-		"Reduces the chance that you are hit by melee and ranged attacks by 1% and reduces the mana cost of your Frost Ward spell by 20%.",
-		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 40%.",
-		"Reduces the chance that you are hit by melee and ranged attacks by 3% and reduces the mana cost of your Frost Ward spell by 60%."
+		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 20%.",
+		"Reduces the chance that you are hit by melee and ranged attacks by 4% and reduces the mana cost of your Frost Ward spell by 40%."
 		];
 i++;
 //Ice Block - Frost

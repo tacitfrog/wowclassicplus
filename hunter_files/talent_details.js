@@ -48,17 +48,16 @@ talent[i] = [1, "Trueshot Aura", "", 1, 2, 7, [getTalentID("Barrage"), 3]]; i++;
 treeStartStop[t] = i - 1;
 t++;
 
-talent[i] = [2, "Improved Raptor Strike", "new", 2, 1, 1]; i++;
-talent[i] = [2, "Monster Slaying", "", 3, 2, 1]; i++;
+talent[i] = [2, "Monster Slaying", "changed", 2, 1, 1]; i++;
+talent[i] = [2, "Humanoid Slaying", "", 3, 2, 1]; i++;
 talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
-talent[i] = [2, "Humanoid Slaying", "moved", 3, 2, 2]; i++;
+talent[i] = [2, "Savage Strikes", "", 2, 2, 2]; i++;
 talent[i] = [2, "Improved Wing Clip", "changed", 3, 3, 2]; i++;
-talent[i] = [2, "Savage Strikes", "", 2, 4, 2]; i++;
 talent[i] = [2, "Clever Traps", "", 2, 1, 3]; i++;
-talent[i] = [2, "Survivalist", "", 5, 2, 3]; i++;
+talent[i] = [2, "Propitiousness", "new", 1, 2, 3, [getTalentID("Savage Strikes"), 2]]; i++;
 talent[i] = [2, "Deterrence", "", 1, 3, 3]; i++;
-talent[i] = [2, "Propitiousness", "new", 1, 4, 3, [getTalentID("Savage Strikes"), 2]]; i++;
+talent[i] = [2, "Survivalist", "", 5, 4, 3]; i++;
 talent[i] = [2, "Trap Mastery", "changed", 2, 1, 4]; i++;
 talent[i] = [2, "Surefooted", "", 3, 2, 4]; i++;
 talent[i] = [2, "Improved Feign Death", "", 2, 4, 4]; i++;
@@ -304,17 +303,17 @@ i++;
 
 //SURVIVAL
 
-//Improved Raptor Strike - Survival
-rank[i] = [
-		"Your critical strikes from Raptor Strike increase your melee attack speed by 5% for 6 seconds.",
-		"Your critical strikes from Raptor Strike increase your melee attack speed by 10% for 6 seconds."
-		];
-i++;
 //Monster Slaying - Survival
 rank[i] = [
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 1% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 1%.",
 		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%.",
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 3% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 3%."
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 4% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 4%."
+		];
+i++;
+//Humanoid Slaying - Survival
+rank[i] = [
+		"Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
+		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
+		"Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
 		];
 i++;
 //Deflection - Survival
@@ -335,11 +334,10 @@ rank[i] = [
 		"Gives your Immolation Trap, Frost Trap, and Explosive Trap a 25% chance to entrap the target, preventing them from moving for 5 seconds."
 		];
 i++;
-//Humanoid Slaying - Survival
+//Savage Strikes - Survival
 rank[i] = [
-		"Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
-		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
-		"Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
+		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 10%.",
+		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 20%."
 		];
 i++;
 //Improved Wing Clip - Survival
@@ -349,16 +347,20 @@ rank[i] = [
 		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds."
 		];
 i++;
-//Savage Strikes - Survival
-rank[i] = [
-		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 10%.",
-		"Increases the critical strike chance of your Raptor Strike and Mongoose Bite abilities by 20%."
-		];
-i++;
 //Clever Traps - Survival
 rank[i] = [
 		"Increases the duration of Freezing and Frost trap effects by 15% and the damage of Immolation and Explosive trap effects by 15%.",
 		"Increases the duration of Freezing and Frost trap effects by 30% and the damage of Immolation and Explosive trap effects by 30%."
+		];
+i++;
+//Propitiousness - Survival
+rank[i] = [
+		"Increases all melee damage you deal to targets that are immobilised, frozen, asleep, or stunned by 10%."
+		];
+i++;
+//Deterrence - Survival
+rank[i] = [
+		"Cast: instant.<br>When activated, increases your dodge and parry chance by 25% for 10 seconds.  (Cooldown: 5 minutes.)"
 		];
 i++;
 //Survivalist - Survival
@@ -368,16 +370,6 @@ rank[i] = [
 		"Increases your maximum health by 6%.",
 		"Increases your maximum health by 8%.",
 		"Increases your maximum health by 10%."
-		];
-i++;
-//Deterrence - Survival
-rank[i] = [
-		"Cast: instant.<br>When activated, increases your dodge and parry chance by 25% for 10 seconds.  (Cooldown: 5 minutes.)"
-		];
-i++;
-//Propitiousness - Survival
-rank[i] = [
-		"Increases all melee damage you deal to targets that are immobilised, frozen, asleep, or stunned by 10%."
 		];
 i++;
 //Trap Mastery - Survival
