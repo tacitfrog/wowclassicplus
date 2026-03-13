@@ -305,8 +305,8 @@ i++;
 
 //Monster Slaying - Survival
 rank[i] = [
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%.",
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 4% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 4%."
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 1% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 1%.",
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%."
 		];
 i++;
 //Humanoid Slaying - Survival
