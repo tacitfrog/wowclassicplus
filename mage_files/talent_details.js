@@ -297,9 +297,9 @@ rank[i] = [
 i++;
 //Pyromania - Fire
 rank[i] = [
-		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 15%.  Lasts 10 seconds.",
-		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 30%.  Lasts 10 seconds.",
-		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 45%.  Lasts 10 seconds."
+		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 15%.  Lasts 10 seconds.<br><br>[Note: Does not trigger from Flamestrike crits.]",
+		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 30%.  Lasts 10 seconds.<br><br>[Note: Does not trigger from Flamestrike crits.]",
+		"Your spell critical hits reduce the cast time of your next Flamestrike spell by 45%.  Lasts 10 seconds.<br><br>[Note: Does not trigger from Flamestrike crits.]"
 		];
 i++;
 //Critical Mass - Fire
@@ -426,8 +426,8 @@ rank[i] = [
 i++;
 //Arctic Winds - Frost
 rank[i] = [
-		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 20%.",
-		"Reduces the chance that you are hit by melee and ranged attacks by 4% and reduces the mana cost of your Frost Ward spell by 40%."
+		"Reduces the chance that you are hit by melee and ranged attacks by 2% and reduces the mana cost of your Frost Ward spell by 15%.",
+		"Reduces the chance that you are hit by melee and ranged attacks by 4% and reduces the mana cost of your Frost Ward spell by 30%."
 		];
 i++;
 //Ice Block - Frost

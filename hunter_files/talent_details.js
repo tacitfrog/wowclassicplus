@@ -95,8 +95,8 @@ rank[i] = [
 i++;
 //Focused Attacks - Beast Mastery
 rank[i] = [
-		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 20% of its ranged attack power bonus.",
-		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 40% of its ranged attack power bonus."
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 15% of its ranged attack power bonus.",
+		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 30% of its ranged attack power bonus."
 		];
 i++;
 //Improved Aspect of the Monkey - Beast Mastery
@@ -393,9 +393,9 @@ rank[i] = [
 i++;
 //Resourcefulness - Survival
 rank[i] = [
-		"Reduces the mana cost of all traps and melee abilities by 20%.",
-		"Reduces the mana cost of all traps and melee abilities by 40%.",
-		"Reduces the mana cost of all traps and melee abilities by 60%."
+		"Reduces the mana cost of all traps and melee abilities by 15%.",
+		"Reduces the mana cost of all traps and melee abilities by 30%.",
+		"Reduces the mana cost of all traps and melee abilities by 45%."
 		];
 i++;
 //Killer Instinct - Survival
