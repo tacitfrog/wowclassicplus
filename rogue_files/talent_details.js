@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "rogue";
 
-tree[i] = "Assassination"; i++;
-tree[i] = "Combat"; i++;
-tree[i] = "Subtlety"; i++;
-
-i = 0;
+tree[0] = "Assassination";
+tree[1] = "Combat";
+tree[2] = "Subtlety";
 
 talent[i] = [0, "Improved Eviscerate", "", 3, 1, 1]; i++;
 talent[i] = [0, "Remorseless Attacks", "changed", 2, 2, 1]; i++;
@@ -33,10 +30,10 @@ t++;
 talent[i] = [1, "Improved Gouge", "", 3, 1, 1]; i++;
 talent[i] = [1, "Improved Sinister Strike", "", 2, 2, 1]; i++;
 talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
-talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 2]; i++;
+talent[i] = [1, "Endurance", "changedmoved", 2, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
-talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
+talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 3]; i++;
 talent[i] = [1, "Riposte", "changed", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Improved Sprint", "", 2, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
@@ -225,11 +222,10 @@ rank[i] = [
 		"Increases your dodge chance by 5%."
 		];
 i++;
-//Combat Acumen - Combat
+//Endurance - Combat
 rank[i] = [
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 45%."
+		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
+		"Reduces the cooldown of your Sprint and Evasion abilities by 2 minutes."
 		];
 i++;
 //Deflection - Combat
@@ -250,10 +246,11 @@ rank[i] = [
 		"Increases your chance to hit with melee weapons by 5%."
 		];
 i++;
-//Endurance - Combat
+//Combat Acumen - Combat
 rank[i] = [
-		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
-		"Reduces the cooldown of your Sprint and Evasion abilities by 2 minutes."
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 45%."
 		];
 i++;
 //Riposte - Combat
@@ -302,7 +299,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, the Rogue no longer receives a passive 20% threat reduction modifier.  This effectively increases threat generation by 25%.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, the Rogue no longer receives a passive 20% threat reduction modifier (effectively increasing threat generation by 25%) and parrying any attack generates 20/40 threat (for Rank 1/2) on the enemy whose attack was parried.]"
 		];
 i++;
 //Blade Flurry - Combat
@@ -414,8 +411,8 @@ rank[i] = [
 i++;
 //Heightened Senses - Subtlety
 rank[i] = [
-		"Increases your Stealth detection and reduces the chance that you will be hit by spells and ranged attacks by 2%.",
-		"Increases your Stealth detection and reduces the chance that you will be hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
+		"Increases your Stealth detection and reduces the chance that you will be hit by offensive spells and ranged attacks by 2%.",
+		"Increases your Stealth detection and reduces the chance that you will be hit by offensive spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
 		];
 i++;
 //Improved Ambush - Subtlety

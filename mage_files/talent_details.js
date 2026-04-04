@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "mage";
 
-tree[i] = "Arcane"; i++;
-tree[i] = "Fire"; i++;
-tree[i] = "Frost"; i++;
-
-i = 0;
+tree[0] = "Arcane";
+tree[1] = "Fire";
+tree[2] = "Frost";
 
 talent[i] = [0, "Arcane Focus", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Arcane Missiles", "", 5, 3, 1]; i++;

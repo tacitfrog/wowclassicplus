@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "warlock";
 
-tree[i] = "Affliction"; i++;
-tree[i] = "Demonology"; i++;
-tree[i] = "Destruction"; i++;
-
-i = 0;
+tree[0] = "Affliction";
+tree[1] = "Demonology";
+tree[2] = "Destruction";
 
 talent[i] = [0, "Suppression", "", 5, 2, 1]; i++;
 talent[i] = [0, "Improved Corruption", "", 5, 3, 1]; i++;
@@ -37,16 +34,17 @@ talent[i] = [1, "Demonic Embrace", "", 5, 3, 1]; i++;
 talent[i] = [1, "Improved Health Funnel", "changed", 2, 1, 2]; i++;
 talent[i] = [1, "Improved Voidwalker", "", 3, 2, 2]; i++;
 talent[i] = [1, "Fel Intellect", "changed", 3, 3, 2]; i++;
+talent[i] = [1, "Improved Enslave Demon", "changedmoved", 2, 4, 2]; i++;
 talent[i] = [1, "Improved Succubus", "", 3, 1, 3]; i++;
 talent[i] = [1, "Fel Domination", "", 1, 2, 3]; i++;
-talent[i] = [1, "Fel Stamina", "changed", 5, 3, 3]; i++;
+talent[i] = [1, "Fel Stamina", "changed", 3, 3, 3]; i++;
 talent[i] = [1, "Improved Demon Armor", "new", 3, 4, 3]; i++;
 talent[i] = [1, "Improved Firestone", "changedmoved", 3, 1, 4]; i++;
 talent[i] = [1, "Master Summoner", "", 2, 2, 4, [getTalentID("Fel Domination"), 1]]; i++;
 talent[i] = [1, "Unholy Power", "changed", 5, 3, 4]; i++;
 talent[i] = [1, "Improved Spellstone", "changedmoved", 2, 1, 5]; i++;
 talent[i] = [1, "Demonic Sacrifice", "", 1, 2, 5]; i++;
-talent[i] = [1, "Improved Enslave Demon", "changed", 2, 4, 5]; i++;
+talent[i] = [1, "Demonic Resilience", "new", 5, 4, 5]; i++;
 talent[i] = [1, "Master Demonologist", "", 5, 3, 6, [getTalentID("Unholy Power"), 5]]; i++;
 talent[i] = [1, "Soul Link", "moved", 1, 3, 7]; i++;
 
@@ -65,10 +63,10 @@ talent[i] = [2, "Intensity", "", 2, 1, 4]; i++;
 talent[i] = [2, "Destructive Reach", "", 2, 2, 4]; i++;
 talent[i] = [2, "Improved Searing Pain", "", 5, 4, 4]; i++;
 talent[i] = [2, "Pyroclasm", "", 2, 1, 5, [getTalentID("Intensity"), 2]]; i++;
-talent[i] = [2, "Improved Immolate", "changed", 5, 2, 5]; i++;
+talent[i] = [2, "Improved Immolate", "changed", 3, 2, 5]; i++;
 talent[i] = [2, "Ruin", "", 1, 3, 5, [getTalentID("Devastation"), 5]]; i++;
 talent[i] = [2, "Emberstorm", "", 5, 3, 6]; i++;
-talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 5]]; i++;
+talent[i] = [2, "Conflagrate", "", 1, 2, 7, [getTalentID("Improved Immolate"), 3]]; i++;
 
 treeStartStop[t] = i - 1;
 t++;
@@ -245,6 +243,12 @@ rank[i] = [
 		"Increases the maximum mana of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
+//Improved Enslave Demon - Demonology
+rank[i] = [
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 2%.",
+		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 4%."
+		];
+i++;
 //Improved Succubus - Demonology
 rank[i] = [
 		"Increases the effect of your Succubus' Lash of Pain and Soothing Kiss spells by 10% and increases the duration of your Succubus' Seduction and Lesser Invisibility spells by 10%.",
@@ -259,11 +263,9 @@ rank[i] = [
 i++;
 //Fel Stamina - Demonology
 rank[i] = [
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 4%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 8%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 12%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 16%.",
-		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 20%."
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 5%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 10%.",
+		"Increases the maximum health of your Imp, Voidwalker, Succubus, and Felhunter by 15%."
 		];
 i++;
 //Improved Demon Armor - Demonology
@@ -297,8 +299,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 50% chance that both you and your summoned demon will restore 2% maximum mana.  This effect cannot occur more than once per second.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 100% chance that both you and your summoned demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 50% chance that both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second.",
+		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 100% chance that both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Demonic Sacrifice - Demonology
@@ -306,10 +308,13 @@ rank[i] = [
 		"Cast: instant.<br>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 minutes.  The effect is cancelled if any demon is summoned.<br><br>Imp - Increases your Fire damage by 15%.<br><br>Voidwalker - Restores 3% of your maximum health every 4 seconds.<br><br>Succubus - Increases your Shadow damage by 15%.<br><br>Felhunter - Restores 2% of your maximum mana every 4 seconds."
 		];
 i++;
-//Improved Enslave Demon - Demonology
+//Demonic Resilience - Demonology
 rank[i] = [
-		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 5% and reduces the resist chance by 5%.",
-		"Reduces the attack speed and casting speed penalty of your Enslave Demon spell by 10% and reduces the resist chance by 10%."
+		"Reduces the chance that you and your Imp, Voidwalker, Succubus, or Felhunter demon will be critically hit by offensive spells, melee, and ranged attacks by 1%.",
+		"Reduces the chance that you and your Imp, Voidwalker, Succubus, or Felhunter demon will be critically hit by offensive spells, melee, and ranged attacks by 2%.",
+		"Reduces the chance that you and your Imp, Voidwalker, Succubus, or Felhunter demon will be critically hit by offensive spells, melee, and ranged attacks by 3%.",
+		"Reduces the chance that you and your Imp, Voidwalker, Succubus, or Felhunter demon will be critically hit by offensive spells, melee, and ranged attacks by 4%.",
+		"Reduces the chance that you and your Imp, Voidwalker, Succubus, or Felhunter demon will be critically hit by offensive spells, melee, and ranged attacks by 5%."
 		];
 i++;
 //Master Demonologist - Demonology
@@ -323,7 +328,7 @@ rank[i] = [
 i++;
 //Soul Link - Demonology
 rank[i] = [
-		"Cast: instant.<br>When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both the demon and master will inflict 3% more damage.  Lasts as long as the demon is active."
+		"Cast: instant.<br>While active, 30% of all damage that would be taken by you is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both master and demon will inflict 3% more damage.  Lasts as long as the demon is active."
 		];
 i++;
 
@@ -421,11 +426,9 @@ rank[i] = [
 i++;
 //Improved Immolate - Destruction
 rank[i] = [
-		"Increases the initial damage of your Immolate spell by 3% and an additional 4% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 6% and an additional 8% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 9% and an additional 12% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 12% and an additional 16% if the target is already affected by any Immolate spell.",
-		"Increases the initial damage of your Immolate spell by 15% and an additional 20% if the target is already affected by any Immolate spell."
+		"Increases the initial damage of your Immolate spell by 5% and an additional 5% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 10% and an additional 10% if the target is already affected by any Immolate spell.",
+		"Increases the initial damage of your Immolate spell by 15% and an additional 15% if the target is already affected by any Immolate spell."
 		];
 i++;
 //Ruin - Destruction

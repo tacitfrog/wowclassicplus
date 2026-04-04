@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "priest";
 
-tree[i] = "Discipline"; i++;
-tree[i] = "Holy"; i++;
-tree[i] = "Shadow"; i++;
-
-i = 0;
+tree[0] = "Discipline";
+tree[1] = "Holy";
+tree[2] = "Shadow";
 
 talent[i] = [0, "Unbreakable Will", "", 5, 2, 1]; i++;
 talent[i] = [0, "Wand Specialization", "", 5, 3, 1]; i++;

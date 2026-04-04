@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "hunter";
 
-tree[i] = "Beast Mastery"; i++;
-tree[i] = "Marksmanship"; i++;
-tree[i] = "Survival"; i++;
-
-i = 0;
+tree[0] = "Beast Mastery";
+tree[1] = "Marksmanship";
+tree[2] = "Survival";
 
 talent[i] = [0, "Improved Aspect of the Hawk", "changed", 5, 2, 1]; i++;
 talent[i] = [0, "Endurance Training", "", 5, 3, 1]; i++;

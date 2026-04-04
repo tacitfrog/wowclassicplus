@@ -1,13 +1,10 @@
 ﻿var i = 0;
 var t = 0;
-
 var className = "shaman";
 
-tree[i] = "Elemental"; i++;
-tree[i] = "Enhancement"; i++;
-tree[i] = "Restoration"; i++;
-
-i = 0;
+tree[0] = "Elemental";
+tree[1] = "Enhancement";
+tree[2] = "Restoration";
 
 talent[i] = [0, "Convection", "", 5, 2, 1]; i++;
 talent[i] = [0, "Concussion", "", 5, 3, 1]; i++;
