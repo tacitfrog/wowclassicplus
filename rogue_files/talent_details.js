@@ -30,10 +30,10 @@ t++;
 talent[i] = [1, "Improved Gouge", "", 3, 1, 1]; i++;
 talent[i] = [1, "Improved Sinister Strike", "", 2, 2, 1]; i++;
 talent[i] = [1, "Lightning Reflexes", "", 5, 3, 1]; i++;
-talent[i] = [1, "Endurance", "changedmoved", 2, 1, 2]; i++;
+talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 2]; i++;
 talent[i] = [1, "Deflection", "", 5, 2, 2]; i++;
 talent[i] = [1, "Precision", "", 5, 3, 2]; i++;
-talent[i] = [1, "Combat Acumen", "changedmoved", 3, 1, 3]; i++;
+talent[i] = [1, "Endurance", "changed", 2, 1, 3]; i++;
 talent[i] = [1, "Riposte", "changed", 1, 2, 3, [getTalentID("Deflection"), 5]]; i++;
 talent[i] = [1, "Improved Sprint", "", 2, 4, 3]; i++;
 talent[i] = [1, "Improved Kick", "", 2, 1, 4]; i++;
@@ -222,10 +222,11 @@ rank[i] = [
 		"Increases your dodge chance by 5%."
 		];
 i++;
-//Endurance - Combat
+//Combat Acumen - Combat
 rank[i] = [
-		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
-		"Reduces the cooldown of your Sprint and Evasion abilities by 2 minutes."
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
+		"Increases the duration of your Slice and Dice and Blade Dance abilities by 45%."
 		];
 i++;
 //Deflection - Combat
@@ -246,11 +247,10 @@ rank[i] = [
 		"Increases your chance to hit with melee weapons by 5%."
 		];
 i++;
-//Combat Acumen - Combat
+//Endurance - Combat
 rank[i] = [
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 15%.",
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 30%.",
-		"Increases the duration of your Slice and Dice and Blade Dance abilities by 45%."
+		"Reduces the cooldown of your Sprint and Evasion abilities by 1 minute.",
+		"Reduces the cooldown of your Sprint and Evasion abilities by 2 minutes."
 		];
 i++;
 //Riposte - Combat

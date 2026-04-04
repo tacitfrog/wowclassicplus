@@ -17,7 +17,7 @@ talent[i] = [0, "Fel Concentration", "", 5, 2, 3]; i++;
 talent[i] = [0, "Amplify Curse", "", 1, 3, 3]; i++;
 talent[i] = [0, "Grim Reach", "", 2, 1, 4]; i++;
 talent[i] = [0, "Nightfall", "", 2, 2, 4]; i++;
-talent[i] = [0, "Improved Drain Mana", "changed", 3, 4, 4]; i++;
+talent[i] = [0, "Improved Drain Mana", "changed", 2, 4, 4]; i++;
 talent[i] = [0, "Paroxysm", "new", 3, 1, 5]; i++;
 talent[i] = [0, "Siphon Life", "", 1, 2, 5]; i++;
 talent[i] = [0, "Curse of Exhaustion", "", 1, 3, 5, [getTalentID("Amplify Curse"), 1]]; i++;
@@ -154,9 +154,8 @@ rank[i] = [
 i++;
 //Improved Drain Mana - Affliction
 rank[i] = [
-		"Causes 15% of the mana drained by your Drain Mana spell to damage the target.",
-		"Causes 30% of the mana drained by your Drain Mana spell to damage the target.",
-		"Causes 45% of the mana drained by your Drain Mana spell to damage the target."
+		"Causes 25% of the mana drained by your Drain Mana spell to damage the target.",
+		"Causes 50% of the mana drained by your Drain Mana spell to damage the target."
 		];
 i++;
 //Paroxysm - Affliction
@@ -299,8 +298,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 50% chance that both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second.",
-		"Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, there is a 100% chance that both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
+		"Increases the amount of damage absorbed by your Spellstone by 15%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 1% maximum mana.  This effect cannot occur more than once per second.",
+		"Increases the amount of damage absorbed by your Spellstone by 30%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Demonic Sacrifice - Demonology

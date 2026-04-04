@@ -253,7 +253,7 @@ rank[i] = [
 i++;
 //Two-handed Axes and Maces - Enhancement
 rank[i] = [
-		"Allows you to use Two-Handed Axes and Two-Handed Maces.<br><br>[Note: Weapon skill in two-handed axes and maces is remembered regardless of spec, but the Shaman can only equip those weapons if he has this talent.  When changing spec out of it, such weapons will be de-equipped and put into the inventory, or mailed if there's no room.]"
+		"Allows you to use Two-Handed Axes and Two-Handed Maces.<br><br>[Note: Weapon skill in two-handed axes and maces is remembered regardless of spec, but the Shaman can only equip those weapons if he has this talent.  When changing spec out of it, such weapons will be de-equipped and placed in his inventory (or mailbox if there is no space).]"
 		];
 i++;
 //Anticipation - Enhancement
