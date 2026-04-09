@@ -299,7 +299,7 @@ rank[i] = [
 i++;
 //Blade Dance - Combat
 rank[i] = [
-		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, the Rogue no longer receives a passive 20% threat reduction modifier (effectively increasing threat generation by 25%) and parrying any attack generates 20/40 threat (for Rank 1/2) on the enemy whose attack was parried.]"
+		"Cast: instant.<br>Cost: 25 energy.<br>Finishing move that increases your parry chance and threat generation.  Cancelled if you Vanish.  Lasts longer and grants more parry chance per combo point:<br>&nbsp;&nbsp;1 point: &nbsp;&nbsp;9 seconds, &nbsp;&nbsp;X% parry<br>&nbsp;&nbsp;2 points: 12 seconds, Y% parry<br>&nbsp;&nbsp;3 points: 15 seconds, Z% parry<br>&nbsp;&nbsp;4 points: 18 seconds, A% parry<br>&nbsp;&nbsp;5 points: 21 seconds, B% parry<br><br>[Rank 1: X = 3, Y = 6, Z = 9, &nbsp;&nbsp;A = 12, B = 15,<br>&nbsp;Rank 2: X = 4, Y = 8, Z = 12, A = 16, B = 20 (level 48).]<br><br>[Note: While active, the Rogue no longer receives a passive 20% threat reduction modifier (effectively increasing threat generation by 25%), and dodging or parrying any attack generates 20/40 threat (for Rank 1/2) on the enemy whose attack was dodged/parried.]"
 		];
 i++;
 //Blade Flurry - Combat
