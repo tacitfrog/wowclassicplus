@@ -8,7 +8,7 @@ tree[2] = "Survival";
 
 talent[i] = [0, "Improved Aspect of the Hawk", "changed", 5, 2, 1]; i++;
 talent[i] = [0, "Endurance Training", "", 5, 3, 1]; i++;
-talent[i] = [0, "Focused Attacks", "new", 2, 1, 2]; i++;
+talent[i] = [0, "Focus Training", "new", 2, 1, 2]; i++;
 talent[i] = [0, "Improved Aspect of the Monkey", "changed", 3, 2, 2]; i++;
 talent[i] = [0, "Thick Hide", "", 3, 3, 2]; i++;
 talent[i] = [0, "Improved Revive Pet", "", 2, 4, 2]; i++;
@@ -45,8 +45,8 @@ talent[i] = [1, "Trueshot Aura", "", 1, 2, 7, [getTalentID("Barrage"), 3]]; i++;
 treeStartStop[t] = i - 1;
 t++;
 
-talent[i] = [2, "Monster Slaying", "changed", 2, 1, 1]; i++;
-talent[i] = [2, "Humanoid Slaying", "", 3, 2, 1]; i++;
+talent[i] = [2, "Monster Slaying", "", 3, 1, 1]; i++;
+talent[i] = [2, "Humanoid Slaying", "changed", 2, 2, 1]; i++;
 talent[i] = [2, "Deflection", "", 5, 3, 1]; i++;
 talent[i] = [2, "Entrapment", "", 5, 1, 2]; i++;
 talent[i] = [2, "Savage Strikes", "", 2, 2, 2]; i++;
@@ -90,7 +90,7 @@ rank[i] = [
 		"Increases the health of your pets by 15%."
 		];
 i++;
-//Focused Attacks - Beast Mastery
+//Focus Training - Beast Mastery
 rank[i] = [
 		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 15% of its ranged attack power bonus.",
 		"Your Hunter's Mark also increases the melee attack power of your pets when they strike the target by 30% of its ranged attack power bonus."
@@ -303,14 +303,14 @@ i++;
 //Monster Slaying - Survival
 rank[i] = [
 		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 1% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 1%.",
-		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%."
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 2% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 2%.",
+		"Increases all damage caused against Beast, Giant, and Dragonkin targets by 3% and increases critical damage caused against Beast, Giant, and Dragonkin targets by an additional 3%."
 		];
 i++;
 //Humanoid Slaying - Survival
 rank[i] = [
 		"Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
-		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
-		"Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
+		"Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%."
 		];
 i++;
 //Deflection - Survival
@@ -339,9 +339,9 @@ rank[i] = [
 i++;
 //Improved Wing Clip - Survival
 rank[i] = [
-		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds.",
-		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds.",
-		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 30 seconds."
+		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds.",
+		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds.",
+		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds."
 		];
 i++;
 //Clever Traps - Survival

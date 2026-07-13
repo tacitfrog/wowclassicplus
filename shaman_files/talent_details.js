@@ -17,7 +17,7 @@ talent[i] = [0, "Reverberation", "", 5, 2, 3]; i++;
 talent[i] = [0, "Call of Thunder", "", 5, 3, 3]; i++;
 talent[i] = [0, "Improved Fire Totems", "changed", 2, 1, 4]; i++;
 talent[i] = [0, "Eye of the Storm", "", 3, 2, 4]; i++;
-talent[i] = [0, "Raging Storm", "new", 2, 4, 4]; i++;
+talent[i] = [0, "Raging Storm", "new", 3, 4, 4]; i++;
 talent[i] = [0, "Storm Reach", "", 2, 1, 5]; i++;
 talent[i] = [0, "Elemental Fury", "", 1, 2, 5]; i++;
 talent[i] = [0, "Lightning Overload", "new", 5, 4, 5]; i++;
@@ -156,8 +156,9 @@ rank[i] = [
 i++;
 //Raging Storm - Elemental
 rank[i] = [
-		"Increases the number of orbs in your Lightning Shield by 1 and gives your critical strikes from offensive spells and weapon attacks a 50% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
-		"Increases the number of orbs in your Lightning Shield by 2 and gives your critical strikes from offensive spells and weapon attacks a 100% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Increases the number of orbs in your Lightning Shield by 1 and gives your critical strikes from offensive spells and weapon attacks a 25% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Increases the number of orbs in your Lightning Shield by 2 and gives your critical strikes from offensive spells and weapon attacks a 50% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Increases the number of orbs in your Lightning Shield by 3 and gives your critical strikes from offensive spells and weapon attacks a 75% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]"
 		];
 i++;
 //Storm Reach - Elemental
