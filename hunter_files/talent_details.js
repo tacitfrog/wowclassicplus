@@ -339,9 +339,9 @@ rank[i] = [
 i++;
 //Improved Wing Clip - Survival
 rank[i] = [
-		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds.",
-		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds.",
-		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur on the same target more than once per 30 seconds."
+		"Gives your Wing Clip ability a 25% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 10 seconds.",
+		"Gives your Wing Clip ability a 50% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 10 seconds.",
+		"Gives your Wing Clip ability a 75% chance to immobilise the target for 5 seconds.  This effect cannot occur more than once per 10 seconds."
 		];
 i++;
 //Clever Traps - Survival
