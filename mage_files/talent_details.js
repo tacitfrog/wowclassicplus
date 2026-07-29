@@ -12,14 +12,13 @@ talent[i] = [0, "Wand Specialization", "", 2, 1, 2]; i++;
 talent[i] = [0, "Magic Absorption", "changed", 2, 2, 2]; i++;
 talent[i] = [0, "Arcane Concentration", "changed", 5, 3, 2]; i++;
 talent[i] = [0, "Arcane Subtlety", "moved", 2, 4, 2]; i++;
-talent[i] = [0, "Magic Attunement", "", 2, 1, 3]; i++;
+talent[i] = [0, "Improved Mana Shield", "changedmoved", 2, 1, 3]; i++;
 talent[i] = [0, "Improved Arcane Explosion", "", 3, 2, 3]; i++;
 talent[i] = [0, "Arcane Resilience", "", 1, 3, 3]; i++;
 talent[i] = [0, "Arcane Escalation", "new", 3, 4, 3]; i++;
-talent[i] = [0, "Improved Mana Shield", "changed", 2, 1, 4]; i++;
+talent[i] = [0, "Improved Blink", "new", 2, 1, 4]; i++;
 talent[i] = [0, "Improved Counterspell", "", 2, 2, 4]; i++;
 talent[i] = [0, "Arcane Meditation", "", 3, 4, 4]; i++;
-talent[i] = [0, "Improved Blink", "new", 2, 1, 5]; i++;
 talent[i] = [0, "Presence of Mind", "", 1, 2, 5]; i++;
 talent[i] = [0, "Arcane Mind", "", 5, 3, 5, [getTalentID("Arcane Resilience"), 1]]; i++;
 talent[i] = [0, "Arcane Instability", "", 3, 2, 6, [getTalentID("Presence of Mind"), 1]]; i++;
@@ -103,8 +102,8 @@ rank[i] = [
 i++;
 //Magic Absorption - Arcane
 rank[i] = [
-		"Increases all resistances by 5 and causes all spells you fully resist to restore 1% of your maximum mana.  This effect cannot occur more than once per second.",
-		"Increases all resistances by 10 and causes all spells you fully resist to restore 2% of your maximum mana.  This effect cannot occur more than once per second."
+		"Increases all resistances by 5 and causes all spells you fully resist to restore 2% of your maximum mana.  This effect cannot occur more than once per second.",
+		"Increases all resistances by 10 and causes all spells you fully resist to restore 4% of your maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Arcane Concentration - Arcane
@@ -122,10 +121,10 @@ rank[i] = [
 		"Reduces your target's resistance to all your spells by 10 and reduces the threat caused by your Arcane spells by 40%."
 		];
 i++;
-//Magic Attunement - Arcane
+//Improved Mana Shield - Arcane
 rank[i] = [
-		"Increases the effect of your Amplify Magic and Dampen Magic spells by 25%.",
-		"Increases the effect of your Amplify Magic and Dampen Magic spells by 50%."
+		"Decreases the mana lost per point of damage taken when Mana Shield is active by 20%.",
+		"Decreases the mana lost per point of damage taken when Mana Shield is active by 40%."
 		];
 i++;
 //Improved Arcane Explosion - Arcane
@@ -147,10 +146,10 @@ rank[i] = [
 		"Each successive missile of your Arcane Missiles spell deals an additional 3% damage.<br><br>[Note: The first missile will deal 100% damage, the second 103%, ..., and the fifth 112%, for an average damage increase of 6% per missile but weighted to favour the latter ones to reward spell completion.]"
 		];
 i++;
-//Improved Mana Shield - Arcane
+//Improved Blink - Arcane
 rank[i] = [
-		"Decreases the mana lost per point of damage taken when Mana Shield is active by 20%.",
-		"Decreases the mana lost per point of damage taken when Mana Shield is active by 40%."
+		"After casting your Blink spell, you have a 50% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%.",
+		"After casting your Blink spell, you have a 100% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%."
 		];
 i++;
 //Improved Counterspell - Arcane
@@ -164,12 +163,6 @@ rank[i] = [
 		"Allows 5% of your mana regeneration to continue while casting.",
 		"Allows 10% of your mana regeneration to continue while casting.",
 		"Allows 15% of your mana regeneration to continue while casting."
-		];
-i++;
-//Improved Blink - Arcane
-rank[i] = [
-		"After casting your Blink spell, you have a 50% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%.",
-		"After casting your Blink spell, you have a 100% chance to be out of phase for 2 seconds, reducing the chance that you are hit by any attack or spell by 40%."
 		];
 i++;
 //Presence of Mind - Arcane

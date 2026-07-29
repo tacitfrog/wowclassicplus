@@ -340,11 +340,11 @@ i++;
 
 //Master of Deception - Subtlety
 rank[i] = [
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 2 seconds.",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 4 seconds.  More effective than Master of Deception (Rank 1).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 6 seconds.  More effective than Master of Deception (Rank 2).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 8 seconds.  More effective than Master of Deception (Rank 3).",
-		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 10 seconds.  More effective than Master of Deception (Rank 4)."
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 1 second.",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 2 seconds.  More effective than Master of Deception (Rank 1).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 3 seconds.  More effective than Master of Deception (Rank 2).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 4 seconds.  More effective than Master of Deception (Rank 3).",
+		"Reduces the chance enemies have to detect you while in Stealth mode and reduces the cooldown of your Distract ability by 5 seconds.  More effective than Master of Deception (Rank 4)."
 		];
 i++;
 //Opportunity - Subtlety

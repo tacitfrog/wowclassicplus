@@ -113,9 +113,9 @@ rank[i] = [
 i++;
 //Elemental Devastation - Elemental
 rank[i] = [
-		"Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 3% for 10 seconds.",
-		"Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 6% for 10 seconds.",
-		"Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 9% for 10 seconds."
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 3% for 10 seconds.",
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 6% for 10 seconds.",
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 9% for 10 seconds."
 		];
 i++;
 //Elemental Focus - Elemental
@@ -156,9 +156,9 @@ rank[i] = [
 i++;
 //Raging Storm - Elemental
 rank[i] = [
-		"Increases the number of orbs in your Lightning Shield by 1 and gives your critical strikes from offensive spells and weapon attacks a 15% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
-		"Increases the number of orbs in your Lightning Shield by 2 and gives your critical strikes from offensive spells and weapon attacks a 30% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
-		"Increases the number of orbs in your Lightning Shield by 3 and gives your critical strikes from offensive spells and weapon attacks a 45% chance to cause one of your Lightning Shield orbs to strike the target.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]"
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 15% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 30% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 45% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]"
 		];
 i++;
 //Storm Reach - Elemental

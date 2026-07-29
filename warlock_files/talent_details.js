@@ -298,8 +298,8 @@ rank[i] = [
 i++;
 //Improved Spellstone - Demonology
 rank[i] = [
-		"Increases the amount of damage absorbed by your Spellstone by 15%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 1% maximum mana.  This effect cannot occur more than once per second.",
-		"Increases the amount of damage absorbed by your Spellstone by 30%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second."
+		"Increases the amount of damage absorbed by your Spellstone by 15%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 2% maximum mana.  This effect cannot occur more than once per second.",
+		"Increases the amount of damage absorbed by your Spellstone by 30%.  Whenever you critically hit an enemy with a spell while you have a Spellstone equipped, both you and your Imp, Voidwalker, Succubus, or Felhunter demon will restore 4% maximum mana.  This effect cannot occur more than once per second."
 		];
 i++;
 //Demonic Sacrifice - Demonology

@@ -16,7 +16,7 @@ talent[i] = [0, "Pathfinding", "changed", 2, 1, 3]; i++;
 talent[i] = [0, "Bestial Swiftness", "", 1, 2, 3]; i++;
 talent[i] = [0, "Unleashed Fury", "", 5, 3, 3]; i++;
 talent[i] = [0, "Improved Mend Pet", "", 2, 2, 4]; i++;
-talent[i] = [0, "Ferocity", "changed", 5, 3, 4]; i++;
+talent[i] = [0, "Ferocity", "", 5, 3, 4]; i++;
 talent[i] = [0, "Spirit Bond", "changed", 2, 1, 5]; i++;
 talent[i] = [0, "Intimidation", "", 1, 2, 5]; i++;
 talent[i] = [0, "Bestial Discipline", "changed", 3, 4, 5]; i++;
@@ -144,11 +144,11 @@ rank[i] = [
 i++;
 //Ferocity - Beast Mastery
 rank[i] = [
-		"Increases the critical strike chance of your pets by 2%.",
-		"Increases the critical strike chance of your pets by 4%.",
+		"Increases the critical strike chance of your pets by 3%.",
 		"Increases the critical strike chance of your pets by 6%.",
-		"Increases the critical strike chance of your pets by 8%.",
-		"Increases the critical strike chance of your pets by 10%."
+		"Increases the critical strike chance of your pets by 9%.",
+		"Increases the critical strike chance of your pets by 12%.",
+		"Increases the critical strike chance of your pets by 15%."
 		];
 i++;
 //Spirit Bond - Beast Mastery
@@ -371,8 +371,8 @@ rank[i] = [
 i++;
 //Trap Mastery - Survival
 rank[i] = [
-		"Decreases the chance enemies will resist your trap effects by 5% and reduces the cooldown of all traps by 2 seconds.",
-		"Decreases the chance enemies will resist your trap effects by 10% and reduces the cooldown of all traps by 4 seconds."
+		"Decreases the chance enemies will resist your trap effects by 5% and reduces the cooldown of all traps by 1 second.",
+		"Decreases the chance enemies will resist your trap effects by 10% and reduces the cooldown of all traps by 2 seconds."
 		];
 i++;
 //Surefooted - Survival

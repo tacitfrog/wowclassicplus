@@ -308,11 +308,11 @@ i++;
 
 //Spirit Tap - Shadow
 rank[i] = [
-		"Gives you a 20% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"Gives you a 40% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"Gives you a 60% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"Gives you a 80% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
-		"Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 15 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
+		"Gives you a 20% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 10 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"Gives you a 40% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 10 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"Gives you a 60% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 10 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"Gives you a 80% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 10 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]",
+		"Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your mana will regenerate at a 50% rate while casting.  Lasts 10 seconds.<br><br>[Note: You no longer have to land the killing blow to trigger this effect, but you do need to have caused damage to the target within 2 seconds of its death.]"
 		];
 i++;
 //Blackout - Shadow
@@ -400,8 +400,8 @@ rank[i] = [
 i++;
 //Improved Vampiric Embrace - Shadow
 rank[i] = [
-		"Your Vampiric Embrace also causes all party members to gain mana equal to 1% of the Shadow spell damage you deal to the target.",
-		"Your Vampiric Embrace also causes all party members to gain mana equal to 2% of the Shadow spell damage you deal to the target."
+		"Your Vampiric Embrace also causes all party members to gain mana equal to 2% of the Shadow spell damage you deal to the target.",
+		"Your Vampiric Embrace also causes all party members to gain mana equal to 4% of the Shadow spell damage you deal to the target."
 		];
 i++;
 //Mind Melt - Shadow
