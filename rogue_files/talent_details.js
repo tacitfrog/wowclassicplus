@@ -184,16 +184,16 @@ rank[i] = [
 i++;
 //Seal Fate - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have an 80% chance to add an additional combo point.",
-		"Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point."
+		"Critical strikes from your abilities that add combo points have a 20% chance to add an additional combo point.",
+		"Critical strikes from your abilities that add combo points have a 40% chance to add an additional combo point.",
+		"Critical strikes from your abilities that add combo points have a 60% chance to add an additional combo point.",
+		"Critical strikes from your abilities that add combo points have an 80% chance to add an additional combo point.",
+		"Critical strikes from your abilities that add combo points have a 100% chance to add an additional combo point."
 		];
 i++;
 //Vigor - Assassination
 rank[i] = [
-		"Your critical strikes from abilities that add combo points cause you to regain 3 energy.  In addition, your maximum energy is increased by 10."
+		"Critical strikes from your abilities that add combo points cause you to regain 3 energy.  In addition, your maximum energy is increased by 10."
 		];
 i++;
 

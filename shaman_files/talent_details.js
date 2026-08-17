@@ -11,7 +11,7 @@ talent[i] = [0, "Concussion", "", 5, 3, 1]; i++;
 talent[i] = [0, "Earth's Grasp", "", 2, 1, 2]; i++;
 talent[i] = [0, "Elemental Warding", "", 3, 2, 2]; i++;
 talent[i] = [0, "Call of Flame", "", 3, 3, 2]; i++;
-talent[i] = [0, "Elemental Devastation", "moved", 3, 4, 2]; i++;
+talent[i] = [0, "Cyclonic Devastation", "changedmoved", 3, 4, 2]; i++;
 talent[i] = [0, "Elemental Focus", "", 1, 1, 3]; i++;
 talent[i] = [0, "Reverberation", "", 5, 2, 3]; i++;
 talent[i] = [0, "Call of Thunder", "", 5, 3, 3]; i++;
@@ -111,11 +111,11 @@ rank[i] = [
 		"Increases the damage done by your Fire Totems by 15%."
 		];
 i++;
-//Elemental Devastation - Elemental
+//Cyclonic Devastation - Elemental
 rank[i] = [
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 3% for 10 seconds.",
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 6% for 10 seconds.",
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 9% for 10 seconds."
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 3% for 10 seconds.",
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 6% for 10 seconds.",
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells will increase your chance to get a critical strike with melee attacks by 9% for 10 seconds."
 		];
 i++;
 //Elemental Focus - Elemental
@@ -156,9 +156,9 @@ rank[i] = [
 i++;
 //Raging Storm - Elemental
 rank[i] = [
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 15% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 30% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
-		"Your critical strikes from shock, Lightning Bolt, and Chain Lightning spells and melee attacks have a 45% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]"
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells, and from your melee attacks, have a 15% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells, and from your melee attacks, have a 30% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]",
+		"Critical strikes from your shock, Lightning Bolt, and Chain Lightning spells, and from your melee attacks, have a 45% chance to cause one of your Lightning Shield orbs to strike the target as well.<br><br>[Note: This effect shares the Lightning Shield proc timer - orbs cannot proc more than once every few seconds, regardless of whether they are triggered by this talent or in the usual way.]"
 		];
 i++;
 //Storm Reach - Elemental

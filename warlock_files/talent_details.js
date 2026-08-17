@@ -276,9 +276,9 @@ rank[i] = [
 i++;
 //Improved Firestone - Demonology
 rank[i] = [
-		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
-		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.  This healing causes no threat.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]"
+		"While you have a Firestone equipped, any Fire damage you deal has a 10% chance to heal you for 20% of the damage caused.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 20% chance to heal you for 20% of the damage caused.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]",
+		"While you have a Firestone equipped, any Fire damage you deal has a 30% chance to heal you for 20% of the damage caused.<br><br>[Note: This effect can trigger from your Firestone effect, Fire wands, or from Fire damage spells.  If it triggers on Immolate, health is returned only off the initial damage.  For Rain of Fire and Hellfire, it can trigger independently each time the spell deals damage - this means that any given wave of hits could result in multiple self-heals, each one healing an amount based off the damage of the individual hit that triggered it.]"
 		];
 i++;
 //Master Summoner - Demonology
@@ -289,11 +289,11 @@ rank[i] = [
 i++;
 //Unholy Power - Demonology
 rank[i] = [
-		"Increases the critical strike chance of your Imp's Firebolt spell by 1% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 4%.",
-		"Increases the critical strike chance of your Imp's Firebolt spell by 2% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 8%.",
-		"Increases the critical strike chance of your Imp's Firebolt spell by 3% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 12%.",
-		"Increases the critical strike chance of your Imp's Firebolt spell by 4% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 16%.",
-		"Increases the critical strike chance of your Imp's Firebolt spell by 5% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
+		"Increases the critical strike chance of your Imp's Firebolt spell by 2% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 4%.",
+		"Increases the critical strike chance of your Imp's Firebolt spell by 4% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 8%.",
+		"Increases the critical strike chance of your Imp's Firebolt spell by 6% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 12%.",
+		"Increases the critical strike chance of your Imp's Firebolt spell by 8% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 16%.",
+		"Increases the critical strike chance of your Imp's Firebolt spell by 10% and the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
 		];
 i++;
 //Improved Spellstone - Demonology
