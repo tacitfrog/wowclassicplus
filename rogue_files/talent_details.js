@@ -446,11 +446,11 @@ rank[i] = [
 i++;
 //Deadliness - Subtlety
 rank[i] = [
-		"Gives your Hemorrhage and Backstab abilities a 20% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 1%.",
-		"Gives your Hemorrhage and Backstab abilities a 40% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 2%.",
-		"Gives your Hemorrhage and Backstab abilities a 60% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 3%.",
-		"Gives your Hemorrhage and Backstab abilities an 80% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 4%.",
-		"Gives your Hemorrhage and Backstab abilities a 100% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds. In addition, all damage you cause to bleeding targets is increased by 5%."
+		"Gives your Hemorrhage and Backstab abilities a 20% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds.",
+		"Gives your Hemorrhage and Backstab abilities a 40% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds.",
+		"Gives your Hemorrhage and Backstab abilities a 60% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds.",
+		"Gives your Hemorrhage and Backstab abilities an 80% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds.",
+		"Gives your Hemorrhage and Backstab abilities a 100% chance to refresh the duration of your Garrote and Rupture effects on the target by up to 3 seconds."
 		];
 i++;
 //Preparation - Subtlety

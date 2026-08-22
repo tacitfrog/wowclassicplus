@@ -12,15 +12,15 @@ talent[i] = [0, "Silent Resolve", "changed", 5, 1, 2]; i++;
 talent[i] = [0, "Improved Power Word: Fortitude", "", 2, 2, 2]; i++;
 talent[i] = [0, "Improved Power Word: Shield", "", 3, 3, 2]; i++;
 talent[i] = [0, "Martyrdom", "", 2, 4, 2]; i++;
-talent[i] = [0, "Absolution", "new", 2, 1, 3]; i++;
+talent[i] = [0, "Improved Inner Fire", "changedmoved", 3, 1, 3]; i++;
 talent[i] = [0, "Inner Focus", "", 1, 2, 3]; i++;
 talent[i] = [0, "Meditation", "", 3, 3, 3]; i++;
-talent[i] = [0, "Improved Inner Fire", "changed", 3, 1, 4]; i++;
+talent[i] = [0, "Reflective Shield", "new", 3, 1, 4]; i++;
 talent[i] = [0, "Mental Agility", "", 5, 2, 4]; i++;
 talent[i] = [0, "Improved Mana Burn", "changed", 2, 4, 4]; i++;
-talent[i] = [0, "Mental Strength", "", 5, 2, 5]; i++;
+talent[i] = [0, "Mental Strength", "changed", 5, 2, 5]; i++;
 talent[i] = [0, "Divine Spirit", "", 1, 3, 5, [getTalentID("Meditation"), 3]]; i++;
-talent[i] = [0, "Force of Will", "", 5, 3, 6]; i++;
+talent[i] = [0, "Force of Will", "changed", 5, 3, 6]; i++;
 talent[i] = [0, "Power Infusion", "", 1, 2, 7, [getTalentID("Mental Strength"), 5]]; i++;
 
 treeStartStop[t] = i - 1;
@@ -118,10 +118,11 @@ rank[i] = [
 		"Gives you a 100% chance to gain the Focused Casting effect that lasts for 6 seconds after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage and increases resistance to interrupt effects by 20%."
 		];
 i++;
-//Absolution - Discipline
+//Improved Inner Fire - Discipline
 rank[i] = [
-		"Reduces the mana cost of your Dispel Magic, Cure Disease, and Abolish Disease spells by 10%.",
-		"Reduces the mana cost of your Dispel Magic, Cure Disease, and Abolish Disease spells by 20%."
+		"Increases the armour bonus of your Inner Fire spell by 10% and its number of charges by 4.",
+		"Increases the armour bonus of your Inner Fire spell by 20% and its number of charges by 8.",
+		"Increases the armour bonus of your Inner Fire spell by 30% and its number of charges by 12."
 		];
 i++;
 //Inner Focus - Discipline
@@ -136,11 +137,11 @@ rank[i] = [
 		"Allows 15% of your mana regeneration to continue while casting."
 		];
 i++;
-//Improved Inner Fire - Discipline
+//Reflective Shield - Discipline
 rank[i] = [
-		"Increases the armour bonus of your Inner Fire spell by 10% and its number of charges by 4.",
-		"Increases the armour bonus of your Inner Fire spell by 20% and its number of charges by 8.",
-		"Increases the armour bonus of your Inner Fire spell by 30% and its number of charges by 12."
+		"Causes 15% of the damage absorbed by your Power Word: Shield to reflect back at the attacker.  This damage causes no threat.",
+		"Causes 30% of the damage absorbed by your Power Word: Shield to reflect back at the attacker.  This damage causes no threat.",
+		"Causes 45% of the damage absorbed by your Power Word: Shield to reflect back at the attacker.  This damage causes no threat."
 		];
 i++;
 //Mental Agility - Discipline
@@ -160,11 +161,11 @@ rank[i] = [
 i++;
 //Mental Strength - Discipline
 rank[i] = [
-		"Increases your maximum mana by 2%.",
-		"Increases your maximum mana by 4%.",
-		"Increases your maximum mana by 6%.",
-		"Increases your maximum mana by 8%.",
-		"Increases your maximum mana by 10%."
+		"Increases your Intellect by 3%.",
+		"Increases your Intellect by 6%.",
+		"Increases your Intellect by 9%.",
+		"Increases your Intellect by 12%.",
+		"Increases your Intellect by 15%."
 		];
 i++;
 //Divine Spirit - Discipline
@@ -174,11 +175,11 @@ rank[i] = [
 i++;
 //Force of Will - Discipline
 rank[i] = [
-		"Increases the damage and critical strike chance of your offensive spells by 1%.",
-		"Increases the damage and critical strike chance of your offensive spells by 2%.",
-		"Increases the damage and critical strike chance of your offensive spells by 3%.",
-		"Increases the damage and critical strike chance of your offensive spells by 4%.",
-		"Increases the damage and critical strike chance of your offensive spells by 5%."
+		"When your Power Word: Shield is completely absorbed or dispelled, there is a 20% chance that the target will be energised for 2% maximum mana, 16 energy or focus, or 8 rage.  In addition, the critical effect chance of your healing spells is increased by 1% if the target has the Weakened Soul effect.",
+		"When your Power Word: Shield is completely absorbed or dispelled, there is a 40% chance that the target will be energised for 2% maximum mana, 16 energy or focus, or 8 rage.  In addition, the critical effect chance of your healing spells is increased by 2% if the target has the Weakened Soul effect.",
+		"When your Power Word: Shield is completely absorbed or dispelled, there is a 60% chance that the target will be energised for 2% maximum mana, 16 energy or focus, or 8 rage.  In addition, the critical effect chance of your healing spells is increased by 3% if the target has the Weakened Soul effect.",
+		"When your Power Word: Shield is completely absorbed or dispelled, there is a 80% chance that the target will be energised for 2% maximum mana, 16 energy or focus, or 8 rage.  In addition, the critical effect chance of your healing spells is increased by 4% if the target has the Weakened Soul effect.",
+		"When your Power Word: Shield is completely absorbed or dispelled, there is a 100% chance that the target will be energised for 2% maximum mana, 16 energy or focus, or 8 rage.  In addition, the critical effect chance of your healing spells is increased by 5% if the target has the Weakened Soul effect."
 		];
 i++;
 //Power Infusion - Discipline
